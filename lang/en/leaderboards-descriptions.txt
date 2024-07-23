@@ -1,0 +1,5 @@
+King of the Armory - quantity of different items owned so far
+Gold collected in Bonus Level <chapter>-<dungeon>
+Highest damage per hit
+Survival mode kills
+Boss speed run

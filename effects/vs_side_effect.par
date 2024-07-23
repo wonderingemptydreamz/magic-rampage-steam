@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <ParticleSystem particles="16" allAtOnce="0" alphaMode="1" repeat="3" animationMode="1" lifeTime="600" randomLifeTime="300" angleDir="0" randAngle="0" size="110" randomizeSize="64" growth="-2" minSize="0" maxSize="5000" angleStart="90" randAngleStart="0">
+        <Bitmap>vertical_particle.png</Bitmap>
+        <Gravity x="0" y="0" />
+        <Direction x="18" y="0" />
+        <RandomizeDir x="9" y="0" />
+        <SpriteCut x="1" y="1" />
+        <StartPoint x="-256" y="0" z="0" />
+        <RandStartPoint x="0" y="128" />
+        <Color0 r="0.5" g="0.3195" b="0.104" a="1" />
+        <Color1 r="2" g="1.278" b="0.416" a="1" />
+        <Luminance r="1" g="1" b="1" />
+    </ParticleSystem>
+</Ethanon>

@@ -1,0 +1,2 @@
+<gold-amount> gold chest
+Grants <gold-amount> gold coins to your character.

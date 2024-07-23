@@ -1,0 +1,57 @@
+card
+{
+	type = frame-button;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0;
+	posY = 0;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 256;
+	frameSizeY = 256;
+	borderScale = 0.7;
+
+	text = skillName;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	//hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 200;
+	dismissDelay = 200;
+}
+
+reset
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.053;
+	originX = 1.0;
+	originY = 0.0;
+	scale = 0.8;
+	borderScale = 0.8;
+	frameSizeX = 200;
+	frameSizeY = 160;
+
+	text = resetSkillTreePointsButton;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 700;
+	appearDelay = 3000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 200;
+	dismissDelay = 0;
+}

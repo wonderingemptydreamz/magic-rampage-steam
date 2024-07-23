@@ -1,0 +1,194 @@
+default
+{
+	title = Magic Rampage;
+	richLighting = false;
+
+	// IAP tests:
+	//definedWords = FORCE_IAP;
+
+	// Offer tests:
+	//definedWords = FORCE_IAP,FORCE_ADS,DONT_MARK_OFFERS_AS_VIEWED,FORCE_INTERSTITIAL_AD_EVER_DISPLAYED,TESTING_IGNORE_ITEMS,FAST_STARTUP;
+
+	// IAP + Ads tests:
+	//definedWords = FORCE_IAP,FORCE_ADS;
+
+	// Force premium mode:
+	//definedWords = FORCE_PREMIUM;
+
+	// Force premium mode with login system:
+	//definedWords = FORCE_PREMIUM,FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,ENABLE_ACHIEVEMENTS_SOCIAL_BUTTON,ENABLE_LEADERBOARDS_SOCIAL_BUTTON;
+
+	// Force login system:
+	//definedWords = FORCE_LOGIN_SYSTEM,ENABLE_ACHIEVEMENTS_SOCIAL_BUTTON,ENABLE_LEADERBOARDS_SOCIAL_BUTTON;
+
+	// Force auto login:
+	//definedWords = FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,ENABLE_ACHIEVEMENTS_SOCIAL_BUTTON,ENABLE_LEADERBOARDS_SOCIAL_BUTTON;
+
+	// Force login with stale data warning:
+	//definedWords = FORCE_LOGIN_SYSTEM,FORCE_STALE_DATA_WARNING,ENABLE_ACHIEVEMENTS_SOCIAL_BUTTON,ENABLE_LEADERBOARDS_SOCIAL_BUTTON;
+
+	// Trial console tests:
+	//definedWords = FORCE_LOCAL_MULTIPLAYER,FORCE_CONSOLE_MODE,FORCE_TRIAL_VERSION;
+
+	// Android TV
+	//definedWords = FORCE_GOOGLE_ANDROIDTV;
+
+	// Google Play Pass
+	//definedWords = FORCE_PLAY_PASS;
+
+	// Ouya:
+	//definedWords = FORCE_LOCAL_MULTIPLAYER,FORCE_CONSOLE_MODE,FORCE_TRIAL_VERSION,FORCE_OUYA;
+
+	// Full console tests:
+	//definedWords = FORCE_LOCAL_MULTIPLAYER,FORCE_CONSOLE_MODE;
+
+	// Video recording
+	//definedWords = DISABLE_MUSIC,HIDE_BUTTON_INDICATORS,ALLOW_HUD_TOGGLE,DONT_SHOW_DOOR_SIGHT_WALLS,FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,DO_NOT_NOTIFY_SUSPECT,DISABLE_COMPETITIVE_SCORE_DISPLAY;
+
+	// Mobile Video recording
+	//definedWords = ALLOW_HUD_TOGGLE,FAST_STARTUP,TESTING_IGNORE_ITEMS,REMOVE_MORE_GOLD_BUTTON;
+
+	// Testing touch screen
+	//definedWords = TEST_TOUCHSCREEN_INPUT;
+
+	// TV testing
+	//definedWords = DRAW_TV_CUT_FRAME;
+
+	// Touch screen tests
+	//definedWords = FORCE_TOUCHSCREEN;
+
+	// Ignore lang inconsistencies
+	//definedWords = IGNORE_LANG_ERRORS;
+
+	// Count lang total words
+	//definedWords = COUNT_LANG_WORDS;
+
+	// Ignore item automatic tests
+	//definedWords = TESTING_IGNORE_ITEMS;
+
+	// Multiplayer local tests
+	//definedWords = MULTIPLAYER_LOCAL_TESTS,MULTIPLAYER_DEBUG;
+
+	// Multiplayer debug
+	//definedWords = MULTIPLAYER_DEBUG;
+	//definedWords = MULTIPLAYER_PROJECTILE_HIT_DEBUG;
+
+	// Force tavern
+	//definedWords = ENABLE_TAVERN;
+
+	// Force homolog
+	//definedWords = FORCE_HOMOLOG;
+
+	// Fast startup
+	//definedWords = FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,TESTING_IGNORE_ITEMS,FAST_STARTUP,FORCE_IAP,ALLOW_HUD_TOGGLE,DEBUG,ENABLE_TAVERN;
+
+	// Fast startup and skip all tests
+	//definedWords = FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,TESTING_IGNORE_ITEMS,FAST_STARTUP,FORCE_IAP,ALLOW_HUD_TOGGLE,DEBUG,ENABLE_TAVERN,SKIP_ALL_TESTS,SKIP_ALL_HASH_UPDATES;
+
+	// Display guided projectile buckets
+	//definedWords = DISPLAY_GUIDED_PROJECTILE_BUCKETS;
+
+	// Display threat seeking current buckets
+	//definedWords = DISPLAY_THREAT_SEEKING_BUCKETS;
+
+	// Force showing FPS and other debug data
+	//definedWords = FORCE_DEBUG_MODE;
+
+	// Button highlights 
+	//definedWords = SHOULD_HIGHLIGHT_MORE_GOLD_BUTTON,SHOULD_HIGHLIGHT_AD_PATH,FORCE_ADS,FORCE_IAP;
+
+	// Mark interstitial ad displayed
+	//definedWords = FORCE_INTERSTITIAL_AD_EVER_DISPLAYED;
+
+	// Test purchasable chest placement filter
+	//definedWords = TEST_PURCHASABLE_CHEST_PLACEMENT_FILTER;
+
+	// Competitive/Weekly Dungeon tests
+	//definedWords = RUNPAGE_MODE_TESTS,FORCE_LOGIN_SYSTEM,FORCE_IAP,FORCE_ADS,FORCE_AUTO_LOGIN_SYSTEM,TEST_PURCHASABLE_CHEST_PLACEMENT_FILTER,IGNORE_WEEKLY_DUNGEON_CONTENT_MARKERS,TESTING_IGNORE_ITEMS,FAST_STARTUP;
+
+	// Join beta button test
+	//definedWords = JOIN_BETA_LINK_TEST;
+
+	// Force TESTING mode
+	//definedWords = TESTING;
+
+	// Force cheater
+	//definedWords = CHEATER;
+
+	// Test joysticks
+	//definedWords = TEST_JOYSTICKS;
+
+	// Test keyboard
+	//definedWords = TEST_KEYBOARD;
+
+	// Force mobile mode
+	//definedWords = FORCE_MOBILE_MODE,FORCE_IAP;
+
+	// Emulate Android phone/tablet:
+	//definedWords = FORCE_MOBILE_MODE,FORCE_IAP,FORCE_ADS,FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,HIDE_BUTTON_INDICATORS,FORCE_TOUCHSCREEN;
+
+	windowed = true;
+	vsync = true;
+
+	width = 1280;
+	height = 720;
+
+	//width = 480;
+	//height = 320;
+
+	//width = 1600;
+	//height = 900;
+
+	//width = 1920;
+	//height = 1080;
+
+	//width = 854;
+	//height = 480;
+
+	//width = 1024;
+	//height = 768;
+
+	//width = best;
+	//height = best;
+	//windowed = false;
+
+	maxScreenHeightBeforeNdVersion = 640;
+	maxScreenHeightBeforeLdVersion = 480;
+
+	hdDensityValue = 2;
+	fullHdDensityValue = 2;
+	ldDensityValue = 0.5;
+	xldDensityValue = 0.5;
+
+	minScreenHeightForHdVersion = 1080;
+	minScreenHeightForFullHdVersion = 1125;
+}
+
+macos
+{
+	width = default;
+	height = default;
+	windowed = default;
+
+	//definedWords = FORCE_LOGIN_SYSTEM,FORCE_AUTO_LOGIN_SYSTEM,TESTING_IGNORE_ITEMS,FAST_STARTUP,FORCE_IAP,ALLOW_HUD_TOGGLE,DEBUG,ENABLE_TAVERN;
+
+	minScreenHeightForHdVersion = 900;
+}
+
+windows
+{
+	width = default;
+	height = default;
+	windowed = default;
+
+	minScreenHeightForHdVersion = 900;
+}
+
+linux
+{
+	width = default;
+	height = default;
+	windowed = default;
+
+	minScreenHeightForHdVersion = 900;
+}

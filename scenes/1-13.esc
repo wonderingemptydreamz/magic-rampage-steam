@@ -1,0 +1,953 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3">
+        <Ambient r="0.4" g="0.4" b="0.4" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="11" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="432" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13996" spriteFrame="0">
+            <EntityName>dragon_xp_dummy_invisible.ent</EntityName>
+            <Position x="799" y="-73" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy_invisible.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>disableParticles</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1024" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="-16" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13994" spriteFrame="0">
+            <EntityName>dragon_xp_dummy_invisible.ent</EntityName>
+            <Position x="1443" y="-70" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy_invisible.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>disableParticles</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13995" spriteFrame="0">
+            <EntityName>dragon_xp_dummy_invisible.ent</EntityName>
+            <Position x="1119" y="-75" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy_invisible.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>disableParticles</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13143" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1552" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26" spriteFrame="0">
+            <EntityName>min</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13971" spriteFrame="0">
+            <EntityName>falling_stone_head</EntityName>
+            <Position x="640" y="106" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="2" y="1" />
+                <Sprite>dungeon_stone_heads_1.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="189" y="215" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13972" spriteFrame="0">
+            <EntityName>falling_stone_head</EntityName>
+            <Position x="960" y="106" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="2" y="1" />
+                <Sprite>dungeon_stone_heads_1.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="189" y="215" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>2</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13980" spriteFrame="0">
+            <EntityName>dark_block_06.ent</EntityName>
+            <Position x="800" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>dark_block_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13982" spriteFrame="0">
+            <EntityName>dark_block_06.ent</EntityName>
+            <Position x="1440" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>dark_block_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13973" spriteFrame="0">
+            <EntityName>falling_stone_head</EntityName>
+            <Position x="1280" y="106" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="2" y="1" />
+                <Sprite>dungeon_stone_heads_1.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="189" y="215" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="18" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1295" y="188" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="20" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="80" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="21" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="384" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="22" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="496" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13981" spriteFrame="0">
+            <EntityName>dark_block_06.ent</EntityName>
+            <Position x="1120" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>dark_block_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14105" spriteFrame="2">
+            <EntityName>character_spawn</EntityName>
+            <Position x="1920" y="190" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>500</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/armored-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13989" spriteFrame="0">
+            <EntityName>chain_no_light_small.ent</EntityName>
+            <Position x="2000" y="112" z="-2" angle="0" />
+            <Entity>
+                <FileName>chain_no_light_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13974" spriteFrame="0">
+            <EntityName>falling_stone_head</EntityName>
+            <Position x="1600" y="106" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="2" y="1" />
+                <Sprite>dungeon_stone_heads_1.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="189" y="215" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13987" spriteFrame="0">
+            <EntityName>dark_block_04.ent</EntityName>
+            <Position x="1920" y="288" z="0" angle="0" />
+            <Entity>
+                <FileName>dark_block_04.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13988" spriteFrame="0">
+            <EntityName>dungeon_one_sided_tile.ent</EntityName>
+            <Position x="1760" y="416" z="-2" angle="0" />
+            <Entity>
+                <FileName>dungeon_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13990" spriteFrame="0">
+            <EntityName>chain_no_light_small.ent</EntityName>
+            <Position x="1840" y="112" z="-2" angle="0" />
+            <Entity>
+                <FileName>chain_no_light_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13991" spriteFrame="0">
+            <EntityName>chain_no_light.ent</EntityName>
+            <Position x="1760" y="128" z="-2" angle="0" />
+            <Entity>
+                <FileName>chain_no_light.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13993" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1920" y="64" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14074" spriteFrame="0">
+            <EntityName>character_spawn</EntityName>
+            <Position x="291" y="572" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>500</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/armored-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13260" spriteFrame="0">
+            <EntityName>respawn</EntityName>
+            <Position x="140" y="514" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="112" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="448" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13010" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="256" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14050" spriteFrame="4">
+            <EntityName>character_spawn</EntityName>
+            <Position x="529" y="575" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/spider-fire.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>jumper</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="8" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="592" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="848" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13462" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="768" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13975" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="640" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13976" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="960" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>2</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13985" spriteFrame="0">
+            <EntityName>spikes.ent</EntityName>
+            <Position x="960" y="624" z="0" angle="0" />
+            <Entity>
+                <FileName>spikes.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>7</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1120" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="23" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="656" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="736" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13026" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1456" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13977" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1280" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13984" spriteFrame="0">
+            <EntityName>spikes.ent</EntityName>
+            <Position x="1280" y="624" z="0" angle="0" />
+            <Entity>
+                <FileName>spikes.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>6</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13999" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="1280" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14073" spriteFrame="6">
+            <EntityName>character_spawn</EntityName>
+            <Position x="1808" y="572" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>500</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>7</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/fire-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13964" spriteFrame="0">
+            <EntityName>chest_xp.ent</EntityName>
+            <Position x="1895" y="582" z="-2" angle="0" />
+            <Entity>
+                <FileName>chest_xp.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>xp</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13027" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1680" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13464" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="1792" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13979" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1600" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13983" spriteFrame="0">
+            <EntityName>spikes.ent</EntityName>
+            <Position x="1600" y="624" z="0" angle="0" />
+            <Entity>
+                <FileName>spikes.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="121" spriteFrame="0">
+            <EntityName>max</EntityName>
+            <Position x="2048" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

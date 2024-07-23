@@ -1,0 +1,59 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.8;
+}
+
+title
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.45;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = signInBeforePurchasePrompt;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 300;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 200;
+}
+
+yes
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.8;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.8;
+	frameSizeX = 200;
+	frameSizeY = 100;
+
+	text = awesomeThanks;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 300;
+	appearDelay = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

@@ -1,0 +1,103 @@
+left
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.0;
+	posY = 0.0;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.75;
+	frameSizeX = 128;
+	frameSizeY = 114;
+
+	text = «;
+	textFont = Averia64.fnt;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+middle
+{
+	type = frame-sprite;
+	fileName = sprites/item-2x1-frame.png;
+
+	posX = 0.0;
+	posY = 0.0;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.75;
+	frameSizeX = 360;
+	frameSizeY = 114;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+middleButton
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.0;
+	posY = 0.0;
+	originX = 0.013;
+	originY = 0.08;
+	scale = 0.75;
+	borderScale = 0.8;
+	frameSizeX = 373;
+	frameSizeY = 132;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+right
+{
+	type = button;
+	fileName = sprites/inventory-next-button.png;
+
+	posX = 0.0;
+	posY = 0.0;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.75;
+	frameSizeX = 128;
+	frameSizeY = 114;
+
+	text = »;
+	textFont = Averia64.fnt;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

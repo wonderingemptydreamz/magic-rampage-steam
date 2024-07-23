@@ -1,0 +1,1863 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3">
+        <Ambient r="0.4" g="0.4" b="0.4" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="15367" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="160" y="-2232" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15366" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="160" y="-1721" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15365" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="160" y="-1210" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15364" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="160" y="-699" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14801" spriteFrame="0">
+            <EntityName>run_boss_vines_2.ent</EntityName>
+            <Position x="409" y="-51" z="2" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="11" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="432" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15363" spriteFrame="0">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="61" y="-194" z="0" angle="90" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1024" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="-16" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14805" spriteFrame="0">
+            <EntityName>run_boss_vines_2.ent</EntityName>
+            <Position x="1944" y="-62" z="2" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13143" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1552" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14807" spriteFrame="0">
+            <EntityName>run_boss_vines_2.ent</EntityName>
+            <Position x="2613" y="-26" z="2" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15161" spriteFrame="0">
+            <EntityName>tree.ent</EntityName>
+            <Position x="406" y="392" z="-6" angle="0" />
+            <Entity>
+                <FileName>tree.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26" spriteFrame="0">
+            <EntityName>min</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15355" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="61" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>128</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="79277" spriteFrame="3">
+            <EntityName>character_spawn_bat</EntityName>
+            <Position x="559.7" y="240.2" z="-2.1" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="4" y="1" />
+                <Scale x="0.7" y="0.7" />
+                <PivotAdjust x="-48" y="80" />
+                <Sprite>character_body_bat.png</Sprite>
+                <Collision>
+                    <Position x="0" y="-43" z="0" />
+                    <Size x="64" y="102" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>7</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/fire-bat-adult.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>forceFieldScale</Name>
+                        <Value>0.9</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>bat</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>BATBBB</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="79278" spriteFrame="3">
+            <EntityName>character_spawn_bat</EntityName>
+            <Position x="559.7" y="240.2" z="-2.1" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="4" y="1" />
+                <Scale x="0.7" y="0.7" />
+                <PivotAdjust x="-48" y="80" />
+                <Sprite>character_body_bat.png</Sprite>
+                <Collision>
+                    <Position x="0" y="-43" z="0" />
+                    <Size x="64" y="102" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/fire-bat-adult.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>6</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>bat</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>BATBBB</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15356" spriteFrame="7">
+            <EntityName>character_spawn</EntityName>
+            <Position x="821" y="384" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>400</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/time-patroller.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>6</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>time-patroller</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15334" spriteFrame="0">
+            <EntityName>swamp_branch_1.ent</EntityName>
+            <Position x="563" y="132" z="-2" angle="0" />
+            <Entity>
+                <FileName>swamp_branch_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15162" spriteFrame="0">
+            <EntityName>tree_low_emissive.ent</EntityName>
+            <Position x="909" y="386" z="-5" angle="0" />
+            <Entity>
+                <FileName>tree_low_emissive.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14802" spriteFrame="0">
+            <EntityName>run_boss_vines_1.ent</EntityName>
+            <Position x="828" y="56" z="2" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14906" spriteFrame="0">
+            <EntityName>hoc_512x64bg.ent</EntityName>
+            <Position x="830" y="481" z="-2.1" angle="0" />
+            <Entity>
+                <FileName>hoc_512x64bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15247" spriteFrame="2">
+            <EntityName>ucave_ornaments_a.ent</EntityName>
+            <Position x="718" y="499" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_ornaments_a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15335" spriteFrame="6">
+            <EntityName>ucave_ornaments_a.ent</EntityName>
+            <Position x="971" y="457" z="-1.9" angle="0" />
+            <Entity>
+                <FileName>ucave_ornaments_a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15337" spriteFrame="0">
+            <EntityName>dead_soldier_low_emissive_1.ent</EntityName>
+            <Position x="840" y="484" z="-1.9" angle="0" />
+            <Entity>
+                <FileName>dead_soldier_low_emissive_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15345" spriteFrame="0">
+            <EntityName>run_boss_vines_2</EntityName>
+            <Position x="586" y="53" z="-6.1" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_2.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15346" spriteFrame="0">
+            <EntityName>run_boss_vines_1</EntityName>
+            <Position x="943" y="74" z="-6" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_1.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15494" spriteFrame="6">
+            <EntityName>character_spawn</EntityName>
+            <Position x="820" y="385" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>400</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>7</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/time-patroller.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>time-patroller</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14785" spriteFrame="0">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="1280" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14803" spriteFrame="0">
+            <EntityName>run_boss_vines_1.ent</EntityName>
+            <Position x="1206" y="55" z="2" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14804" spriteFrame="0">
+            <EntityName>run_boss_vines_0.ent</EntityName>
+            <Position x="1426" y="34" z="2" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_0.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14812" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1147" y="259" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>notMagnetizable</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15163" spriteFrame="0">
+            <EntityName>tree_low_emissive.ent</EntityName>
+            <Position x="1239" y="27" z="-6" angle="0" />
+            <Entity>
+                <FileName>tree_low_emissive.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15347" spriteFrame="0">
+            <EntityName>run_boss_vines_0</EntityName>
+            <Position x="1220" y="65" z="-6.1" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_0.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15354" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1411" y="259" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>notMagnetizable</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15338" spriteFrame="0">
+            <EntityName>magic_shield.ent</EntityName>
+            <Position x="1662" y="455" z="0.1" angle="-90" />
+            <Entity>
+                <FileName>magic_shield.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>penetrable</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14809" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="1946" y="481" z="-8" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14818" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="1942" y="438" z="-4.1" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15101" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1921" y="259" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>notMagnetizable</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15242" spriteFrame="0">
+            <EntityName>redirect_agent.ent</EntityName>
+            <Position x="1663" y="67" z="0" angle="0" />
+            <Entity>
+                <FileName>redirect_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>dirX</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>dirY</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maximumRedirectsAllowed</Name>
+                        <Value>15</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>noSlowMotion</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>trackProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>untrackProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15243" spriteFrame="0">
+            <EntityName>dungeon_cracked_wall.ent</EntityName>
+            <Position x="1664" y="421" z="0" angle="-90" />
+            <Entity>
+                <FileName>dungeon_cracked_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>debrisBitmap</Name>
+                        <Value>debris_2.png</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>hp</Name>
+                        <Value>20</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByExplode</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15244" spriteFrame="0">
+            <EntityName>dungeon_cracked_wall.ent</EntityName>
+            <Position x="1664" y="485" z="0" angle="-90" />
+            <Entity>
+                <FileName>dungeon_cracked_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>debrisBitmap</Name>
+                        <Value>debris_2.png</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>hp</Name>
+                        <Value>20</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByExplode</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15348" spriteFrame="0">
+            <EntityName>run_boss_vines_0</EntityName>
+            <Position x="1677" y="60" z="-4" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_0.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15349" spriteFrame="0">
+            <EntityName>run_boss_vines_2</EntityName>
+            <Position x="1999" y="59" z="-6" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_2.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14815" spriteFrame="0">
+            <EntityName>hoc_512x64bg.ent</EntityName>
+            <Position x="2048" y="352" z="-2.01" angle="0" />
+            <Entity>
+                <FileName>hoc_512x64bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14788" spriteFrame="1" flipX="1">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="2048" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14806" spriteFrame="0">
+            <EntityName>run_boss_vines_0.ent</EntityName>
+            <Position x="2240" y="62" z="4" angle="0" />
+            <Entity>
+                <FileName>run_boss_vines_0.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14862" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="2174" y="434" z="-2.02" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15102" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="2172" y="259" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>notMagnetizable</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15160" spriteFrame="0">
+            <EntityName>tree.ent</EntityName>
+            <Position x="2318" y="315" z="-7" angle="0" />
+            <Entity>
+                <FileName>tree.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15350" spriteFrame="0">
+            <EntityName>run_boss_vines_1</EntityName>
+            <Position x="2364" y="91" z="-8" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_1.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15493" spriteFrame="1">
+            <EntityName>hoc_128x64b.ent</EntityName>
+            <Position x="2368" y="480" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15166" spriteFrame="6">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="2638" y="476" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>68</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>7</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>forceFieldScale</Name>
+                        <Value>0.9</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15167" spriteFrame="0">
+            <EntityName>nature_shield.ent</EntityName>
+            <Position x="2619" y="180" z="-2" angle="-90" />
+            <Entity>
+                <FileName>nature_shield.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15342" spriteFrame="7">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="2626" y="72" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>78</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/nature-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15351" spriteFrame="0">
+            <EntityName>run_boss_vines_1</EntityName>
+            <Position x="2645" y="93" z="-6" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <Sprite>run_boss_vines_1.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="79381" spriteFrame="0">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="2636" y="473" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>78</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>6</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14813" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="245" y="514" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>notMagnetizable</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15249" spriteFrame="10">
+            <EntityName>ucave_ornaments_a_low_emissive</EntityName>
+            <Position x="463" y="541" z="-2" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.4" g="0.4" b="0.4" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <SpriteCut x="12" y="1" />
+                <Sprite>ucave-ornaments-0.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13260" spriteFrame="0">
+            <EntityName>respawn</EntityName>
+            <Position x="264" y="516" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="112" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="448" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14456" spriteFrame="0">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="256" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15239" spriteFrame="2">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="448" y="608" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15332" spriteFrame="0">
+            <EntityName>solid_box_2.ent</EntityName>
+            <Position x="517" y="530" z="0" angle="0" />
+            <Entity>
+                <FileName>solid_box_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15246" spriteFrame="10">
+            <EntityName>ucave_ornaments_a.ent</EntityName>
+            <Position x="515" y="538" z="0.1" angle="0" />
+            <Entity>
+                <FileName>ucave_ornaments_a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="8" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="592" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="848" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14783" spriteFrame="1">
+            <EntityName>hoc_512x256.ent</EntityName>
+            <Position x="768" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x256.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14787" spriteFrame="0">
+            <EntityName>black_bar_2x2.ent</EntityName>
+            <Position x="768" y="778" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14816" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="663" y="564" z="-3" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14817" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="965" y="566" z="-8" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15059" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="959" y="963" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15241" spriteFrame="0">
+            <EntityName>black_bar_05x05.ent</EntityName>
+            <Position x="535" y="623" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_05x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15333" spriteFrame="0">
+            <EntityName>solid_box_2.ent</EntityName>
+            <Position x="517" y="545" z="0" angle="0" />
+            <Entity>
+                <FileName>solid_box_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15343" spriteFrame="0">
+            <EntityName>blood_decal_4.ent</EntityName>
+            <Position x="885" y="559" z="0" angle="-180" />
+            <Entity>
+                <FileName>blood_decal_4.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15344" spriteFrame="0">
+            <EntityName>blood_decal_1.ent</EntityName>
+            <Position x="853" y="544" z="0" angle="-180" />
+            <Entity>
+                <FileName>blood_decal_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14069" spriteFrame="0">
+            <EntityName>chest_xp.ent</EntityName>
+            <Position x="1120" y="640" z="-2" angle="0" />
+            <Entity>
+                <FileName>chest_xp.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>alwaysThere</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>xp</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1120" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="736" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13026" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1456" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14786" spriteFrame="0">
+            <EntityName>black_bar_2x2.ent</EntityName>
+            <Position x="1280" y="740" z="-12" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14956" spriteFrame="0">
+            <EntityName>hoc_bg_512x256</EntityName>
+            <Position x="1280" y="640" z="-6" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <SpriteCut x="1" y="2" />
+                <Sprite>hoc_512x128-1x4.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14959" spriteFrame="0" flipY="1">
+            <EntityName>hoc_512x64bg</EntityName>
+            <Position x="1280" y="544" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="1" y="2" />
+                <Sprite>hoc_512x64.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14964" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="1056" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14966" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="1312" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14967" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="1440" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15100" spriteFrame="3">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="1152" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15164" spriteFrame="0">
+            <EntityName>black_bar_gradient_512x256.ent</EntityName>
+            <Position x="1278" y="649" z="-4.9" angle="0" />
+            <Entity>
+                <FileName>black_bar_gradient_512x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15352" spriteFrame="0" flipY="1">
+            <EntityName>utree_branch_c</EntityName>
+            <Position x="1321" y="689" z="-5.9" angle="255" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <Scale x="1.6" y="1.6" />
+                <Sprite>utree-roots-c.png</Sprite>
+                <Normal>utree-roots-c-normal.png</Normal>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15353" spriteFrame="0" flipX="1" flipY="1">
+            <EntityName>utree_branch_d</EntityName>
+            <Position x="2004" y="774" z="-5.9" angle="150" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <Scale x="1.6" y="1.6" />
+                <Sprite>utree-roots-d.png</Sprite>
+                <Normal>utree-roots-d-normal.png</Normal>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14810" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="1920" y="675" z="-6.1" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14790" spriteFrame="0">
+            <EntityName>nature_shield.ent</EntityName>
+            <Position x="1663" y="695" z="0" angle="-90" />
+            <Entity>
+                <FileName>nature_shield.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14791" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1952" y="625" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>notMagnetizable</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14968" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="1888" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14969" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="2016" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15360" spriteFrame="2" flipY="1">
+            <EntityName>spikes_background_quarter.ent</EntityName>
+            <Position x="1536" y="706" z="-12" angle="0" />
+            <Entity>
+                <FileName>spikes_background_quarter.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15361" spriteFrame="3" flipY="1">
+            <EntityName>spikes_background_quarter.ent</EntityName>
+            <Position x="1792" y="706" z="-12" angle="0" />
+            <Entity>
+                <FileName>spikes_background_quarter.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14793" spriteFrame="0" flipX="1">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="2304" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14795" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="2184" y="533" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14796" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="2432" y="655" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14798" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2369" y="1014" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14808" spriteFrame="0" flipX="1" flipY="1">
+            <EntityName>hoc_bg_512x256</EntityName>
+            <Position x="2048" y="640" z="-6" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.5" g="0.5" b="0.5" a="1" />
+                <SpriteCut x="1" y="2" />
+                <Sprite>hoc_512x128-1x4.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14811" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="2146" y="661" z="-7" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14958" spriteFrame="0">
+            <EntityName>hoc_512x64a.ent</EntityName>
+            <Position x="2432" y="608" z="-0.1" angle="0" />
+            <Entity>
+                <FileName>hoc_512x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14970" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="2144" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14971" spriteFrame="0">
+            <EntityName>hoc_64x64.ent</EntityName>
+            <Position x="2272" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_64x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15165" spriteFrame="0">
+            <EntityName>black_bar_gradient_512x256.ent</EntityName>
+            <Position x="2048" y="633" z="-4.9" angle="0" />
+            <Entity>
+                <FileName>black_bar_gradient_512x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="121" spriteFrame="0">
+            <EntityName>max</EntityName>
+            <Position x="2816" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14794" spriteFrame="3" flipX="1">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="2560" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15010" spriteFrame="0">
+            <EntityName>black_bar_05x05.ent</EntityName>
+            <Position x="2560" y="681" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_05x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15060" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="1275" y="1205" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14799" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="1787" y="1205" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14800" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="2178" y="1205" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

@@ -1,0 +1,940 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3">
+        <Ambient r="0.4" g="0.4" b="0.4" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="11" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="432" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1024" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="-16" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13143" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1552" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13144" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1808" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13145" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2064" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13146" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2272" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15080" spriteFrame="0">
+            <EntityName>mushroom_2.ent</EntityName>
+            <Position x="262" y="181" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>mushroom_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>hp</Name>
+                        <Value>999999</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26" spriteFrame="0">
+            <EntityName>min</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15081" spriteFrame="0">
+            <EntityName>chapter4_block_edge_1.ent</EntityName>
+            <Position x="256" y="320" z="0" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_edge_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15082" spriteFrame="0">
+            <EntityName>grass_green_3.ent</EntityName>
+            <Position x="256" y="256" z="2" angle="0" />
+            <Entity>
+                <FileName>grass_green_3.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15087" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="448" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15075" spriteFrame="1">
+            <EntityName>chapter4_axis_of_death</EntityName>
+            <Position x="704" y="64" z="0.05" angle="-90" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.862745" g="0.760784" b="1" a="1" />
+                <SpriteCut x="4" y="1" />
+                <Sprite>chapter4-4x1-block-c.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>length</Name>
+                        <Value>180</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>speed</Name>
+                        <Value>-60</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15084" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="704" y="192" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="18" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="192" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="20" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="80" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="21" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="384" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15067" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1152" y="384" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15083" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="1152" y="192" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>6</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15088" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1152" y="64" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15074" spriteFrame="1">
+            <EntityName>chapter4_axis_of_death</EntityName>
+            <Position x="1600" y="64" z="0.05" angle="90" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.862745" g="0.760784" b="1" a="1" />
+                <SpriteCut x="4" y="1" />
+                <Sprite>chapter4-4x1-block-c.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>length</Name>
+                        <Value>180</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>speed</Name>
+                        <Value>60</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15085" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1600" y="192" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15086" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1856" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15150" spriteFrame="0">
+            <EntityName>chest_xp.ent</EntityName>
+            <Position x="130" y="580" z="-1.9" angle="0" />
+            <Entity>
+                <FileName>chest_xp.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>xp</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14900" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="192" y="960" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13206" spriteFrame="0">
+            <EntityName>respawn</EntityName>
+            <Position x="136" y="536" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="112" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="448" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14863" spriteFrame="0">
+            <EntityName>invisible_wall_box.ent</EntityName>
+            <Position x="160" y="672" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_box.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14864" spriteFrame="0">
+            <EntityName>invisible_wall_box.ent</EntityName>
+            <Position x="224" y="672" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_box.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15017" spriteFrame="0">
+            <EntityName>chapter4_block_edge_big_1.ent</EntityName>
+            <Position x="128" y="768" z="0" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_edge_big_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15021" spriteFrame="2">
+            <EntityName>chapter4_block_cover_bg_1.ent</EntityName>
+            <Position x="64" y="608" z="-2" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_cover_bg_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15022" spriteFrame="3">
+            <EntityName>chapter4_block_cover_bg_1.ent</EntityName>
+            <Position x="192" y="608" z="-2" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_cover_bg_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15023" spriteFrame="0">
+            <EntityName>grass_green_1.ent</EntityName>
+            <Position x="12" y="667" z="2" angle="-90" />
+            <Entity>
+                <FileName>grass_green_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15027" spriteFrame="0">
+            <EntityName>chapter4_decor_roots_1.ent</EntityName>
+            <Position x="163" y="748" z="2" angle="5" />
+            <Entity>
+                <FileName>chapter4_decor_roots_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15028" spriteFrame="2">
+            <EntityName>chapter4_decor_roots_1.ent</EntityName>
+            <Position x="177" y="672" z="2" angle="-5" />
+            <Entity>
+                <FileName>chapter4_decor_roots_1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15058" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="448" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>jumpImpulseScale</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="8" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="592" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="848" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15059" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="704" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>jumpImpulseScale</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15060" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="960" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>jumpImpulseScale</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15071" spriteFrame="1">
+            <EntityName>chapter4_axis_of_death</EntityName>
+            <Position x="1152" y="544" z="0.05" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.862745" g="0.760784" b="1" a="1" />
+                <SpriteCut x="4" y="1" />
+                <Sprite>chapter4-4x1-block-c.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>length</Name>
+                        <Value>320</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>speed</Name>
+                        <Value>60</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15056" spriteFrame="1">
+            <EntityName>chapter4_axis_of_death</EntityName>
+            <Position x="1152" y="544" z="0.05" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.862745" g="0.760784" b="1" a="1" />
+                <SpriteCut x="4" y="1" />
+                <Sprite>chapter4-4x1-block-c.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>length</Name>
+                        <Value>160</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>speed</Name>
+                        <Value>60</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1120" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="23" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="656" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="736" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13026" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1456" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15061" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="1344" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>jumpImpulseScale</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13027" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1680" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13028" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1888" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15062" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="1600" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>jumpImpulseScale</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15063" spriteFrame="0">
+            <EntityName>jump_agent.ent</EntityName>
+            <Position x="1856" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>jump_agent.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>jumpImpulseScale</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15089" spriteFrame="0">
+            <EntityName>mushroom_2.ent</EntityName>
+            <Position x="2176" y="571" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>mushroom_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>hp</Name>
+                        <Value>999999</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14899" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2112" y="960" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="121" spriteFrame="0">
+            <EntityName>max</EntityName>
+            <Position x="2304" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13029" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2080" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13030" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13031" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2464" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14865" spriteFrame="0">
+            <EntityName>invisible_wall_box.ent</EntityName>
+            <Position x="2080" y="672" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_box.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14866" spriteFrame="0">
+            <EntityName>invisible_wall_box.ent</EntityName>
+            <Position x="2144" y="672" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_box.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15018" spriteFrame="0">
+            <EntityName>chapter4_block_edge_big_0.ent</EntityName>
+            <Position x="2176" y="768" z="0" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_edge_big_0.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15019" spriteFrame="0">
+            <EntityName>chapter4_block_cover_bg_1.ent</EntityName>
+            <Position x="2112" y="608" z="-2" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_cover_bg_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15020" spriteFrame="1">
+            <EntityName>chapter4_block_cover_bg_1.ent</EntityName>
+            <Position x="2240" y="608" z="-2" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_cover_bg_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15024" spriteFrame="0">
+            <EntityName>grass_green_2.ent</EntityName>
+            <Position x="2295" y="657" z="2" angle="95" />
+            <Entity>
+                <FileName>grass_green_2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15025" spriteFrame="0">
+            <EntityName>chapter4_decor_roots_2.ent</EntityName>
+            <Position x="2189" y="703" z="2" angle="30" />
+            <Entity>
+                <FileName>chapter4_decor_roots_2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14895" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="512" y="1216" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14896" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="1024" y="1216" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14897" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="1536" y="1216" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14898" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="2048" y="1216" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

@@ -1,0 +1,17 @@
+item0
+{
+	name = Potion;
+
+	type = supply;
+	secondaryType = potion;
+	sprite = potion.png;
+
+	depthOffset = 1;
+	maxStackSize = 99;
+
+	soundPack = potion;
+
+	fixedPrice = 500;
+
+	text = potion-desc;
+}

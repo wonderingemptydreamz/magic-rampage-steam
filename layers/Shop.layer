@@ -1,0 +1,82 @@
+back
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.044;
+	posY = 0.044;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 530;
+	dismissDelay = 100;
+
+	iterable = false;
+}
+
+sell
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+	scale = 0.7;
+	borderScale = 0.65;
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = inventorySell;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 1000;
+	appearDelay = 2500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	//releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+moreGold
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.597;
+	posY = 0.947;
+	originX = 0.5;
+	originY = 1.0;
+	scale = 0.7;
+	borderScale = 0.65;
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = moreGold;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 1000;
+	appearDelay = 2600;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/coin_pick_0.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+

@@ -1,0 +1,235 @@
+back
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.044;
+	posY = 0.044;
+	originX = 0.0;
+	originY = 0.0;
+
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearEffectDelay = 1200;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 2130;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+play
+{
+	type = frame-button;
+	fileName = sprites/dark_blurry_bg.png;
+
+	posX = 0.5;
+	posY = 0.73;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = soloDungeon;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 1500;
+	appearDelay = 3000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+playerTitle
+{
+	type = frame-text;
+	fileName = entities/faceless.png;
+
+	posX = 0.5;
+	posY = 0.08;
+	originX = 0.5;
+	originY = 0.5;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = playerTitle;
+	textFont = Crusade128.fnt;
+
+	appearEffect = zoom-out;
+	appearDelay = 0;
+	appearEffectDuration = 800;
+
+	dismissEffect = zoom-in;
+	dismissDelay = 0;
+	dismissEffectDuration = 500;
+}
+
+challengeFriend
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.053;
+	posY = 0.85;
+
+	originX = 0.0;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.8;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = social;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 1500;
+	appearDelay = 4000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+trainer
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.053;
+	posY = 0.965;
+
+	originX = 0.0;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.8;
+
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = trainer;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 1500;
+	appearDelay = 4400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+hallOfFame
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.965;
+
+	originX = 1.0;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.8;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = hallOfChampions;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 1500;
+	appearDelay = 4500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+shop
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-yellow.png;
+
+	posX = 0.947;
+	posY = 0.053;
+	originX = 0.9;
+	originY = 0.1;
+
+	text = shop;
+	textFont = Averia48.fnt;
+
+	scale = 0.8;
+	borderScale = 0.8;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/coin_pick_0.mp3;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 1000;
+	appearDelay = 4000;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 800;
+	dismissDelay = 0;
+}
+
+moreCoins
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 0.973;
+
+	originX = 0.5;
+	originY = 1.0;
+
+	scale = 0.9;
+	borderScale = 0.65;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = moreCoins;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 1500;
+	appearDelay = 5500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}

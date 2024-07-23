@@ -1,0 +1,81 @@
+character
+{
+	name = Female Castle Guard;
+	bagSlots = 25;
+	bodySprite = character_body.png;
+	exp = 0;
+	gold = 0;
+	hairSprite = femaleCastleGuard0;
+	jumpImpulse = 35;
+	level = 1;
+	speed = 8.0;
+	resistance = 60;
+	idleTimeBeforeJump = 300;
+	fieldOfView = 45;
+	bodyColor = 4294496156;
+	eyeColor = 4287350080;
+	seriousDamageWaitTime = 350;
+
+	facts = courage-lane-points:25\;only-fg-eyes:true\;fg-eye-offset:2,-3\;;
+
+	enableDustEffects = true;
+
+	attackMinimumDistance = 300;
+
+	patrolBehaviour = waypoints;
+	attackBehaviour = stoneThrower;
+	preciseAttack = true;
+
+	//threatDetectedSound = zombie_threat_detect.mp3;
+	//confusedSound = zombie_confused.mp3;
+	//damageSound = zombie_confused.mp3;
+}
+
+equippedItem0
+{
+	name = Elite Soldier Set;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_0a.png;
+	speedBoost = 1.1;
+
+	armor = 50;
+
+	element = air;
+}
+
+equippedItem1
+{
+	name = Silver Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 600;
+	damage = 10;
+
+	soundPack = heavy-blade;
+
+	invertProjectile = true;
+	projectileEntity = projectile_axe.ent;
+	projectileSpin = 16;
+}
+
+item0
+{
+	level = 0;
+	originalSlot = 0;
+	reference = Arcane Rune;
+	stackSize = 10;
+}
+
+EOF____

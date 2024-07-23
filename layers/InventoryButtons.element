@@ -1,0 +1,84 @@
+equip
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.053;
+	posY = 0.825;
+	originX = 0.0;
+	originY = 1.0;
+	scale = 0.8;
+	borderScale = 0.75;
+	frameSizeX = 270;
+	frameSizeY = 100;
+
+	text = equip;
+	textFont = Averia64.fnt;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}
+
+use
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.053;
+	posY = 0.825;
+	originX = 0.0;
+	originY = 1.0;
+	scale = 0.8;
+	borderScale = 0.75;
+	frameSizeX = 270;
+	frameSizeY = 100;
+
+	text = use;
+	textFont = Averia64.fnt;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}
+
+sell
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.053;
+	posY = 0.947;
+	originX = 0.0;
+	originY = 1.0;
+	scale = 0.8;
+	borderScale = 0.75;
+	frameSizeX = 270;
+	frameSizeY = 100;
+
+	text = sell;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 1000;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}

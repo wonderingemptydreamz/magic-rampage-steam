@@ -1,0 +1,64 @@
+item0
+{
+	name = Cleric Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_10.png;
+	color  = 11250603;
+	magicBoost = 1.35;
+	staffBoost = 1.2;
+	daggerBoost = 1.2;
+	jumpBoost = 1.02;
+	speedBoost = 1.02;
+	element = light;
+
+	armor = 8;
+}
+
+item1
+{
+	name = Nature Mage Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_0a.png;
+	color  = 4282216283;
+	magicBoost = 1.3;
+	staffBoost = 1.2;
+	element = earth;
+	colorMultiplier = 1.3;
+
+	armor = 8;
+}
+
+item2
+{
+	name = Fire Mage Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_0b.png;
+	color  = 4288548623;
+	magicBoost = 1.3;
+	staffBoost = 1.2;
+	element = fire;
+	colorMultiplier = 1.3;
+
+	armor = 8;
+}
+
+item3
+{
+	name = Druid Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_2a.png;
+	color  = 14404794;
+	magicBoost = 1.35;
+	staffBoost = 1.25;
+	daggerBoost = 1.25;
+	jumpBoost = 1.03;
+	element = earth;
+
+	armor = 15;
+
+	maxLevelAllowed = 8;
+}

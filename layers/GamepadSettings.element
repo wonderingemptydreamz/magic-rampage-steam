@@ -1,0 +1,22 @@
+restoreDefaults
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.0;
+	posY = 0.0;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = restoreDefaults;
+	textFont = Averia32_bold.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+}

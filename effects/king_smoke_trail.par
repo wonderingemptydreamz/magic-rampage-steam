@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <ParticleSystem particles="29" allAtOnce="0" alphaMode="0" repeat="0" animationMode="2" lifeTime="850" randomLifeTime="300" angleDir="0" randAngle="4" size="51" randomizeSize="0" growth="0.2" minSize="0" maxSize="1000" angleStart="0" randAngleStart="360">
+        <Bitmap>fire-white.png</Bitmap>
+        <Gravity x="0" y="-0.03" />
+        <Direction x="0" y="0" />
+        <RandomizeDir x="4" y="0.2" />
+        <SpriteCut x="4" y="1" />
+        <StartPoint x="0" y="0" z="0" />
+        <RandStartPoint x="0" y="0" />
+        <Color0 r="0" g="0" b="0" a="0.3" />
+        <Color1 r="0" g="0" b="0" a="0" />
+        <Luminance r="1" g="1" b="1" />
+    </ParticleSystem>
+</Ethanon>

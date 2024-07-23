@@ -1,0 +1,25 @@
+wait
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+
+	frameSizeX = 400;
+	frameSizeY = 200;
+
+	text = . . .;
+	textFont = Averia48.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 400;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

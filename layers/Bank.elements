@@ -1,0 +1,55 @@
+depositItem
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.6;
+	posY = 0.13;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.8;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = depositItem;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+withdrawItem
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.6;
+	posY = 0.13;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.7;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = withdrawItem;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}

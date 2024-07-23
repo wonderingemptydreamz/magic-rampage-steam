@@ -1,0 +1,1489 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3">
+        <Ambient r="0.4" g="0.4" b="0.4" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="11" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="432" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15489" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="256" y="-192" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15461" spriteFrame="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="640" y="-128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15487" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="768" y="-192" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1024" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="-16" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15448" spriteFrame="0">
+            <EntityName>hoc_bg_512x128.ent</EntityName>
+            <Position x="1280" y="-64" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_512x128.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15486" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1280" y="-192" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13143" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1552" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15460" spriteFrame="0" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1920" y="-128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15485" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1792" y="-192" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15484" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="2304" y="-192" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15491" spriteFrame="0">
+            <EntityName>button</EntityName>
+            <Position x="112" y="308" z="-2" angle="90" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>button_yellow.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="76" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>1500</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15480" spriteFrame="0">
+            <EntityName>door</EntityName>
+            <Position x="192" y="500" z="-0.1" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>door_run_boss.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="100" y="256" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13260" spriteFrame="0">
+            <EntityName>respawn</EntityName>
+            <Position x="74" y="382" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26" spriteFrame="0">
+            <EntityName>min</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15481" spriteFrame="0" flipY="1">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="192" y="140" z="0" angle="90" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15450" spriteFrame="0">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="640" y="128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15451" spriteFrame="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="896" y="128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15452" spriteFrame="0">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="896" y="384" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15477" spriteFrame="0">
+            <EntityName>hoc_torch.ent</EntityName>
+            <Position x="864" y="256" z="-7.9" angle="0" />
+            <Entity>
+                <FileName>hoc_torch.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15447" spriteFrame="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1408" y="128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15446" spriteFrame="0">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1152" y="128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="18" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1295" y="188" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="20" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="80" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="21" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="384" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="22" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="496" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15453" spriteFrame="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1152" y="384" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15456" spriteFrame="0" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1408" y="384" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15478" spriteFrame="0">
+            <EntityName>hoc_torch.ent</EntityName>
+            <Position x="1280" y="128" z="-7.9" angle="0" />
+            <Entity>
+                <FileName>hoc_torch.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14911" spriteFrame="0">
+            <EntityName>miniboss_spawn_fire_lord</EntityName>
+            <Position x="1638" y="382" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15457" spriteFrame="0" flipX="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1664" y="384" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15458" spriteFrame="1" flipX="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1664" y="128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15459" spriteFrame="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1920" y="128" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15467" spriteFrame="0">
+            <EntityName>hoc_torch.ent</EntityName>
+            <Position x="1696" y="256" z="-7.9" angle="0" />
+            <Entity>
+                <FileName>hoc_torch.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15483" spriteFrame="1" flipX="1">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="2368" y="140" z="0" angle="90" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15482" spriteFrame="0">
+            <EntityName>door</EntityName>
+            <Position x="2368" y="500" z="-0.1" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>door_run_boss.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="100" y="256" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15493" spriteFrame="0">
+            <EntityName>button</EntityName>
+            <Position x="2288" y="336" z="-2" angle="90" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>button_yellow.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="76" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>enemyCheckForActivation</Name>
+                        <Value>Fire Lord</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>3000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14807" spriteFrame="0">
+            <EntityName>lava_surface.ent</EntityName>
+            <Position x="476" y="698" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_surface.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14802" spriteFrame="0">
+            <EntityName>lava_deco.ent</EntityName>
+            <Position x="256" y="736" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_deco.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="1" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="112" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="448" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14803" spriteFrame="0">
+            <EntityName>dungeon_block_05_bg.ent</EntityName>
+            <Position x="64" y="736" z="0.06" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_05_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14808" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="418" y="611" z="2" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15422" spriteFrame="0">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="64" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15423" spriteFrame="1">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="192" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15440" spriteFrame="1">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="64" y="736" z="0.1" angle="0" />
+            <Entity>
+                <FileName>hoc_128x128b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15442" spriteFrame="1">
+            <EntityName>hoc_256x64.ent</EntityName>
+            <Position x="384" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_256x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15468" spriteFrame="0" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="384" y="562" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15469" spriteFrame="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="640" y="562" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14801" spriteFrame="0">
+            <EntityName>lava_deco.ent</EntityName>
+            <Position x="768" y="736" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_deco.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="8" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="592" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="848" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14869" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="512" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15424" spriteFrame="2">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="576" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15425" spriteFrame="3">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="704" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15443" spriteFrame="0">
+            <EntityName>hoc_256x64.ent</EntityName>
+            <Position x="896" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_256x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15419" spriteFrame="0">
+            <EntityName>boss_chest_epic2</EntityName>
+            <Position x="1280" y="566" z="-4" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="3" y="1" />
+                <Scale x="1.1" y="1.1" />
+                <PivotAdjust x="0" y="32" />
+                <Sprite>chest-epic-c.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="1000" randomLifeTime="300" angleDir="0" randAngle="7" size="20" randomizeSize="8" growth="-0.26" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="-0.01" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-102" z="0.1" />
+                        <RandStartPoint x="18" y="22" />
+                        <Color0 r="0" g="0" b="0" a="1" />
+                        <Color1 r="4" g="0.8" b="1.6" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                    <ParticleSystem particles="9" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" lifeTime="2500" randomLifeTime="100" angleDir="0.3" randAngle="0.3" size="1" randomizeSize="0" growth="4" minSize="6" maxSize="32" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-38" z="0.1" />
+                        <RandStartPoint x="128" y="100" />
+                        <Color0 r="3" g="2.5" b="1.1" a="1" />
+                        <Color1 r="0" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="1" haloBrightness="0.7" haloSize="320">
+                    <Position x="0" y="-94" z="0" />
+                    <Color r="1" g="0.5" b="0.85" />
+                    <HaloBitmap>sparkle_dot_entity.png</HaloBitmap>
+                </Light>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="144" y="80" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>coins</Name>
+                        <Value>100</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>-</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>epicDrop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>key</Name>
+                        <Value>coins</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>maxLevel</Name>
+                        <Value>15</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>minLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15135" spriteFrame="0">
+            <EntityName>boss_chest_epic1</EntityName>
+            <Position x="1480" y="570" z="-4" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="3" y="1" />
+                <PivotAdjust x="0" y="32" />
+                <Sprite>chest-epic-a.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="1000" randomLifeTime="300" angleDir="0" randAngle="7" size="20" randomizeSize="8" growth="-0.26" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="-0.01" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-94" z="0.1" />
+                        <RandStartPoint x="18" y="22" />
+                        <Color0 r="0" g="0" b="0" a="1" />
+                        <Color1 r="1.6" g="4" b="0.8" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                    <ParticleSystem particles="3" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" lifeTime="2500" randomLifeTime="100" angleDir="0.3" randAngle="0.3" size="1" randomizeSize="0" growth="4" minSize="6" maxSize="32" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-34" z="0.1" />
+                        <RandStartPoint x="128" y="100" />
+                        <Color0 r="3" g="2.5" b="1.1" a="1" />
+                        <Color1 r="0" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="1" haloBrightness="0.7" haloSize="320">
+                    <Position x="0" y="-94" z="0" />
+                    <Color r="0.4" g="1" b="0.2" />
+                    <HaloBitmap>sparkle_dot_entity.png</HaloBitmap>
+                </Light>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="144" y="80" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>coins</Name>
+                        <Value>100</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>-</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>epicDrop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>key</Name>
+                        <Value>coins</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15399" spriteFrame="0">
+            <EntityName>boss_chest_epic0</EntityName>
+            <Position x="1080" y="570" z="-4" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="3" y="1" />
+                <PivotAdjust x="0" y="32" />
+                <Sprite>chest-epic-a.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="1000" randomLifeTime="300" angleDir="0" randAngle="7" size="20" randomizeSize="8" growth="-0.26" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="-0.01" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-94" z="0.1" />
+                        <RandStartPoint x="18" y="22" />
+                        <Color0 r="0" g="0" b="0" a="1" />
+                        <Color1 r="1.6" g="4" b="0.8" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                    <ParticleSystem particles="3" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" lifeTime="2500" randomLifeTime="100" angleDir="0.3" randAngle="0.3" size="1" randomizeSize="0" growth="4" minSize="6" maxSize="32" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-34" z="0.1" />
+                        <RandStartPoint x="128" y="100" />
+                        <Color0 r="3" g="2.5" b="1.1" a="1" />
+                        <Color1 r="0" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="1" haloBrightness="0.7" haloSize="320">
+                    <Position x="0" y="-94" z="0" />
+                    <Color r="0.4" g="1" b="0.2" />
+                    <HaloBitmap>sparkle_dot_entity.png</HaloBitmap>
+                </Light>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="144" y="80" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>coins</Name>
+                        <Value>100</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>-</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>epicDrop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>key</Name>
+                        <Value>coins</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14809" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="1024" y="618" z="2" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14805" spriteFrame="0">
+            <EntityName>lava_surface.ent</EntityName>
+            <Position x="1216" y="698" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_surface.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14800" spriteFrame="0">
+            <EntityName>lava_deco.ent</EntityName>
+            <Position x="1280" y="736" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_deco.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1120" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="23" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="656" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="736" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13026" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1456" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14870" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1024" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15426" spriteFrame="0">
+            <EntityName>hoc_128x64b.ent</EntityName>
+            <Position x="1088" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15427" spriteFrame="1">
+            <EntityName>hoc_128x64b.ent</EntityName>
+            <Position x="1216" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15444" spriteFrame="2">
+            <EntityName>hoc_256x64.ent</EntityName>
+            <Position x="1408" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_256x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15454" spriteFrame="0">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1152" y="640" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15455" spriteFrame="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1408" y="640" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15473" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="1278" y="547" z="-9" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15470" spriteFrame="1" flipX="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="1920" y="562" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14810" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="1598" y="618" z="2" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14799" spriteFrame="0">
+            <EntityName>lava_deco.ent</EntityName>
+            <Position x="1792" y="736" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_deco.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13027" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1680" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14871" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1536" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15428" spriteFrame="2">
+            <EntityName>hoc_128x64b.ent</EntityName>
+            <Position x="1600" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15429" spriteFrame="3">
+            <EntityName>hoc_128x64b.ent</EntityName>
+            <Position x="1728" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15445" spriteFrame="3">
+            <EntityName>hoc_256x64.ent</EntityName>
+            <Position x="1920" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_256x64.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15471" spriteFrame="0" flipX="1" flipY="1">
+            <EntityName>hoc_bg_256x256.ent</EntityName>
+            <Position x="2176" y="562" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_256x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15438" spriteFrame="3">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="2496" y="736" z="0.1" angle="0" />
+            <Entity>
+                <FileName>hoc_128x128b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15435" spriteFrame="0">
+            <EntityName>dungeon_block_05_bg.ent</EntityName>
+            <Position x="2496" y="736" z="0.06" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_05_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15434" spriteFrame="0">
+            <EntityName>lava_deco.ent</EntityName>
+            <Position x="2304" y="736" z="0.05" angle="0" />
+            <Entity>
+                <FileName>lava_deco.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14439" spriteFrame="0">
+            <EntityName>chest_xp.ent</EntityName>
+            <Position x="2201" y="552" z="-2" angle="0" />
+            <Entity>
+                <FileName>chest_xp.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>xp</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14811" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="2095" y="609" z="2" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14806" spriteFrame="0">
+            <EntityName>lava_surface.ent</EntityName>
+            <Position x="2054" y="698" z="0.04" angle="0" />
+            <Entity>
+                <FileName>lava_surface.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14872" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="2048" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15430" spriteFrame="0">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="2112" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15431" spriteFrame="1">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="2240" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15432" spriteFrame="2">
+            <EntityName>hoc_128x64a.ent</EntityName>
+            <Position x="2368" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15433" spriteFrame="3">
+            <EntityName>hoc_128x64b.ent</EntityName>
+            <Position x="2496" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x64b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="121" spriteFrame="0">
+            <EntityName>max</EntityName>
+            <Position x="2560" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

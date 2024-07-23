@@ -1,0 +1,31 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.9;
+	darkenBgDelay = 0;
+}
+
+back
+{
+	type = resume-button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.053;
+	posY = 0.053;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 800;
+	appearDelay = 500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}

@@ -1,0 +1,27 @@
+/*
+back
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.044;
+	posY = 0.044;
+	originX = 0.0;
+	originY = 0.0;
+
+	scale = 0.85;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 1500;
+	appearEffectDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 2130;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+*/

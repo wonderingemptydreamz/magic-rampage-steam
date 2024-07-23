@@ -1,0 +1,55 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.7;
+}
+
+className
+{
+	type = frame-sprite;
+	fileName = entities/faceless.png;
+
+	posX = 0.5;
+	posY = 0.1;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.2;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = class;
+	textFont = Crusade128.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 400;
+	appearDelay = 100;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 200;
+	dismissDelay = 0;
+}
+
+title
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.56;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = class;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 400;
+	appearDelay = 100;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 200;
+	dismissDelay = 0;
+}

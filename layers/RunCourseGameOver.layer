@@ -1,0 +1,37 @@
+title
+{
+	type = sprite;
+	fileName = sprites/game-over.png;
+
+	posX = 0.5;
+	posY = 0.42;
+	originX = 0.5;
+	originY = 0.5;
+
+	appearEffect = fade-in;
+	appearEffectDuration = 2200;
+	appearDelay = 0;
+
+	dismissEffectDuration = 800;
+	dismissEffect = fade-out;
+}
+
+xpLost
+{
+	type = text;
+
+	posX = 0.5;
+	posY = 0.57;
+	originX = 0.5;
+	originY = 0.5;
+
+	text = experienceLost;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = fade-in;
+	appearEffectDuration = 1200;
+	appearDelay = 2600;
+
+	dismissEffectDuration = 600;
+	dismissEffect = fade-out;
+}

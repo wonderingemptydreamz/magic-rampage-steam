@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <ParticleSystem particles="20" allAtOnce="0" alphaMode="1" repeat="1" animationMode="1" lifeTime="600" randomLifeTime="500" angleDir="0" randAngle="3.5" size="40" randomizeSize="32" growth="-0.6" minSize="0" maxSize="1000" angleStart="0" randAngleStart="360">
+        <Bitmap>particle_cross_128.png</Bitmap>
+        <Gravity x="0" y="0" />
+        <Direction x="0" y="0" />
+        <RandomizeDir x="0.2" y="0.2" />
+        <SpriteCut x="1" y="1" />
+        <StartPoint x="0" y="0" z="0" />
+        <RandStartPoint x="90" y="90" />
+        <Color0 r="4" g="3.5" b="2" a="1" />
+        <Color1 r="0" g="0" b="0" a="0" />
+        <Luminance r="1" g="1" b="1" />
+    </ParticleSystem>
+</Ethanon>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="smoke_jump.png" width="256" height="512">
+    <sprite n="smoke_jump_0001.png" x="0" y="0" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0002.png" x="128" y="0" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0003.png" x="0" y="128" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0004.png" x="128" y="128" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0005.png" x="0" y="256" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0006.png" x="128" y="256" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0007.png" x="0" y="384" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+    <sprite n="smoke_jump_0008.png" x="128" y="384" w="128" h="128" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="128"/>
+</TextureAtlas>

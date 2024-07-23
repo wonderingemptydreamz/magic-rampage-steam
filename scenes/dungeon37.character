@@ -1,0 +1,90 @@
+character
+{
+	name = Moonkeeper;
+	bagSlots = 25;
+	bodySprite = character_body.png;
+	exp = 0;
+	gold = 0;
+	hairSprite = deco0;
+	jumpImpulse = 35;
+	level = 1;
+	speed = 6.0;
+	resistance = 60;
+	idleTimeBeforeJump = 300;
+	fieldOfView = 45;
+	bodyColor = 4292130427;
+	eyeColor = 4294129708;
+	seriousDamageWaitTime = 350;
+
+	enableDustEffects = true;
+	enableJumpEffects = true;
+
+	walkDuringCooldown = false;
+
+	attackMinimumDistance = 300;
+
+	patrolBehaviour = waypoints;
+	attackBehaviour = stoneThrower;
+	preciseAttack = true;
+
+	//threatDetectedSound = zombie_threat_detect.mp3;
+	//confusedSound = zombie_confused.mp3;
+	//damageSound = zombie_confused.mp3;
+}
+
+equippedItem0
+{
+	reference = Moonkeeper Set;
+	stackSize = 1;
+	level = 16;
+}
+
+equippedItem1
+{
+	reference = Undine's Dagger;
+	stackSize = 1;
+	level = 16;
+}
+
+equippedItem2
+{
+	reference = Nenya;
+	stackSize = 1;
+}
+
+item0
+{
+	level = 0;
+	reference = Green Rune;
+	stackSize = 20;
+}
+
+item1
+{
+	level = 0;
+	reference = Burning Rune;
+	stackSize = 1;
+}
+
+item2
+{
+	level = 0;
+	reference = Liquid Rune;
+	stackSize = 15;
+}
+
+item3
+{
+	level = 9;
+	reference = Inquisidor;
+	stackSize = 1;
+}
+
+item4
+{
+	level = 14;
+	reference = Gayan;
+	stackSize = 1;
+}
+
+EOF____

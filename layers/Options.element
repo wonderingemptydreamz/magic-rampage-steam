@@ -1,0 +1,390 @@
+facebook
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.3;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = facebook;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+tips
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = tips;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 100;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 100;
+}
+
+chooseLanguage
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.7;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = chooseLanguage;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 200;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 200;
+}
+
+credits
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.7;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = credits;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 200;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 200;
+}
+
+immersive
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.9;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = immersive;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+video
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.9;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = videoSettings;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+gamepad
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.9;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = gamepadSettings;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+keyboard
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.9;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = keyboardSettings;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+controls
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.9;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = controls;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+graphics
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = graphicsOptions;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+joinBeta
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = joinBeta;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+forums
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = communityForums;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+discord
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = discord;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 300;
+}
+
+privacy
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = privacySettings;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 100;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 100;
+}

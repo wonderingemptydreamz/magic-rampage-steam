@@ -1,0 +1,1841 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3.25">
+        <Ambient r="1" g="1" b="1" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="26472" spriteFrame="1" flipX="1">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="95" y="501" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26470" spriteFrame="3">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="255" y="495" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25127" spriteFrame="0">
+            <EntityName>run_home_mountain_00.ent</EntityName>
+            <Position x="424" y="351" z="-178" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25982" spriteFrame="2" flipX="1">
+            <EntityName>run_home_clouds.ent</EntityName>
+            <Position x="208" y="57" z="-220" angle="0" />
+            <Entity>
+                <FileName>run_home_clouds.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25747" spriteFrame="0" flipX="1" flipY="1">
+            <EntityName>chapter4_block_gray_edge_big_bg_0.ent</EntityName>
+            <Position x="310" y="322" z="-10" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_gray_edge_big_bg_0.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24601" spriteFrame="0">
+            <EntityName>camera_waypoint0</EntityName>
+            <Position x="228" y="154" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>time</Name>
+                        <Value>1500</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25745" spriteFrame="0">
+            <EntityName>chapter4_block_gray_edge_big_bg_0.ent</EntityName>
+            <Position x="54" y="322" z="-10" angle="270" />
+            <Entity>
+                <FileName>chapter4_block_gray_edge_big_bg_0.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24612" spriteFrame="0">
+            <EntityName>waypointA1</EntityName>
+            <Position x="422" y="324" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>9999999</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25063" spriteFrame="0">
+            <EntityName>run_home_tile_01.ent</EntityName>
+            <Position x="64" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25064" spriteFrame="0">
+            <EntityName>run_home_tile_02.ent</EntityName>
+            <Position x="192" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25065" spriteFrame="0">
+            <EntityName>run_home_tile_03.ent</EntityName>
+            <Position x="320" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25081" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="320" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25082" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="192" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25083" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="64" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25091" spriteFrame="1" flipX="1" flipY="1">
+            <EntityName>run_home_border_03.ent</EntityName>
+            <Position x="368" y="400" z="1.1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25113" spriteFrame="1" flipY="1">
+            <EntityName>chapter4_block_gray_edge_bg_0.ent</EntityName>
+            <Position x="448" y="456" z="-10" angle="0" />
+            <Entity>
+                <FileName>chapter4_block_gray_edge_bg_0.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25123" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="368" y="448" z="0.9" angle="270" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25743" spriteFrame="0">
+            <EntityName>run_home_moon</EntityName>
+            <Position x="460" y="108" z="-234" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <DiffuseColor r="0.9" g="0.9" b="0.9" a="1" />
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>moon.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26927" spriteFrame="0">
+            <EntityName>run_home_ambient_sparks.ent</EntityName>
+            <Position x="493" y="286" z="12" angle="0" />
+            <Entity>
+                <FileName>run_home_ambient_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27712" spriteFrame="0">
+            <EntityName>run_home_fake_platform.ent</EntityName>
+            <Position x="416" y="416" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_fake_platform.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27713" spriteFrame="0">
+            <EntityName>invisible_small_step.ent</EntityName>
+            <Position x="400" y="400" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_small_step.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27714" spriteFrame="0">
+            <EntityName>invisible_small_step.ent</EntityName>
+            <Position x="432" y="400" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_small_step.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27972" spriteFrame="0">
+            <EntityName>invisible_wall_box.ent</EntityName>
+            <Position x="416" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_box.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="27973" spriteFrame="0">
+            <EntityName>invisible_small_step.ent</EntityName>
+            <Position x="432" y="496" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_small_step.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="28105" spriteFrame="0">
+            <EntityName>turnstile</EntityName>
+            <Position x="440" y="368" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="16" y="32" z="2" />
+                </Collision>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="28237" spriteFrame="0">
+            <EntityName>camera_waypoint1</EntityName>
+            <Position x="292" y="146" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>time</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="27841" spriteFrame="0">
+            <EntityName>run_home_lava_smoke.ent</EntityName>
+            <Position x="860" y="26" z="-225" angle="0" />
+            <Entity>
+                <FileName>run_home_lava_smoke.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>moveOffset</Name>
+                        <Value>26</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25862" spriteFrame="0">
+            <EntityName>run_home_lava_smoke.ent</EntityName>
+            <Position x="860" y="26" z="-225" angle="0" />
+            <Entity>
+                <FileName>run_home_lava_smoke.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24990" spriteFrame="1">
+            <EntityName>waypointC0</EntityName>
+            <Position x="516" y="332" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24600" spriteFrame="0">
+            <EntityName>camera_waypoint2</EntityName>
+            <Position x="768" y="300" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>time</Name>
+                        <Value>3000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25976" spriteFrame="0">
+            <EntityName>run_home_clouds.ent</EntityName>
+            <Position x="998" y="45" z="-212" angle="0" />
+            <Entity>
+                <FileName>run_home_clouds.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25207" spriteFrame="0">
+            <EntityName>run_home_mountain_01.ent</EntityName>
+            <Position x="820" y="280" z="-223" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25978" spriteFrame="3" flipX="1">
+            <EntityName>run_home_clouds.ent</EntityName>
+            <Position x="683" y="48" z="-230" angle="-5" />
+            <Entity>
+                <FileName>run_home_clouds.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25282" spriteFrame="0">
+            <EntityName>run_home_volcano_lava.ent</EntityName>
+            <Position x="820" y="280" z="-222" angle="0" />
+            <Entity>
+                <FileName>run_home_volcano_lava.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0.4</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24917" spriteFrame="0">
+            <EntityName>sky_add</EntityName>
+            <Position x="645" y="171" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>entityName</Name>
+                        <Value>run_home_bg.ent</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>offsetY</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="108" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="976" y="496" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="111" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="976" y="112" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24872" spriteFrame="0">
+            <EntityName>camera_exit1</EntityName>
+            <Position x="768" y="368" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>time</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24602" spriteFrame="0">
+            <EntityName>camera_exit0</EntityName>
+            <Position x="768" y="370" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>time</Name>
+                        <Value>100</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26813" spriteFrame="1">
+            <EntityName>invisible_one_sided_block</EntityName>
+            <Position x="576" y="370" z="-2" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <SpriteCut x="2" y="2" />
+                <PivotAdjust x="0" y="-48" />
+                <Sprite>run_home_block.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="64" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26814" spriteFrame="2">
+            <EntityName>invisible_one_sided_block</EntityName>
+            <Position x="768" y="370" z="-4" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <SpriteCut x="2" y="2" />
+                <PivotAdjust x="0" y="-48" />
+                <Sprite>run_home_block.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="64" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26815" spriteFrame="3">
+            <EntityName>invisible_one_sided_block</EntityName>
+            <Position x="960" y="370" z="-6" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <SpriteCut x="2" y="2" />
+                <PivotAdjust x="0" y="-48" />
+                <Sprite>run_home_block.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="64" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>2</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26930" spriteFrame="0">
+            <EntityName>run_home_ambient_sparks_big.ent</EntityName>
+            <Position x="843" y="380" z="30" angle="0" />
+            <Entity>
+                <FileName>run_home_ambient_sparks_big.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26931" spriteFrame="0">
+            <EntityName>run_home_ambient_sparks_small.ent</EntityName>
+            <Position x="819" y="399" z="-16" angle="0" />
+            <Entity>
+                <FileName>run_home_ambient_sparks_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26932" spriteFrame="0">
+            <EntityName>run_home_ambient_sparks.ent</EntityName>
+            <Position x="623" y="355" z="4" angle="0" />
+            <Entity>
+                <FileName>run_home_ambient_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="28373" spriteFrame="1">
+            <EntityName>waypointE2</EntityName>
+            <Position x="1292" y="266" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="28372" spriteFrame="1">
+            <EntityName>waypointE1</EntityName>
+            <Position x="1110" y="452" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>500</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="27603" spriteFrame="0">
+            <EntityName>run_home_portal_effect_dot.ent</EntityName>
+            <Position x="1311" y="364" z="-19.9" angle="0" />
+            <Entity>
+                <FileName>run_home_portal_effect_dot.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24992" spriteFrame="0">
+            <EntityName>multiplayer_home_teleport</EntityName>
+            <Position x="1520" y="467" z="0" angle="90" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24979" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1384" y="350" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25583" spriteFrame="0" flipX="1">
+            <EntityName>portal</EntityName>
+            <Position x="1311" y="385" z="-20" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.8" g="0.8" b="0.8" a="0" />
+                <Scale x="1.1" y="1.1" />
+                <PivotAdjust x="0" y="111" />
+                <Sprite>run_home_portal.png</Sprite>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27142" spriteFrame="0">
+            <EntityName>run_porta_bg.ent</EntityName>
+            <Position x="1311" y="364" z="-22" angle="0" />
+            <Entity>
+                <FileName>run_porta_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27041" spriteFrame="0">
+            <EntityName>run_home_ambient_sparks.ent</EntityName>
+            <Position x="1060.1" y="379" z="4" angle="0" />
+            <Entity>
+                <FileName>run_home_ambient_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26274" spriteFrame="2">
+            <EntityName>waypointD1</EntityName>
+            <Position x="1298" y="294" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>100000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25979" spriteFrame="1">
+            <EntityName>run_home_clouds.ent</EntityName>
+            <Position x="1262" y="77" z="-232" angle="0" />
+            <Entity>
+                <FileName>run_home_clouds.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24991" spriteFrame="2">
+            <EntityName>waypointC2</EntityName>
+            <Position x="1300" y="318" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>100000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24603" spriteFrame="0">
+            <EntityName>camera_exit2</EntityName>
+            <Position x="1166" y="360" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>time</Name>
+                        <Value>3500</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="114" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="496" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="115" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="368" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="116" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="117" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="112" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26926" spriteFrame="0">
+            <EntityName>run_home_ambient_sparks.ent</EntityName>
+            <Position x="1090" y="411" z="14" angle="0" />
+            <Entity>
+                <FileName>run_home_ambient_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27330" spriteFrame="0">
+            <EntityName>shine_red</EntityName>
+            <Position x="1168" y="208" z="-18" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Particles>
+                    <ParticleSystem particles="1" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="2150" randomLifeTime="1000" angleDir="0.4" randAngle="0" size="32" randomizeSize="8" growth="-0.1" minSize="0" maxSize="1000" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="0" z="0" />
+                        <RandStartPoint x="24" y="24" />
+                        <Color0 r="3" g="1.4" b="1.4" a="1" />
+                        <Color1 r="0" g="0" b="0" a="0" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27419" spriteFrame="0">
+            <EntityName>shine_blue</EntityName>
+            <Position x="1432" y="204" z="-18" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Particles>
+                    <ParticleSystem particles="1" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="2150" randomLifeTime="1000" angleDir="0.4" randAngle="0" size="32" randomizeSize="8" growth="-0.1" minSize="0" maxSize="1000" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="0" z="0" />
+                        <RandStartPoint x="24" y="24" />
+                        <Color0 r="1.4" g="2" b="3" a="1" />
+                        <Color1 r="0" g="0" b="0" a="0" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27421" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1208" y="277" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27510" spriteFrame="0">
+            <EntityName>shine_purple</EntityName>
+            <Position x="1310" y="132" z="-18" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Particles>
+                    <ParticleSystem particles="1" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="2150" randomLifeTime="1000" angleDir="0.4" randAngle="0" size="32" randomizeSize="8" growth="-0.1" minSize="0" maxSize="1000" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="0" z="0" />
+                        <RandStartPoint x="24" y="24" />
+                        <Color0 r="2.7" g="1.2" b="2.8" a="1" />
+                        <Color1 r="0" g="0" b="0" a="0" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27842" spriteFrame="2">
+            <EntityName>waypointC1</EntityName>
+            <Position x="1094" y="366" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>500</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="27843" spriteFrame="1">
+            <EntityName>waypointD0</EntityName>
+            <Position x="1116" y="436" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26469" spriteFrame="0">
+            <EntityName>run_home_clouds.ent</EntityName>
+            <Position x="1990" y="49" z="-212" angle="0" />
+            <Entity>
+                <FileName>run_home_clouds.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26468" spriteFrame="2">
+            <EntityName>run_home_clouds.ent</EntityName>
+            <Position x="1666" y="19" z="-220" angle="0" />
+            <Entity>
+                <FileName>run_home_clouds.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27244" spriteFrame="0">
+            <EntityName>dungeon_column_0.ent</EntityName>
+            <Position x="1701" y="104" z="-6" angle="0" />
+            <Entity>
+                <FileName>dungeon_column_0.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27971" spriteFrame="0">
+            <EntityName>papa_hendrix_leaving_spot</EntityName>
+            <Position x="-656" y="296" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24611" spriteFrame="1">
+            <EntityName>waypointA0</EntityName>
+            <Position x="-578" y="350" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24640" spriteFrame="1">
+            <EntityName>waypointB1</EntityName>
+            <Position x="-572" y="298" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>spawn0</EntityName>
+            <Position x="-709" y="282" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24883" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="-826" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25062" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="-768" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24641" spriteFrame="1">
+            <EntityName>waypointB0</EntityName>
+            <Position x="-106" y="348" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>500</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="130" spriteFrame="0">
+            <EntityName>camMin</EntityName>
+            <Position x="-42" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25061" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="-256" y="448" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25084" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="-64" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25085" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="-192" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25087" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="-320" y="400" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27600" spriteFrame="0" flipX="1">
+            <EntityName>castle_skeleton_bg_ground2.ent</EntityName>
+            <Position x="268" y="540" z="39" angle="-20" />
+            <Entity>
+                <FileName>castle_skeleton_bg_ground2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25124" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="496" y="576" z="0.9" angle="270" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="96" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="97" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="208" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="98" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="464" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25066" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="256" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25070" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="256" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25092" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="448" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25094" spriteFrame="1" flipX="1" flipY="1">
+            <EntityName>run_home_border_03.ent</EntityName>
+            <Position x="496" y="528" z="1.1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25122" spriteFrame="2">
+            <EntityName>run_home_border_03.ent</EntityName>
+            <Position x="368" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26099" spriteFrame="2">
+            <EntityName>run_home_border_03.ent</EntityName>
+            <Position x="496" y="656" z="0.1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26471" spriteFrame="0">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="407" y="610" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26583" spriteFrame="2">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="283" y="655" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26584" spriteFrame="0">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="111" y="649" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26586" spriteFrame="3">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="447" y="755" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26587" spriteFrame="0" flipX="1">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="195" y="751" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26916" spriteFrame="0" flipX="1">
+            <EntityName>castle_bg_blocks2.ent</EntityName>
+            <Position x="228" y="715" z="38" angle="-10" />
+            <Entity>
+                <FileName>castle_bg_blocks2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="28371" spriteFrame="0">
+            <EntityName>waypointE0</EntityName>
+            <Position x="764" y="564" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="8" y="1" />
+                <Sprite>waypoint_flag.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceNext</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>400</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="28370" spriteFrame="0">
+            <EntityName>friendSpawn</EntityName>
+            <Position x="744" y="556" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25121" spriteFrame="0">
+            <EntityName>invisible_step.ent</EntityName>
+            <Position x="930" y="601" z="0" angle="35" />
+            <Entity>
+                <FileName>invisible_step.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25120" spriteFrame="0">
+            <EntityName>invisible_step.ent</EntityName>
+            <Position x="916" y="604" z="0" angle="25" />
+            <Entity>
+                <FileName>invisible_step.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25119" spriteFrame="0">
+            <EntityName>chapter4_block_gray_edge_big_bg_0.ent</EntityName>
+            <Position x="907" y="609" z="-10" angle="260" />
+            <Entity>
+                <FileName>chapter4_block_gray_edge_big_bg_0.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25116" spriteFrame="0">
+            <EntityName>invisible_one_sided_platform</EntityName>
+            <Position x="930" y="608" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_one_sided_tile_2.png</Sprite>
+                <Collision>
+                    <Position x="0" y="-18" z="0" />
+                    <Size x="72" y="8" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25117" spriteFrame="0">
+            <EntityName>invisible_one_sided_platform</EntityName>
+            <Position x="992" y="576" z="-2" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_one_sided_tile_2.png</Sprite>
+                <Collision>
+                    <Position x="0" y="-18" z="0" />
+                    <Size x="72" y="8" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26919" spriteFrame="0" flipX="1">
+            <EntityName>castle_bg_blocks2.ent</EntityName>
+            <Position x="969" y="858" z="56" angle="12" />
+            <Entity>
+                <FileName>castle_bg_blocks2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26918" spriteFrame="0">
+            <EntityName>castle_bg_blocks2.ent</EntityName>
+            <Position x="561" y="840" z="48" angle="-12" />
+            <Entity>
+                <FileName>castle_bg_blocks2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26589" spriteFrame="0">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="625" y="737" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26588" spriteFrame="1">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="823" y="759" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="99" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="720" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="100" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="976" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25069" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="768" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25095" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="576" y="656" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25097" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="704" y="656" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25098" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="832" y="656" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25099" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="960" y="656" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25112" spriteFrame="0">
+            <EntityName>chapter4_block_gray_edge_bg_0.ent</EntityName>
+            <Position x="576" y="590" z="-10" angle="180" />
+            <Entity>
+                <FileName>chapter4_block_gray_edge_bg_0.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25115" spriteFrame="0">
+            <EntityName>invisible_one_sided_platform</EntityName>
+            <Position x="868" y="640" z="-2" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_one_sided_tile_2.png</Sprite>
+                <Collision>
+                    <Position x="0" y="-18" z="0" />
+                    <Size x="72" y="8" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="27043" spriteFrame="0">
+            <EntityName>run_home_lava_bottom_smoke.ent</EntityName>
+            <Position x="783" y="664" z="-14" angle="0" />
+            <Entity>
+                <FileName>run_home_lava_bottom_smoke.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26100" spriteFrame="2" flipX="1">
+            <EntityName>run_home_border_03.ent</EntityName>
+            <Position x="1040" y="656" z="0.1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25101" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1088" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26921" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="1518" y="563" z="-16" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26592" spriteFrame="3">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1459" y="736" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26590" spriteFrame="2" flipX="1">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1063" y="761" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25984" spriteFrame="0">
+            <EntityName>run_home_mountain_00_half.ent</EntityName>
+            <Position x="1306" y="629" z="-206" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00_half.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25125" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1040" y="576" z="0.9" angle="90" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="101" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1392" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="102" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1200" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="113" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="640" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25074" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="1280" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25078" spriteFrame="0">
+            <EntityName>run_home_tile_03.ent</EntityName>
+            <Position x="1472" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25079" spriteFrame="0">
+            <EntityName>run_home_tile_04.ent</EntityName>
+            <Position x="1344" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25080" spriteFrame="0">
+            <EntityName>run_home_tile_01.ent</EntityName>
+            <Position x="1216" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25100" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1216" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25102" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1344" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25103" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1472" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25111" spriteFrame="1" flipY="1">
+            <EntityName>run_home_border_03.ent</EntityName>
+            <Position x="1040" y="528" z="1.1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26473" spriteFrame="2">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1145" y="627" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26475" spriteFrame="0">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1419" y="608" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26917" spriteFrame="0">
+            <EntityName>castle_bg_blocks2.ent</EntityName>
+            <Position x="1292" y="794" z="26" angle="-10" />
+            <Entity>
+                <FileName>castle_bg_blocks2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27241" spriteFrame="0">
+            <EntityName>run_home_tile_03.ent</EntityName>
+            <Position x="1088" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27599" spriteFrame="0">
+            <EntityName>castle_skeleton_bg_ground.ent</EntityName>
+            <Position x="1339" y="636" z="27" angle="0" />
+            <Entity>
+                <FileName>castle_skeleton_bg_ground.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="27243" spriteFrame="0">
+            <EntityName>castle_bg_blocks2.ent</EntityName>
+            <Position x="1688" y="840" z="38" angle="-10" />
+            <Entity>
+                <FileName>castle_bg_blocks2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="128" spriteFrame="0">
+            <EntityName>camMax</EntityName>
+            <Position x="2040" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>seekBgMax</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25075" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="1792" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25076" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="1792" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25104" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1600" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25105" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1728" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25106" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1856" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25107" spriteFrame="0">
+            <EntityName>run_home_border_01.ent</EntityName>
+            <Position x="1984" y="528" z="1" angle="0" />
+            <Entity>
+                <FileName>run_home_border_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26476" spriteFrame="3" flipX="1">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1586" y="632" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26906" spriteFrame="2">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1762" y="696" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26907" spriteFrame="0">
+            <EntityName>run_home_stones.ent</EntityName>
+            <Position x="1908" y="620" z="2" angle="0" />
+            <Entity>
+                <FileName>run_home_stones.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24973" spriteFrame="0">
+            <EntityName>bgMax</EntityName>
+            <Position x="25592" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25068" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="-768" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25072" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="-768" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25067" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="-256" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25071" spriteFrame="0">
+            <EntityName>run_home_tile_00.ent</EntityName>
+            <Position x="-256" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>run_home_tile_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

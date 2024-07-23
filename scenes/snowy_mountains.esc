@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="0.7" parallaxIntensity="3">
+        <Ambient r="0.32" g="0.3" b="0.6" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="25127" spriteFrame="0">
+            <EntityName>run_home_mountain_00.ent</EntityName>
+            <Position x="318" y="351" z="-178" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>1.05</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>snow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25743" spriteFrame="0">
+            <EntityName>run_home_moon</EntityName>
+            <Position x="460" y="104" z="-188" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.1" g="0.1" b="0.1" a="1" />
+                <Sprite>moon.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="24917" spriteFrame="0">
+            <EntityName>dungeon40_1_sky_add</EntityName>
+            <Position x="827" y="443" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>bgMaxMultiplier</Name>
+                        <Value>10</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>entityName</Name>
+                        <Value>run_home_bg_2.ent</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>offsetY</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="5748636" spriteFrame="0">
+            <EntityName>run_home_parallaxed_entity</EntityName>
+            <Position x="788" y="460" z="-180.6" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="1">
+                <EmissiveColor r="0" g="0" b="0" a="1" />
+                <DiffuseColor r="0.4" g="0.4" b="0.4" a="1" />
+                <Scale x="4" y="4" />
+                <Sprite>fog-texture-wide.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25207" spriteFrame="0">
+            <EntityName>run_home_mountain_01.ent</EntityName>
+            <Position x="820" y="268" z="-180" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>1.3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>snow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="5748764" spriteFrame="0">
+            <EntityName>run_home_parallaxed_entity</EntityName>
+            <Position x="1368.4" y="506" z="-181" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="1">
+                <EmissiveColor r="0" g="0" b="0" a="1" />
+                <DiffuseColor r="0.4" g="0.4" b="0.4" a="1" />
+                <Scale x="4" y="4" />
+                <Sprite>fog-texture-wide.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="55837" spriteFrame="0" flipX="1">
+            <EntityName>run_home_mountain_00.ent</EntityName>
+            <Position x="1806" y="471" z="-182" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>1.1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>snow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="55838" spriteFrame="0" flipX="1">
+            <EntityName>run_home_mountain_00.ent</EntityName>
+            <Position x="3030" y="485" z="-178" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>1.05</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>snow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="5755775" spriteFrame="1" flipX="1">
+            <EntityName>run_home_mountain_00_half.ent</EntityName>
+            <Position x="1449" y="777" z="-177.9" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00_half.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>snow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25984" spriteFrame="0">
+            <EntityName>run_home_mountain_00_half.ent</EntityName>
+            <Position x="1306" y="685" z="-177.99" angle="0" />
+            <Entity>
+                <FileName>run_home_mountain_00_half.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0.8</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>snow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="5748765" spriteFrame="0">
+            <EntityName>run_home_parallaxed_entity</EntityName>
+            <Position x="2578.8" y="546" z="-182.2" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="1">
+                <EmissiveColor r="0" g="0" b="0" a="1" />
+                <DiffuseColor r="0.4" g="0.4" b="0.4" a="1" />
+                <Scale x="4" y="4" />
+                <Sprite>fog-texture-wide.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>fogBias</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

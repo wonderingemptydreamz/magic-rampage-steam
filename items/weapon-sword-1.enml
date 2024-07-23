@@ -1,0 +1,111 @@
+item0
+{
+	name = Recruit Sword;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 650;
+	damage = 7;
+	speedBoost = 1.04;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 19.0;
+}
+
+item1
+{
+	name = Steel Blade;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_1.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 0;
+
+	attackCooldown = 650;
+	damage = 11;
+	armorBoost = 1.15;
+	speedBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_1.ent;
+	projectileSpeed = 19.0;
+
+	fixedPrice = 700;
+}
+
+item2
+{
+	name = Fire Sword;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 700;
+	damage = 8;
+	speedBoost = 1.04;
+
+	soundPack = magic;
+
+	equipEntity = weapon_fire_sword.ent;
+	dropEntityName = item_fire_sword.ent;
+	projectileEntity = projectile_fire_sword.ent;
+
+	element = fire;
+}
+
+item3
+{
+	name = Pirate Sword;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_3.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -30;
+	equipOffsetY = 4;
+
+	attackCooldown = 500;
+	damage = 26;
+	armorBoost = 1.1;
+	jumpBoost = 1.04;
+	speedBoost = 1.06;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_3.ent;
+	projectileSpeed = 19.0;
+}

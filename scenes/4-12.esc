@@ -1,0 +1,3003 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3">
+        <Ambient r="0.4" g="0.4" b="0.4" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="15846" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2197" y="-2766" z="0" angle="-50" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15847" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2684" y="-2967" z="0" angle="-85" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15853" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="-545" y="-2592" z="0" angle="50" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15845" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1984" y="-2304" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16601" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2363" y="-2545" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15852" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="-154" y="-2261" z="0" angle="50" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15851" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="64" y="-1792" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15844" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1984" y="-1792" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16600" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2364" y="-2032" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15850" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="64" y="-1280" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15843" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1984" y="-1280" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16599" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2366" y="-1521" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15849" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="64" y="-768" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15842" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1984" y="-768" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16598" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2367" y="-1009" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="11" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="432" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15672" spriteFrame="0">
+            <EntityName>black_bar_2x.ent</EntityName>
+            <Position x="256" y="-114" z="0" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15848" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="64" y="-256" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17246" spriteFrame="0">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="443" y="-50" z="0" angle="90" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17248" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="64" y="-114" z="0" angle="90" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15673" spriteFrame="0">
+            <EntityName>black_bar_2x.ent</EntityName>
+            <Position x="768" y="-128" z="0" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16068" spriteFrame="0">
+            <EntityName>solid_box_2.ent</EntityName>
+            <Position x="512" y="-32" z="0" angle="0" />
+            <Entity>
+                <FileName>solid_box_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16395" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="960" y="-256" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17247" spriteFrame="0">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="563" y="-72" z="0" angle="190" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1024" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="-16" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15674" spriteFrame="0">
+            <EntityName>black_bar_2x.ent</EntityName>
+            <Position x="1280" y="-128" z="0" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16394" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1280" y="-448" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17003" spriteFrame="3">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="1372" y="-21" z="2" angle="85" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13143" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1552" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13144" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1808" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15675" spriteFrame="0">
+            <EntityName>black_bar_2x.ent</EntityName>
+            <Position x="1792" y="-128" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16393" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1792" y="-448" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16772" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="1981" y="-129" z="0" angle="-90" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13145" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2064" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13146" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2272" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16596" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="2369" y="-115" z="0" angle="-90" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16597" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2368" y="-499" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16606" spriteFrame="0">
+            <EntityName>black_bar_2x.ent</EntityName>
+            <Position x="2055" y="-107" z="-8" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16085" spriteFrame="3" flipY="1">
+            <EntityName>ucave_wooden_pillars_low_emissive.ent</EntityName>
+            <Position x="60" y="328" z="-11" angle="0" />
+            <Entity>
+                <FileName>ucave_wooden_pillars_low_emissive.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26" spriteFrame="0">
+            <EntityName>min</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15639" spriteFrame="1">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="64" y="76" z="0" angle="90" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16032" spriteFrame="0">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="64" y="204" z="0" angle="90" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16039" spriteFrame="0">
+            <EntityName>ucave_base_01.ent</EntityName>
+            <Position x="318" y="78" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16040" spriteFrame="3" flipX="1">
+            <EntityName>ucave_base_01.ent</EntityName>
+            <Position x="318" y="206" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16043" spriteFrame="0">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="446" y="78" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16060" spriteFrame="0">
+            <EntityName>black_bar_05x05.ent</EntityName>
+            <Position x="192" y="78" z="0" angle="0" />
+            <Entity>
+                <FileName>black_bar_05x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16078" spriteFrame="0">
+            <EntityName>button</EntityName>
+            <Position x="172" y="408" z="-6" angle="180" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>button_yellow.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="76" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16386" spriteFrame="3" flipX="1">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="202" y="88" z="2" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16562" spriteFrame="0">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="445" y="332" z="0" angle="180" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16563" spriteFrame="0">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="445" y="206" z="0" angle="270" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16565" spriteFrame="0">
+            <EntityName>solid_box_2.ent</EntityName>
+            <Position x="414" y="52" z="0" angle="45" />
+            <Entity>
+                <FileName>solid_box_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16611" spriteFrame="0">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="313" y="242" z="0.1" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17001" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="509" y="79" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17411" spriteFrame="0">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="192" y="332" z="0" angle="90" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17412" spriteFrame="5">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="320" y="332" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17413" spriteFrame="1">
+            <EntityName>ucave_base_01.ent</EntityName>
+            <Position x="192" y="204" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17414" spriteFrame="1">
+            <EntityName>ucave_wooden_pillars_low_emissive.ent</EntityName>
+            <Position x="60" y="454" z="-11" angle="0" />
+            <Entity>
+                <FileName>ucave_wooden_pillars_low_emissive.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17002" spriteFrame="0">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="902" y="14" z="4" angle="45" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16081" spriteFrame="0">
+            <EntityName>ucave_bg_00.ent</EntityName>
+            <Position x="614" y="360" z="-12.01" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16044" spriteFrame="0">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="576" y="64" z="0" angle="-450" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16069" spriteFrame="0">
+            <EntityName>solid_box_2.ent</EntityName>
+            <Position x="594" y="47" z="0" angle="-45" />
+            <Entity>
+                <FileName>solid_box_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16072" spriteFrame="0" flipY="1">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="768" y="64" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16399" spriteFrame="1">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="886" y="190" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16570" spriteFrame="0">
+            <EntityName>ucave_one_sided_platform.ent</EntityName>
+            <Position x="757" y="484" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_one_sided_platform.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17000" spriteFrame="2">
+            <EntityName>ucave_decor_stones.ent</EntityName>
+            <Position x="795" y="185" z="-4" angle="0" />
+            <Entity>
+                <FileName>ucave_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16158" spriteFrame="3">
+            <EntityName>character_spawn</EntityName>
+            <Position x="1170" y="220" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>76</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-black-mage.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceFieldDungeonLevel</Name>
+                        <Value>2</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>forceFieldScale</Name>
+                        <Value>0.8</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>minion</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>necromancer</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16571" spriteFrame="0">
+            <EntityName>ucave_one_sided_platform.ent</EntityName>
+            <Position x="1070" y="333" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_one_sided_platform.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16572" spriteFrame="0">
+            <EntityName>ucave_one_sided_platform.ent</EntityName>
+            <Position x="1133" y="333" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_one_sided_platform.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16084" spriteFrame="0">
+            <EntityName>ucave_bg_00.ent</EntityName>
+            <Position x="1034" y="360" z="-12" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="18" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="192" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16073" spriteFrame="0" flipY="1">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="1024" y="64" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16074" spriteFrame="0" flipY="1">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="1280" y="64" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15626" spriteFrame="0" flipX="1">
+            <EntityName>miniboss_spawn_slime_demon</EntityName>
+            <Position x="1166" y="498" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16573" spriteFrame="0">
+            <EntityName>ucave_one_sided_platform.ent</EntityName>
+            <Position x="1196" y="333" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_one_sided_platform.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16574" spriteFrame="0">
+            <EntityName>ucave_one_sided_platform.ent</EntityName>
+            <Position x="1260" y="333" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_one_sided_platform.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17004" spriteFrame="1">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="1748" y="19" z="8" angle="245" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16402" spriteFrame="0">
+            <EntityName>ucave_decor_stones.ent</EntityName>
+            <Position x="1632" y="178" z="-4" angle="0" />
+            <Entity>
+                <FileName>ucave_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16403" spriteFrame="1">
+            <EntityName>ucave_decor_stones.ent</EntityName>
+            <Position x="1738" y="184" z="-4" angle="0" />
+            <Entity>
+                <FileName>ucave_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16055" spriteFrame="0" flipX="1">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="1860" y="206" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16058" spriteFrame="0">
+            <EntityName>button</EntityName>
+            <Position x="1684" y="140" z="-2" angle="-180" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>button_yellow.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="76" y="32" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>3000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16581" spriteFrame="0" flipX="1">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="1987" y="332" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16582" spriteFrame="2" flipX="1" flipY="1">
+            <EntityName>ucave_base_01.ent</EntityName>
+            <Position x="1987" y="204" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16583" spriteFrame="6">
+            <EntityName>ucave_base_01.ent</EntityName>
+            <Position x="1860" y="79" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_base_01.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16587" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="1536" y="64" z="0" angle="180" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16588" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="1791" y="63" z="0" angle="180" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16589" spriteFrame="0" flipX="1" flipY="1">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="1982" y="63" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16595" spriteFrame="0">
+            <EntityName>black_bar.ent</EntityName>
+            <Position x="1983" y="140" z="-2" angle="90" />
+            <Entity>
+                <FileName>black_bar.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16605" spriteFrame="0">
+            <EntityName>ucave_one_sided_platform.ent</EntityName>
+            <Position x="1586" y="484" z="-2" angle="0" />
+            <Entity>
+                <FileName>ucave_one_sided_platform.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16607" spriteFrame="0">
+            <EntityName>solid_box_1.ent</EntityName>
+            <Position x="2019" y="305" z="0" angle="0" />
+            <Entity>
+                <FileName>solid_box_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16608" spriteFrame="0">
+            <EntityName>solid_box_1.ent</EntityName>
+            <Position x="1896" y="171" z="0" angle="0" />
+            <Entity>
+                <FileName>solid_box_1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17157" spriteFrame="0">
+            <EntityName>ucave_bg_00.ent</EntityName>
+            <Position x="1754" y="360" z="-12" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16773" spriteFrame="3">
+            <EntityName>ucave_wooden_pillars_low_emissive.ent</EntityName>
+            <Position x="2365" y="453" z="-12" angle="-180" />
+            <Entity>
+                <FileName>ucave_wooden_pillars_low_emissive.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16591" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="2369" y="138" z="0" angle="-90" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16059" spriteFrame="0">
+            <EntityName>black_bar_05x05.ent</EntityName>
+            <Position x="2112" y="204" z="0" angle="0" />
+            <Entity>
+                <FileName>black_bar_05x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16580" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="2178" y="330" z="0" angle="180" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16590" spriteFrame="0">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="2369" y="330" z="0" angle="180" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16592" spriteFrame="0">
+            <EntityName>black_bar.ent</EntityName>
+            <Position x="2237" y="140" z="0" angle="90" />
+            <Entity>
+                <FileName>black_bar.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16593" spriteFrame="0">
+            <EntityName>black_bar.ent</EntityName>
+            <Position x="2250" y="140" z="0" angle="90" />
+            <Entity>
+                <FileName>black_bar.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16594" spriteFrame="0">
+            <EntityName>black_bar.ent</EntityName>
+            <Position x="2109" y="140" z="0" angle="90" />
+            <Entity>
+                <FileName>black_bar.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16609" spriteFrame="0">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="2119" y="211" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16610" spriteFrame="2">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="2267" y="199" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17005" spriteFrame="3">
+            <EntityName>ucave_bg_decor_stones.ent</EntityName>
+            <Position x="2194" y="55" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_bg_decor_stones.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16077" spriteFrame="0">
+            <EntityName>door</EntityName>
+            <Position x="295" y="518" z="-2" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>door_run_boss.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="100" y="256" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15628" spriteFrame="0">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="64" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16095" spriteFrame="0">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="446" y="706" z="0" angle="90" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13206" spriteFrame="0">
+            <EntityName>respawn</EntityName>
+            <Position x="66" y="536" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="112" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="448" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16087" spriteFrame="3">
+            <EntityName>ucave_wooden_pillars_low_emissive.ent</EntityName>
+            <Position x="60" y="582" z="-11" angle="0" />
+            <Entity>
+                <FileName>ucave_wooden_pillars_low_emissive.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16551" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="256" y="706" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16554" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="384" y="738" z="-0.001" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16277" spriteFrame="0">
+            <EntityName>volumetric_toxic_fog.ent</EntityName>
+            <Position x="718" y="582" z="1" angle="0" />
+            <Entity>
+                <FileName>volumetric_toxic_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16567" spriteFrame="0" flipX="1">
+            <EntityName>ucave-bg-01.ent</EntityName>
+            <Position x="1006" y="612" z="-8" angle="0" />
+            <Entity>
+                <FileName>ucave-bg-01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15419" spriteFrame="0">
+            <EntityName>boss_chest_epic2</EntityName>
+            <Position x="672" y="672" z="-4" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="3" y="1" />
+                <Scale x="1.1" y="1.1" />
+                <PivotAdjust x="0" y="32" />
+                <Sprite>chest-epic-c.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="1000" randomLifeTime="300" angleDir="0" randAngle="7" size="20" randomizeSize="8" growth="-0.26" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="-0.01" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-102" z="0.1" />
+                        <RandStartPoint x="18" y="22" />
+                        <Color0 r="0" g="0" b="0" a="1" />
+                        <Color1 r="4" g="0.8" b="1.6" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                    <ParticleSystem particles="9" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" lifeTime="2500" randomLifeTime="100" angleDir="0.3" randAngle="0.3" size="1" randomizeSize="0" growth="4" minSize="6" maxSize="32" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-38" z="0.1" />
+                        <RandStartPoint x="128" y="100" />
+                        <Color0 r="3" g="2.5" b="1.1" a="1" />
+                        <Color1 r="0" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="1" haloBrightness="0.7" haloSize="320">
+                    <Position x="0" y="-94" z="0" />
+                    <Color r="1" g="0.5" b="0.85" />
+                    <HaloBitmap>sparkle_dot_entity.png</HaloBitmap>
+                </Light>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="144" y="80" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>coins</Name>
+                        <Value>100</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>-</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>epicDrop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>key</Name>
+                        <Value>coins</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>maxLevel</Name>
+                        <Value>15</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>minLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16110" spriteFrame="0">
+            <EntityName>sewer_water_waves-green.ent</EntityName>
+            <Position x="972" y="680" z="-0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_water_waves-green.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16103" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="768" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16101" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="896" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="8" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="592" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="848" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16404" spriteFrame="0">
+            <EntityName>run_boss_skeleton_pieces.ent</EntityName>
+            <Position x="1021" y="716" z="-0.5" angle="0" />
+            <Entity>
+                <FileName>run_boss_skeleton_pieces.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16552" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="640" y="738" z="-0.001" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16553" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="512" y="738" z="-0.001" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16555" spriteFrame="0">
+            <EntityName>sewer_water_waves-green-s.ent</EntityName>
+            <Position x="538" y="678" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_water_waves-green-s.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16556" spriteFrame="0">
+            <EntityName>sewer_water_waves-green-s.ent</EntityName>
+            <Position x="741" y="680" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_water_waves-green-s.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16557" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="513" y="782" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16566" spriteFrame="0">
+            <EntityName>ucave-bg-01.ent</EntityName>
+            <Position x="676" y="617" z="-8" angle="0" />
+            <Entity>
+                <FileName>ucave-bg-01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16569" spriteFrame="0">
+            <EntityName>sewer_water_toxic_sparks.ent</EntityName>
+            <Position x="679" y="619" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_water_toxic_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16916" spriteFrame="1">
+            <EntityName>run_boss_skeleton_pieces.ent</EntityName>
+            <Position x="920" y="701" z="-4" angle="85" />
+            <Entity>
+                <FileName>run_boss_skeleton_pieces.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16998" spriteFrame="0">
+            <EntityName>skeleton_nest</EntityName>
+            <Position x="932" y="718" z="-4" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <PivotAdjust x="0" y="26" />
+                <Sprite>rat_skeleton_nest.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="5" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="400" randomLifeTime="190" angleDir="0" randAngle="3" size="86" randomizeSize="0" growth="1" minSize="6" maxSize="1000" angleStart="0" randAngleStart="360">
+                        <Bitmap>explosion.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="-2" />
+                        <RandomizeDir x="1" y="1.4" />
+                        <SpriteCut x="4" y="4" />
+                        <StartPoint x="0" y="-16" z="-2" />
+                        <RandStartPoint x="48" y="0" />
+                        <Color0 r="3" g="0.7" b="0.7" a="1" />
+                        <Color1 r="3" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>400</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17243" spriteFrame="0" flipY="1">
+            <EntityName>ucave-bg-01.ent</EntityName>
+            <Position x="705" y="809" z="-12" angle="0" />
+            <Entity>
+                <FileName>ucave-bg-01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="17244" spriteFrame="0" flipY="1">
+            <EntityName>ucave-bg-01.ent</EntityName>
+            <Position x="1249" y="807" z="-12" angle="0" />
+            <Entity>
+                <FileName>ucave-bg-01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16278" spriteFrame="0">
+            <EntityName>sewer_water_toxic_sparks.ent</EntityName>
+            <Position x="1136" y="670" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_water_toxic_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16915" spriteFrame="0">
+            <EntityName>volumetric_toxic_fog.ent</EntityName>
+            <Position x="1448" y="547" z="0" angle="0" />
+            <Entity>
+                <FileName>volumetric_toxic_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15135" spriteFrame="0">
+            <EntityName>boss_chest_epic1</EntityName>
+            <Position x="1522" y="678" z="-4" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="3" y="1" />
+                <PivotAdjust x="0" y="32" />
+                <Sprite>chest-epic-a.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="1000" randomLifeTime="300" angleDir="0" randAngle="7" size="20" randomizeSize="8" growth="-0.26" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="-0.01" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-94" z="0.1" />
+                        <RandStartPoint x="18" y="22" />
+                        <Color0 r="0" g="0" b="0" a="1" />
+                        <Color1 r="1.6" g="4" b="0.8" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                    <ParticleSystem particles="3" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" lifeTime="2500" randomLifeTime="100" angleDir="0.3" randAngle="0.3" size="1" randomizeSize="0" growth="4" minSize="6" maxSize="32" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-34" z="0.1" />
+                        <RandStartPoint x="128" y="100" />
+                        <Color0 r="3" g="2.5" b="1.1" a="1" />
+                        <Color1 r="0" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="1" haloBrightness="0.7" haloSize="320">
+                    <Position x="0" y="-94" z="0" />
+                    <Color r="0.4" g="1" b="0.2" />
+                    <HaloBitmap>sparkle_dot_entity.png</HaloBitmap>
+                </Light>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="144" y="80" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>coins</Name>
+                        <Value>100</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>-</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>epicDrop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>key</Name>
+                        <Value>coins</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16109" spriteFrame="0">
+            <EntityName>sewer_water_waves-green.ent</EntityName>
+            <Position x="1228" y="680" z="-0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_water_waves-green.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16105" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1024" y="782" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16100" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1024" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16099" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1152" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16098" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1280" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16097" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1408" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1120" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="23" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="656" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="736" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13026" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1456" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16108" spriteFrame="0">
+            <EntityName>sewer_water_waves-green.ent</EntityName>
+            <Position x="1496" y="680" z="-0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_water_waves-green.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16388" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1408" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16389" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1024" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16405" spriteFrame="0">
+            <EntityName>run_boss_skeleton.ent</EntityName>
+            <Position x="1375" y="722" z="-0.5" angle="0" />
+            <Entity>
+                <FileName>run_boss_skeleton.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16999" spriteFrame="0">
+            <EntityName>skeleton_nest</EntityName>
+            <Position x="1449" y="720" z="-4" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <PivotAdjust x="0" y="26" />
+                <Sprite>rat_skeleton_nest.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="5" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="400" randomLifeTime="190" angleDir="0" randAngle="3" size="86" randomizeSize="0" growth="1" minSize="6" maxSize="1000" angleStart="0" randAngleStart="360">
+                        <Bitmap>explosion.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="-2" />
+                        <RandomizeDir x="1" y="1.4" />
+                        <SpriteCut x="4" y="4" />
+                        <StartPoint x="0" y="-16" z="-2" />
+                        <RandStartPoint x="48" y="0" />
+                        <Color0 r="3" g="0.7" b="0.7" a="1" />
+                        <Color1 r="3" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>400</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16279" spriteFrame="0">
+            <EntityName>sewer_water_toxic_sparks.ent</EntityName>
+            <Position x="1589" y="670" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_water_toxic_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16578" spriteFrame="0">
+            <EntityName>sewer_water_waves-green-s.ent</EntityName>
+            <Position x="1763" y="680" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_water_waves-green-s.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16602" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2047" y="781" z="0" angle="90" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16568" spriteFrame="0" flipX="1">
+            <EntityName>ucave-bg-01.ent</EntityName>
+            <Position x="1608" y="601" z="-10" angle="0" />
+            <Entity>
+                <FileName>ucave-bg-01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15399" spriteFrame="0">
+            <EntityName>boss_chest_epic0</EntityName>
+            <Position x="1724" y="678" z="-4" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <SpriteCut x="3" y="1" />
+                <PivotAdjust x="0" y="32" />
+                <Sprite>chest-epic-a.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="1000" randomLifeTime="300" angleDir="0" randAngle="7" size="20" randomizeSize="8" growth="-0.26" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="-0.01" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-94" z="0.1" />
+                        <RandStartPoint x="18" y="22" />
+                        <Color0 r="0" g="0" b="0" a="1" />
+                        <Color1 r="1.6" g="4" b="0.8" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                    <ParticleSystem particles="3" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" lifeTime="2500" randomLifeTime="100" angleDir="0.3" randAngle="0.3" size="1" randomizeSize="0" growth="4" minSize="6" maxSize="32" angleStart="0" randAngleStart="360">
+                        <Bitmap>sparkle-cross.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="0" />
+                        <RandomizeDir x="0" y="0" />
+                        <SpriteCut x="1" y="1" />
+                        <StartPoint x="0" y="-34" z="0.1" />
+                        <RandStartPoint x="128" y="100" />
+                        <Color0 r="3" g="2.5" b="1.1" a="1" />
+                        <Color1 r="0" g="0" b="0" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="1" haloBrightness="0.7" haloSize="320">
+                    <Position x="0" y="-94" z="0" />
+                    <Color r="0.4" g="1" b="0.2" />
+                    <HaloBitmap>sparkle_dot_entity.png</HaloBitmap>
+                </Light>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="144" y="80" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>coins</Name>
+                        <Value>100</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>-</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>epicDrop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>key</Name>
+                        <Value>coins</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16096" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1536" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16102" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1664" y="738" z="-0.01" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13027" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1680" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13028" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1888" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16094" spriteFrame="0">
+            <EntityName>ucave_base_07.ent</EntityName>
+            <Position x="1860" y="706" z="0" angle="-180" />
+            <Entity>
+                <FileName>ucave_base_07.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16104" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1536" y="782" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16576" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1792" y="738" z="-0.001" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16577" spriteFrame="0">
+            <EntityName>sewer_water</EntityName>
+            <Position x="1920" y="738" z="-0.001" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" parallaxIntensity="0" static="1" blendMode="1">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <DiffuseColor r="0.64" g="1.2" b="0.32" a="1" />
+                <SpriteCut x="4" y="4" />
+                <Sprite>sewer_water_a.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>vector3</Type>
+                        <Name>color</Name>
+                        <Value x="1.9" y="2.5" z="1" />
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByFeet</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>toxic</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="17245" spriteFrame="0" flipY="1">
+            <EntityName>ucave-bg-01.ent</EntityName>
+            <Position x="1694" y="811" z="-14" angle="0" />
+            <Entity>
+                <FileName>ucave-bg-01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16603" spriteFrame="3" flipY="1">
+            <EntityName>ucave_wooden_pillars_low_emissive.ent</EntityName>
+            <Position x="2365" y="581" z="-10" angle="-180" />
+            <Entity>
+                <FileName>ucave_wooden_pillars_low_emissive.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16203" spriteFrame="0">
+            <EntityName>chest_xp.ent</EntityName>
+            <Position x="2257" y="578" z="-4" angle="0" />
+            <Entity>
+                <FileName>chest_xp.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>xp</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16056" spriteFrame="0">
+            <EntityName>door</EntityName>
+            <Position x="2112" y="518" z="-2" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>door_run_boss.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="100" y="256" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>holdTime</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16579" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="2051" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13029" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2080" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13030" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13031" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2464" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16124" spriteFrame="0">
+            <EntityName>ucave_base_06.ent</EntityName>
+            <Position x="2306" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_06.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16127" spriteFrame="3">
+            <EntityName>ucave_base_00.ent</EntityName>
+            <Position x="2496" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>ucave_base_00.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="121" spriteFrame="0">
+            <EntityName>max</EntityName>
+            <Position x="2560" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

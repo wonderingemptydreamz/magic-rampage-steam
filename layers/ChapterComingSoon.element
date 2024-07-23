@@ -1,0 +1,106 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.8;
+}
+
+title
+{
+	type = frame-sprite;
+	fileName = sprites/white-speech-balloon.png;
+
+	posX = 0.4;
+	posY = 0.4;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = tryCompetitiveMode;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 200;
+}
+
+sprite
+{
+	type = sprite;
+	fileName = sprites/magic-portals-guy.png;
+
+	posX = 0.75;
+	posY = 0.4;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 200;
+}
+
+ok
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.29;
+	posY = 0.85;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 200;
+	frameSizeY = 100;
+
+	text = ok;
+	textFont = Averia64.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 500;
+	appearDelay = 800;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+facebook
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-blue.png;
+
+	posX = 0.71;
+	posY = 0.85;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 200;
+	frameSizeY = 100;
+
+	text = facebook;
+	textFont = Averia64.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 500;
+	appearDelay = 800;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

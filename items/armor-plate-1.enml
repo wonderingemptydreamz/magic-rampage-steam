@@ -1,0 +1,48 @@
+item0
+{
+	name = Elite Brass Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_0a.png;
+	color  = 10855850;
+
+	armor = 36;
+	speedBoost = 1.02;
+	jumpBoost = 1.02;
+	swordBoost = 1.2;
+	hammerBoost = 1.25;
+	axeBoost = 1.25;
+}
+
+item1
+{
+	name = Brass Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_0b.png;
+	color  = 10855850;
+
+	armor = 30;
+	speedBoost = 1.01;
+	jumpBoost = 1.01;
+	swordBoost = 1.15;
+	hammerBoost = 1.2;
+	axeBoost = 1.2;
+}
+
+item2
+{
+	name = Obsidian Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_1b.png;
+	color  = 8293059;
+
+	speedBoost = 1.02;
+	jumpBoost = 1.02;
+	swordBoost = 1.25;
+	hammerBoost = 1.3;
+	axeBoost = 1.3;
+
+	armor = 42;
+}

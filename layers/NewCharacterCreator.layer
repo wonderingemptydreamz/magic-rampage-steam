@@ -1,0 +1,53 @@
+back
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.053;
+	posY = 0.053;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+ok
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.20;
+	posY = 0.75;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.85;
+	borderScale = 0.8;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 600;
+	appearDelay = 400;
+
+	text = playNow;
+	textFont = Crusade128.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 900;
+	dismissDelay = 0;
+}

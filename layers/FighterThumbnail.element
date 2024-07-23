@@ -1,0 +1,82 @@
+thumbnail
+{
+	type = frame-button;
+	fileName = sprites/fighter-card.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.75;
+	frameSizeX = 200;
+	frameSizeY = 200;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 800;
+	appearDelay = 100;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 2100;
+	dismissDelay = 0;
+}
+
+play
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 0.97;
+	originX = 0.5;
+	originY = 1.0;
+	scale = 1.1;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	text = playNow;
+	textFont = Averia64.fnt;
+	scale = 0.95;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 1000;
+	dismissDelay = 0;
+}
+
+fightsLeft
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.55;
+	//posY = 0.947;
+	originX = 0.5;
+	originY = 0.5;
+	//originY = 1.0;
+	scale = 1.0;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = fightsLeft;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 700;
+	appearDelay = 2000;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:be58b0d0bcd31f161c11adf5a2fddf3e:810f2c7a78a9a6cbf195284d0e2a0884:156cd23317c6300e30f164761aaf2ced$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Warrior_05.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="2" y="152" w="113" h="154" oX="69" oY="2" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="152" w="113" h="154" oX="70" oY="1" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="152" w="113" h="154" oX="68" oY="2" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="152" w="113" h="154" oX="84" oY="16" oW="288" oH="288"/>
+    <sprite n="Sprite 5.png" x="2" y="152" w="113" h="154" oX="80" oY="4" oW="288" oH="288"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="156" h="146" oX="45" oY="4" oW="336" oH="336"/>
+    <sprite n="Sprite 7.png" x="162" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="152" w="113" h="154" oX="84" oY="8" oW="288" oH="288"/>
+    <sprite n="Sprite 9.png" x="2" y="152" w="113" h="154" oX="85" oY="8" oW="288" oH="288"/>
+    <sprite n="Sprite 10.png" x="2" y="152" w="113" h="154" oX="69" oY="4" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="152" w="113" h="154" oX="85" oY="12" oW="288" oH="288"/>
+    <sprite n="Sprite 12.png" x="2" y="152" w="113" h="154" oX="86" oY="9" oW="288" oH="288"/>
+    <sprite n="Sprite 13.png" x="2" y="152" w="113" h="154" oX="71" oY="3" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="162" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="162" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="162" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

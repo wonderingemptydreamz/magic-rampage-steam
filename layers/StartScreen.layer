@@ -1,0 +1,116 @@
+layer
+{
+	darkenBg = 0.0;
+}
+
+title
+{
+	type = frame-button;
+	fileName = entities/faceless.png;
+
+	posX = 0.5;
+	posY = 0.36;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.05;
+
+	frameSizeX = 512;
+	frameSizeY = 256;
+
+	appearEffect = zoom-out;
+	appearDelay = 0;
+	appearEffectDuration = 700;
+
+	dismissEffect = zoom-in;
+	dismissDelay = 0;
+	dismissEffectDuration = 650;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	iterable = false;
+}
+
+play
+{
+	type = frame-button;
+	fileName = entities/faceless.png;
+
+	posX = 0.5;
+	posY = 0.7;
+	originX = 0.5;
+	originY = 0.5;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = pressStart;
+	textFont = Averia48.fnt;
+
+	appearEffect = zoom-out;
+	appearDelay = 300;
+	appearEffectDuration = 600;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-in;
+	dismissDelay = 0;
+	dismissEffectDuration = 500;
+}
+
+versus
+{
+	type = frame-button;
+	fileName = entities/faceless.png;
+
+	posX = 0.5;
+	posY = 0.82;
+	originX = 0.5;
+	originY = 0.5;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = VERSUS;
+	textFont = Averia48.fnt;
+
+	appearEffect = zoom-out;
+	appearDelay = 380;
+	appearEffectDuration = 600;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-in;
+	dismissDelay = 0;
+	dismissEffectDuration = 500;
+}
+
+options
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+
+	text = options;
+	textFont = Averia32_bold.fnt;
+
+	scale = 0.85;
+	borderScale = 0.8;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 800;
+	appearDelay = 800;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 500;
+	dismissDelay = 0;
+}

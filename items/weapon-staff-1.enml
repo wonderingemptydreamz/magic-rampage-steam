@@ -1,0 +1,88 @@
+item0
+{
+	name = Light Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_5.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -35.0;
+	smoothFollow = true;
+
+	equipOffsetX = -29;
+	equipOffsetY = -4;
+
+	attackCooldown = 800;
+	damage = 12;
+
+	jumpBoost = 1.01;
+	speedBoost = 1.01;
+
+	soundPack = magic;
+
+	projectileEntity = projectile_light_beam.ent;
+
+	element = light;
+	projectileSpin = 48.0;
+	projectileSpeed = 10.0;
+}
+
+item1
+{
+	name = Fire Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -35.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 800;
+	damage = 10;
+
+	soundPack = magic;
+
+	projectileEntity = projectile_fire_ball.ent;
+	equipEntity = weapon_fire_staff.ent;
+	projectileSpin = 16;
+	projectileSpeed = 13.0;
+
+	element = fire;
+}
+
+item2
+{
+	name = Nature Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_1.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 800;
+	damage = 8;
+
+	soundPack = magic;
+
+	projectileEntity = projectile_nature_beam.ent;
+	equipEntity = weapon_nature_staff.ent;
+	projectileSpin = 48.0;
+	projectileSpeed = 10.0;
+
+	element = earth;
+}

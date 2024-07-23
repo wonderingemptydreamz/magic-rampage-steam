@@ -1,0 +1,322 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.8;
+}
+
+back
+{
+	type = back-button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.044;
+	posY = 0.044;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+chest_00
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.28;
+	posY = 0.32;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.9;
+	frameSizeX = 248;
+	frameSizeY = 290;
+
+	text = ad;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 4;
+	gold   = 1000;
+	dollar = 0.0;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_aa
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.28;
+	posY = 0.32;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.9;
+	frameSizeX = 248;
+	frameSizeY = 290;
+
+	text = coin0;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 4;
+	gold   = 30000;
+	dollar = 1.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 100;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_bb
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 0.32;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.9;
+	frameSizeX = 248;
+	frameSizeY = 290;
+
+	text = coin1;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 5;
+	gold   = 80000;
+	dollar = 2.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 200;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_cc
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.72;
+	posY = 0.32;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.9;
+	frameSizeX = 248;
+	frameSizeY = 290;
+
+	text = coin2;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 6;
+	gold   = 160000;
+	dollar = 3.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 300;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_dd
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.28;
+	posY = 0.68;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.9;
+	frameSizeX = 248;
+	frameSizeY = 290;
+
+	text = coin3;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 7;
+	gold   = 320000;
+	dollar = 4.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 400;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_ee
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 0.68;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.9;
+	frameSizeX = 248;
+	frameSizeY = 320;
+
+	text = coin3;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 8;
+	gold   = 480000;
+	coins  = 200;
+	dollar = 5.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 500;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_ff
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-yellow.png;
+
+	posX = 0.72;
+	posY = 0.68;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.95;
+	frameSizeX = 248;
+	frameSizeY = 320;
+
+	text = coin3;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 9;
+	gold   = 1500000;
+	coins  = 1000;
+	dollar = 9.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 600;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_gg
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-yellow.png;
+
+	posX = 0.72;
+	posY = 0.68;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.95;
+	frameSizeX = 248;
+	frameSizeY = 320;
+
+	text = coin3;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 9;
+	gold   = 4000000;
+	coins  = 1600;
+	dollar = 15.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 700;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+chest_hh
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-yellow.png;
+
+	posX = 0.72;
+	posY = 0.68;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.95;
+	frameSizeX = 248;
+	frameSizeY = 320;
+
+	text = coin3;
+	textFont = Averia32_bold.fnt;
+
+	tier   = 10;
+	gold   = 9000000;
+	coins  = 5000;
+	dollar = 21.99;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 800;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

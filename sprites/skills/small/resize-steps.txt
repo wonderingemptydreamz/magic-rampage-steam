@@ -1,0 +1,3 @@
+[../*.png files]
+resize canvas to 96x96
+resize to 32x32 (Lanczos filter)

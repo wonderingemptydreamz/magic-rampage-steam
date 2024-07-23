@@ -1,0 +1,239 @@
+play
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 1.0;
+	originX = 0.5;
+	originY = 1.0;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	scale = 0.7;
+	borderScale = 0.7;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 600;
+	appearDelay = 1500;
+
+	text = playNow;
+	textFont = Crusade128.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}
+
+exit
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.053;
+	posY = 0.053;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 1700;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 3000;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+shop
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-yellow.png;
+
+	posX = 0.045;
+	posY = 0.98;
+	originX = 0.0;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.8;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 800;
+	appearDelay = 1700;
+
+	text = shop;
+	textFont = Averia48.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/coin_pick_0.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}
+
+menu
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.955;
+	posY = 0.98;
+	originX = 1.0;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.8;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 800;
+	appearDelay = 1700;
+
+	text = menu;
+	textFont = Averia48.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}
+
+back
+{
+	type = back-button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.053;
+	posY = 0.73;
+	originX = 1.0;
+	originY = 0.5;
+
+	scale = 0.55;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 800;
+	appearDelay = 2000;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 500;
+	dismissDelay = 0;
+}
+
+next
+{
+	type = forward-button;
+	fileName = sprites/inventory-next-button.png;
+
+	posX = 0.947;
+	posY = 0.73;
+	originX = 0.0;
+	originY = 0.5;
+
+	scale = 0.55;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 800;
+	appearDelay = 2000;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 500;
+}
+
+competitive
+{
+	type = frame-button;
+	fileName = sprites/smaller-purple-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.8;
+	originX = 1.0;
+	originY = 0.5;
+
+	scale = 0.7;
+	borderScale = 0.9;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 800;
+	appearDelay = 1700;
+
+	text = competitiveShortButton;
+	textFont = Averia32_bold.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	//releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 500;
+	dismissDelay = 0;
+}
+
+weeklyDungeon
+{
+	type = frame-button;
+	fileName = sprites/smaller-purple-frame-bg.png;
+
+	posX = 0.053;
+	posY = 0.8;
+	originX = 0.0;
+	originY = 0.5;
+
+	scale = 0.7;
+	borderScale = 0.9;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 800;
+	appearDelay = 1700;
+
+	text = weeklyDungeon;
+	textFont = Averia32_bold.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	//releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 500;
+	dismissDelay = 0;
+}
+
+offer
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-green-bg.png;
+
+	posX = 0.947;
+	posY = 0.67;
+	originX = 1.0;
+	originY = 0.5;
+
+	scale = 0.7;
+	borderScale = 0.9;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 800;
+	appearDelay = 2300;
+
+	text = none;
+	textFont = Averia32_bold.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+	//releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 500;
+	dismissDelay = 0;
+}

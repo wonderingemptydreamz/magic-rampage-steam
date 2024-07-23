@@ -1,0 +1,27 @@
+apply
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+	scale = 1.0;
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = applyChanges;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 300;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}

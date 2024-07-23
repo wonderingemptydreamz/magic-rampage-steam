@@ -1,0 +1,27 @@
+tips
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	text = tips;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 100;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

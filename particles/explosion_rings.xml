@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="explosion_rings.png" width="512" height="1024">
+    <sprite n="explosion_2_01.png" x="0" y="0" w="256" h="256"/>
+    <sprite n="explosion_2_02.png" x="256" y="0" w="256" h="256"/>
+    <sprite n="explosion_2_03.png" x="0" y="256" w="256" h="256"/>
+    <sprite n="explosion_2_04.png" x="256" y="256" w="256" h="256"/>
+    <sprite n="explosion_2_05.png" x="0" y="512" w="256" h="256"/>
+    <sprite n="explosion_2_06.png" x="256" y="512" w="256" h="256"/>
+    <sprite n="explosion_2_07.png" x="0" y="768" w="256" h="256"/>
+    <sprite n="explosion_2_08.png" x="256" y="768" w="256" h="256"/>
+</TextureAtlas>

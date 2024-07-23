@@ -1,0 +1,199 @@
+item0
+{
+	name = Iron Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 450;
+	damage = 4;
+	speedBoost = 1.05;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_0.ent;
+}
+
+item1
+{
+	name = Chef Knife;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_1.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	equipOffsetX = -38;
+	equipOffsetY = -10;
+
+	attackCooldown = 500;
+	damage = 9;
+	speedBoost = 1.04;
+	jumpBoost = 1.02;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_1.ent;
+	projectileSpin = 20.0;
+}
+
+item2
+{
+	name = Fire Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 600;
+	damage = 7;
+	speedBoost = 1.06;
+
+	soundPack = magic;
+
+	equipEntity = weapon_fire_dagger.ent;
+	dropEntityName = item_fire_dagger.ent;
+	projectileEntity = projectile_fire_dagger.ent;
+
+	element = fire;
+}
+
+item3
+{
+	name = Machete;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_2.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -30;
+	equipOffsetY = -10;
+
+	attackCooldown = 500;
+	damage = 8;
+	speedBoost = 1.07;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_2.ent;
+	projectileSpin = 15.0;
+}
+
+item4
+{
+	name = Kunai;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_3.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 500;
+	damage = 11;
+	speedBoost = 1.16;
+	jumpBoost = 1.03;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_3.ent;
+	projectileSpin = 21.0;
+	element = darkness;
+
+	maxLevelAllowed = 13;
+}
+
+item5
+{
+	name = Poisoned Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_4.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -36;
+	equipOffsetY = -14;
+
+	attackCooldown = 400;
+	damage = 10;
+	speedBoost = 1.2;
+	jumpBoost = 1.04;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_4.ent;
+	element = earth;
+	poisonous = true;
+
+	projectileSpeed = 18.0;
+
+	maxLevelAllowed = 16;
+}
+
+item6
+{
+	name = Light Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_7.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -36;
+	equipOffsetY = -14;
+
+	attackCooldown = 400;
+	damage = 12;
+	speedBoost = 1.1;
+	jumpBoost = 1.1;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_light.ent;
+	element = light;
+	projectileSpeed = 13.0;
+	projectileSpin = 18.0;
+
+	maxLevelAllowed = 22;
+}

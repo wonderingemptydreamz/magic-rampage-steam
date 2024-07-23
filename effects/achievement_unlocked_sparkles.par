@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <ParticleSystem particles="10" allAtOnce="0" alphaMode="1" repeat="6" animationMode="1" lifeTime="500" randomLifeTime="300" angleDir="0" randAngle="0" size="64" randomizeSize="48" growth="-0.7" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">
+        <Bitmap>flare_particles.png</Bitmap>
+        <Gravity x="0" y="0" />
+        <Direction x="0" y="0" />
+        <RandomizeDir x="0" y="0" />
+        <SpriteCut x="4" y="4" />
+        <StartPoint x="0" y="0" z="0" />
+        <RandStartPoint x="480" y="128" />
+        <Color0 r="1.5" g="1.5" b="1.2" a="1" />
+        <Color1 r="1" g="0.8" b="0.5" a="1" />
+        <Luminance r="1" g="1" b="1" />
+    </ParticleSystem>
+</Ethanon>

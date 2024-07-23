@@ -1,0 +1,25 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.2;
+}
+
+title
+{
+	type = sprite;
+	fileName = sprites/game-over.png;
+
+	posX = 0.5;
+	posY = 0.4;
+	originX = 0.5;
+	originY = 0.5;
+
+	appearEffect = fade-in;
+	appearEffectDuration = 1500;
+	appearDelay = 0;
+
+	dismissEffect = fade-out;
+	dismissEffectDuration = 500;
+	dismissDelay = 1500;
+}
+

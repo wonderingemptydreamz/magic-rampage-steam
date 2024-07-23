@@ -1,0 +1,65 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.4;
+}
+
+resume
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.445;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = resume;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+	dismissDelay = 75;
+}
+
+back
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-red.png;
+
+	posX = 0.5;
+	posY = 0.58;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = exit;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 300;
+	appearDelay = 150;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 600;
+}

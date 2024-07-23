@@ -1,0 +1,3834 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="2" parallaxIntensity="3">
+        <Ambient r="0.4" g="0.4" b="0.4" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="43003" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="408" y="-3186" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43002" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="408" y="-2674" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43004" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2841" y="-2674" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43001" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="408" y="-2162" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42998" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2841" y="-2162" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43000" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="408" y="-1650" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42997" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2841" y="-1650" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42999" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="408" y="-1138" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42996" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2840" y="-1138" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42994" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="408" y="-626" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42995" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2840" y="-626" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="11" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="432" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42563" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="956" y="-60" z="-4" angle="270" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42993" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="600" y="-306" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="14" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1024" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42591" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1263" y="-59" z="0" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42989" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1112" y="-306" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43931" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1113" y="-22" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13143" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1552" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13144" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1808" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42618" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1901" y="-60" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42990" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="1624" y="-306" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13145" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2064" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13146" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2272" y="-16" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42617" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2215" y="-60" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42991" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="2136" y="-306" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43932" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2060" y="-60" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44472" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2062" y="-59" z="-2" angle="450" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44476" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2066" y="-81" z="-2" angle="445" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42992" spriteFrame="0">
+            <EntityName>invisible_wall_b.ent</EntityName>
+            <Position x="2648" y="-306" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall_b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42555" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="446" y="321" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26" spriteFrame="0">
+            <EntityName>min</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42556" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="446" y="449" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42557" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="446" y="196" z="-4" angle="180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42653" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="418" y="333" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42654" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="485" y="407" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42655" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="484" y="475" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42660" spriteFrame="1">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="456" y="342" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42717" spriteFrame="7">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="439" y="402" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43279" spriteFrame="3">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="444" y="402" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/zombie-rat.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="45129" spriteFrame="0">
+            <EntityName>sewer_pipes_edge_bg.ent</EntityName>
+            <Position x="448" y="480" z="-3.9" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_edge_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44806" spriteFrame="2">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="635" y="438" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42559" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="702" y="196" z="-4" angle="180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42560" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="830" y="196" z="-4" angle="180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42561" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="956" y="196" z="-4" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42562" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="956" y="68" z="-4" angle="270" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42645" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="787" y="197" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42646" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="611" y="198" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42661" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="990" y="154" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42662" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="975" y="187" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42663" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="959" y="211" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42664" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="922" y="228" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42723" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="574" y="196" z="-4" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44456" spriteFrame="1">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1145" y="444" z="2" angle="180" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44455" spriteFrame="1">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1079" y="443" z="2" angle="180" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43926" spriteFrame="0">
+            <EntityName>sewer_pipes_grate.ent</EntityName>
+            <Position x="1113" y="413" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_grate.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43927" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1113" y="357" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="35547" spriteFrame="3">
+            <EntityName>character_spawn</EntityName>
+            <Position x="1112" y="254" z="2" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>48</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>distance</Name>
+                        <Value>400</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-zombie-knife-guard.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceFieldDungeonLevel</Name>
+                        <Value>7</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>forceFieldScale</Name>
+                        <Value>0.9</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>minion</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>triple-shooter</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43517" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1360" y="94" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>2</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42669" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1524" y="452" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42585" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1519" y="196" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42584" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1519" y="322" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42583" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1519" y="449" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42588" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1263" y="196" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42590" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1263" y="69" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42609" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1391" y="196" z="-4" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42641" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1493" y="433" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42647" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="1381" y="197" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42665" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1227" y="151" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42666" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1244" y="185" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42667" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1275" y="219" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43928" spriteFrame="0">
+            <EntityName>dungeon_block_05</EntityName>
+            <Position x="1113" y="412" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_07.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43929" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1113" y="230" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43930" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1113" y="104" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44212" spriteFrame="0">
+            <EntityName>sewer_slime_04.ent</EntityName>
+            <Position x="1114" y="316" z="-2" angle="-180" />
+            <Entity>
+                <FileName>sewer_slime_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44444" spriteFrame="0">
+            <EntityName>sewer_pipes_edge_bg.ent</EntityName>
+            <Position x="1113" y="317" z="-3.9" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_edge_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44445" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="1082" y="293" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44446" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="1082" y="154" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44447" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="1082" y="18" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44448" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1138" y="30" z="-3" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44449" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1102" y="90" z="-3" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44450" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="1109" y="215" z="-2" angle="-90" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44457" spriteFrame="1">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1146" y="379" z="2" angle="360" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44458" spriteFrame="1" flipX="1">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1079" y="379" z="2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44460" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1063" y="423" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44461" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1058" y="406" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44462" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1164" y="392" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44463" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1164" y="409" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44464" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1161" y="433" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44483" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1461" y="236" z="-2" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44484" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1473" y="263" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44485" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1477" y="295" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44486" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1435" y="235" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44487" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1398" y="237" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43518" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1797" y="92" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>2</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42681" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1684" y="325" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42602" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1647" y="448" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42603" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1647" y="321" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42604" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1647" y="194" z="-4" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42605" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1774" y="194" z="-4" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42606" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1901" y="194" z="-4" angle="-360" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42615" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1901" y="67" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42639" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1550" y="229" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42670" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1694" y="491" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42673" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1586" y="374" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42674" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1582" y="400" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42675" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1579" y="427" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42677" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1584" y="452" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42682" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1584" y="311" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42683" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1581" y="252" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42689" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="1771" y="193" z="-3" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42690" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="1814" y="192" z="-2" angle="-180" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43519" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="1583" y="135" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="44465" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="2030" y="375" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44466" spriteFrame="0" flipX="1">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="2028" y="445" z="2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44473" spriteFrame="0">
+            <EntityName>sewer_slime_04.ent</EntityName>
+            <Position x="2030" y="227" z="-2" angle="450" />
+            <Entity>
+                <FileName>sewer_slime_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44477" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="1901" y="26" z="-2" angle="270" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44478" spriteFrame="1">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="1881" y="169" z="-2" angle="225" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44488" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1696" y="243" z="-2" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44489" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1734" y="234" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44490" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1686" y="271" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="35548" spriteFrame="3">
+            <EntityName>character_spawn</EntityName>
+            <Position x="2066" y="268" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <SpriteCut x="4" y="2" />
+                <Scale x="4" y="4" />
+                <Sprite>mario_sheet.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>48</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>distance</Name>
+                        <Value>400</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-zombie-knife-guard.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceFieldDungeonLevel</Name>
+                        <Value>6</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>forceFieldScale</Name>
+                        <Value>0.9</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>minion</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>triple-shooter</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42611" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2469" y="194" z="-4" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42612" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2342" y="194" z="-4" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42614" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2215" y="194" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42616" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2215" y="67" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42648" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2440" y="195" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42649" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2544" y="195" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42651" spriteFrame="0">
+            <EntityName>sewer_slime_04.ent</EntityName>
+            <Position x="2336" y="162" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42691" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2391" y="194" z="-2" angle="180" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42692" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2545" y="194" z="-2" angle="180" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43933" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2060" y="67" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43934" spriteFrame="0">
+            <EntityName>sewer_pipes_grate.ent</EntityName>
+            <Position x="2060" y="413" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_grate.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43935" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2060" y="194" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43936" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2060" y="321" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43937" spriteFrame="0">
+            <EntityName>dungeon_block_05</EntityName>
+            <Position x="2060" y="412" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_07.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="44213" spriteFrame="1">
+            <EntityName>sewer_slime_04.ent</EntityName>
+            <Position x="2058" y="319" z="-3.9" angle="-180" />
+            <Entity>
+                <FileName>sewer_slime_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44443" spriteFrame="0">
+            <EntityName>sewer_pipes_edge_bg.ent</EntityName>
+            <Position x="2060" y="317" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_edge_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44467" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="2090" y="447" z="2" angle="270" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44468" spriteFrame="0" flipX="1">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="2091" y="379" z="2" angle="270" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44469" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2057" y="370" z="2" angle="270" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44470" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2059" y="284" z="-2" angle="270" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44471" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2062" y="99" z="-2" angle="450" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44474" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2083" y="178" z="-3" angle="445" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44475" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2099" y="71" z="-3" angle="445" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44479" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2263" y="233" z="0" angle="225" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44480" spriteFrame="1">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2235" y="171" z="0" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44491" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2217" y="45" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44492" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2246" y="51" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45132" spriteFrame="0">
+            <EntityName>sewer_pipes_edge_bg.ent</EntityName>
+            <Position x="2723" y="480" z="-3.9" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_edge_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44807" spriteFrame="1">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="2940" y="433" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>2</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42596" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2723" y="449" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42598" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2723" y="322" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42599" spriteFrame="1">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2723" y="194" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42610" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="2596" y="194" z="-4" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42650" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2586" y="196" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42693" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2724" y="416" z="-3" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42695" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="2770" y="284" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42719" spriteFrame="7">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="2688" y="391" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/rat-skeleton.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>maxDungeonLevel</Name>
+                        <Value>3</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43280" spriteFrame="3">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="2691" y="390" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>4</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/zombie-rat.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="44481" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2666" y="236" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44482" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2678" y="268" z="-3" angle="125" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45137" spriteFrame="0">
+            <EntityName>sewer_yellow_light.ent</EntityName>
+            <Position x="64" y="582" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_yellow_light.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43746" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="223" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43513" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="61" y="548" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42327" spriteFrame="1">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="276" y="578" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13206" spriteFrame="0">
+            <EntityName>respawn</EntityName>
+            <Position x="64" y="516" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="112" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="448" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16100" spriteFrame="0">
+            <EntityName>dungeon_block_05.ent</EntityName>
+            <Position x="64" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_05.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16102" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="192" y="704" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16103" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="192" y="576" z="0" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16104" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="320" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16105" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="448" y="576" z="0" angle="-270" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16106" spriteFrame="1" flipX="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="448" y="704" z="-1" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16125" spriteFrame="0">
+            <EntityName>dungeon_block_05.ent</EntityName>
+            <Position x="320" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_05.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="16126" spriteFrame="0">
+            <EntityName>black_bar_1x05.ent</EntityName>
+            <Position x="384" y="704" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar_1x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42334" spriteFrame="1">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="384" y="572" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42336" spriteFrame="2">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="460" y="672" z="0.01" angle="45" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42548" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="447" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42920" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="481" y="576" z="0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42921" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="153" y="588" z="0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42922" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="160" y="576" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42923" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="170" y="563" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42924" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="178" y="553" z="0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42925" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="186" y="547" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42926" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="161" y="647" z="0.01" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42927" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="145" y="602" z="0" angle="75" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42928" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="141" y="618" z="0.01" angle="75" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42936" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="252" y="636" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42937" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="267" y="636" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42938" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="290" y="637" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42943" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="376" y="641" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42948" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="245" y="638" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42949" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="239" y="628" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42950" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="246" y="621" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42951" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="230" y="639" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42952" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="241" y="646" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42953" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="246" y="653" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42961" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="477" y="753" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42962" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="462" y="754" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42963" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="447" y="743" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42964" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="424" y="729" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42965" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="415" y="715" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42966" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="459" y="748" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42967" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="482" y="757" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42968" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="495" y="756" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42970" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="500" y="758" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43745" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="160" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="45133" spriteFrame="0">
+            <EntityName>text_shadow.ent</EntityName>
+            <Position x="493" y="619" z="-0.5" angle="0" />
+            <Entity>
+                <FileName>text_shadow.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44214" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="801" y="673" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="44215" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="863" y="673" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43747" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="674" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42929" spriteFrame="1">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="713" y="579" z="0.1" angle="-50" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42328" spriteFrame="2" flipX="1">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="678" y="706" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="8" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="592" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="848" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16107" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="576" y="704" z="-1" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16108" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="704" y="704" z="-0.6" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42547" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="575" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42564" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="702" y="576" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42565" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="702" y="703" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42566" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="832" y="704" z="-1" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42567" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="832" y="831" z="-1" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42568" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="702" y="831" z="0" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42626" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="538" y="672" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42642" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="543" y="541" z="0.1" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42643" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="854" y="845" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42644" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="838" y="693" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42657" spriteFrame="1">
+            <EntityName>sewer_slime_04.ent</EntityName>
+            <Position x="532" y="743" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42930" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="647" y="634" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42931" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="654" y="626" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42932" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="648" y="612" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42933" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="666" y="619" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42934" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="672" y="630" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42935" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="664" y="608" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42954" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="637" y="630" z="2.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42955" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="646" y="645" z="0.1" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42956" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="769" y="759" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42957" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="778" y="769" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42958" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="773" y="775" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42959" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="776" y="785" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42960" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="779" y="753" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42969" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="518" y="758" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43514" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="849" y="548" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43748" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="736" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="45128" spriteFrame="0">
+            <EntityName>sewer_pipes_edge.ent</EntityName>
+            <Position x="608" y="704" z="-0.9" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_edge.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45461" spriteFrame="0">
+            <EntityName>text_shadow.ent</EntityName>
+            <Position x="756" y="819" z="-0.5" angle="90" />
+            <Entity>
+                <FileName>text_shadow.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45131" spriteFrame="0">
+            <EntityName>sewer_pipes_edge_bg.ent</EntityName>
+            <Position x="1520" y="608" z="-3.9" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_edge_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43749" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="1420" y="673" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42679" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1482" y="532" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42582" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1519" y="576" z="-4" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42581" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_ne.ent</EntityName>
+            <Position x="1519" y="832" z="-2" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_ne.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16113" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="1519" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42569" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="1391" y="704" z="0" angle="180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42570" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="1391" y="831" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="10" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1120" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1296" y="736" z="12" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13026" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1456" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42625" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="1475" y="673" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42636" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1393" y="824" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42971" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1451" y="764" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42972" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1442" y="757" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42973" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1448" y="747" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42974" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1457" y="759" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42975" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1446" y="773" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42976" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1441" y="767" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43750" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="1359" y="673" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="45130" spriteFrame="0">
+            <EntityName>sewer_pipes_edge_bg.ent</EntityName>
+            <Position x="1648" y="608" z="-3.9" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_edge_bg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44808" spriteFrame="0">
+            <EntityName>character_spawn.ent</EntityName>
+            <Position x="1584" y="564" z="0" angle="0" />
+            <Entity>
+                <FileName>character_spawn.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>autoWaypointsStride</Name>
+                        <Value>128</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoWaypointsTime</Name>
+                        <Value>1000</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>none</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dungeonLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>fileName</Name>
+                        <Value>npcs/enemies/zombie-rat.character</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>forceFieldDungeonLevel</Name>
+                        <Value>5</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>forceFieldScale</Name>
+                        <Value>1.2</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>itemDropChance</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>playerTeam</Name>
+                        <Value>0</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>tolerance</Name>
+                        <Value>256</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>type</Name>
+                        <Value>default</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>waypoints</Name>
+                        <Value>auto</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43752" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="1808" y="672" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13651" spriteFrame="0">
+            <EntityName>chest_xp.ent</EntityName>
+            <Position x="1586" y="575" z="-2" angle="0" />
+            <Entity>
+                <FileName>chest_xp.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>dropSpecificItem</Name>
+                        <Value>xp</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>open</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42571" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="1774" y="704" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13027" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1680" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13028" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1888" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16114" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="1646" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42329" spriteFrame="3">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1592" y="688" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42572" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="1774" y="831" z="0" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42600" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_ne.ent</EntityName>
+            <Position x="1647" y="831" z="-2" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_ne.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42601" spriteFrame="0">
+            <EntityName>sewer_pipes_bg_e.ent</EntityName>
+            <Position x="1647" y="576" z="-4" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_bg_e.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42624" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="1684" y="673" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42635" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1804" y="839" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42637" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1540" y="750" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42684" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1583" y="780" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42685" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1581" y="827" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42686" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1579" y="867" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42687" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1581" y="827" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42688" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="1585" y="803" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42919" spriteFrame="0">
+            <EntityName>sewer_slime_04.ent</EntityName>
+            <Position x="1585" y="673" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_04.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42977" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1708" y="758" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42978" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1715" y="766" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42979" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1719" y="784" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42980" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1723" y="761" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42981" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1701" y="757" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42982" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1718" y="750" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42983" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1727" y="760" z="0" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42984" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1729" y="770" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42985" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1733" y="749" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42986" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1722" y="737" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42987" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1737" y="760" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42988" spriteFrame="0">
+            <EntityName>sewer_slime_01.ent</EntityName>
+            <Position x="1742" y="770" z="0.01" angle="10" />
+            <Entity>
+                <FileName>sewer_slime_01.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43751" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="1748" y="672" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="45460" spriteFrame="0">
+            <EntityName>text_shadow.ent</EntityName>
+            <Position x="1578" y="743" z="-0.5" angle="0" />
+            <Entity>
+                <FileName>text_shadow.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43757" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="2435" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43753" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="2372" y="672" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42576" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2338" y="704" z="-1" angle="180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42573" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2338" y="831" z="-1" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13029" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2080" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="13030" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2256" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15782" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2304" y="656" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42577" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2466" y="704" z="0" angle="270" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42592" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2466" y="831" z="0" angle="-90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42593" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2466" y="576" z="0" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42631" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2502" y="846" z="2.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42632" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2431" y="679" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42633" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2335" y="724" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42634" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2336" y="835" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43515" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="2321" y="548" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43754" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="2309" y="672" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43756" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="2497" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="44493" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2514" y="630" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44494" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2530" y="622" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44495" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2509" y="665" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44496" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2508" y="641" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44497" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2544" y="623" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45462" spriteFrame="0">
+            <EntityName>text_shadow.ent</EntityName>
+            <Position x="2427" y="797" z="-0.5" angle="90" />
+            <Entity>
+                <FileName>text_shadow.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43758" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="3008" y="545" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="43755" spriteFrame="0">
+            <EntityName>sewer_one_sided_tile.ent</EntityName>
+            <Position x="2947" y="545" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_one_sided_tile.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>earth</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42578" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2594" y="704" z="-1" angle="180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42579" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2722" y="704" z="-1" angle="360" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42594" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2593" y="576" z="0" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42595" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2720" y="576" z="0.1" angle="-180" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42597" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2848" y="576" z="0" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42627" spriteFrame="0">
+            <EntityName>sewer_slime_00.ent</EntityName>
+            <Position x="2578" y="671" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_00.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42628" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2852" y="538" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42629" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2578" y="570" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42630" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2822" y="614" z="0.01" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42656" spriteFrame="0">
+            <EntityName>sewer_slime_03.ent</EntityName>
+            <Position x="2723" y="576" z="0.2" angle="0" />
+            <Entity>
+                <FileName>sewer_slime_03.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42696" spriteFrame="1">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2975" y="576" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42698" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2975" y="703" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42701" spriteFrame="0">
+            <EntityName>sewer_pipes_fg.ent</EntityName>
+            <Position x="2975" y="831" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_pipes_fg.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42702" spriteFrame="0">
+            <EntityName>dungeon_block_05.ent</EntityName>
+            <Position x="2849" y="703" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_05.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42704" spriteFrame="0">
+            <EntityName>black_bar.ent</EntityName>
+            <Position x="2769" y="703" z="-2" angle="0" />
+            <Entity>
+                <FileName>black_bar.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44498" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2897" y="626" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44499" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2917" y="627" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44500" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2931" y="649" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44501" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2933" y="680" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44502" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2876" y="621" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44503" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2850" y="619" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44504" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2804" y="623" z="0" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44505" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2837" y="623" z="0.1" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44506" spriteFrame="2">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2754" y="661" z="0.01" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="44507" spriteFrame="0">
+            <EntityName>sewer_slime_02.ent</EntityName>
+            <Position x="2714" y="650" z="0.01" angle="90" />
+            <Entity>
+                <FileName>sewer_slime_02.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45127" spriteFrame="0">
+            <EntityName>sewer_pipes_edge.ent</EntityName>
+            <Position x="2560" y="704" z="-0.9" angle="0" />
+            <Entity>
+                <FileName>sewer_pipes_edge.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45134" spriteFrame="0">
+            <EntityName>text_shadow.ent</EntityName>
+            <Position x="2652" y="628" z="-0.5" angle="0" />
+            <Entity>
+                <FileName>text_shadow.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="45136" spriteFrame="0">
+            <EntityName>sewer_yellow_light.ent</EntityName>
+            <Position x="3104" y="582" z="-2" angle="0" />
+            <Entity>
+                <FileName>sewer_yellow_light.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="43516" spriteFrame="0">
+            <EntityName>dragon_xp_dummy.ent</EntityName>
+            <Position x="3104" y="548" z="0" angle="0" />
+            <Entity>
+                <FileName>dragon_xp_dummy.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>xpLevel</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="121" spriteFrame="0">
+            <EntityName>max</EntityName>
+            <Position x="3166" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42703" spriteFrame="0">
+            <EntityName>dungeon_block_05.ent</EntityName>
+            <Position x="3103" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_05.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="-16" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42622" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="833" y="1149" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42619" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="1108" y="1069" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42621" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1391" y="1152" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42620" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="2044" y="1067" z="0" angle="0" />
+            <Entity>
+                <FileName>instant_death.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="42726" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1774" y="1151" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="42623" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2340" y="1151" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

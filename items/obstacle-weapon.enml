@@ -1,0 +1,329 @@
+fire_spitter
+{
+	name = Fire Spitter;
+
+	type = weapon;
+	secondaryType = staff;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 40;
+
+	soundPack = power;
+
+	projectileEntity = projectile_fire_ball.ent;
+	projectileSpeed = 9.0;
+	projectileSpin = 16.0;
+
+	element = fire;
+}
+
+strong_fire_spitter
+{
+	name = Strong Fire Spitter;
+
+	type = weapon;
+	secondaryType = staff;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 50;
+
+	soundPack = power;
+
+	projectileEntity = projectile_epic_fire_ball.ent;
+	projectileSpeed = 10.0;
+	projectileSpin = 16.0;
+
+	element = fire;
+}
+
+ice_spitter
+{
+	name = Ice Spitter;
+
+	type = weapon;
+	secondaryType = staff;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 60;
+
+	soundPack = power;
+
+	projectileEntity = projectile_ice_ball.ent;
+	projectileSpeed = 9.0;
+	projectileSpin = 16.0;
+	explosionRange = 220;
+
+	element = water;
+	frost = true;
+}
+
+lava_spitter
+{
+	name = Lava Spitter;
+
+	type = weapon;
+	secondaryType = staff;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 40;
+
+	soundPack = power;
+
+	projectileEntity = projectile_lava_ball.ent;
+	projectileSpeed = 12.0;
+	projectileSpin = 16.0;
+
+	element = fire;
+}
+
+strong_lava_spitter
+{
+	name = Strong Lava Spitter;
+
+	type = weapon;
+	secondaryType = staff;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 50;
+
+	soundPack = power;
+
+	projectileEntity = projectile_strong_lava_ball.ent;
+	projectileSpeed = 12.0;
+	projectileSpin = 16.0;
+
+	element = fire;
+}
+
+dragon_spitter
+{
+	name = Dragon Fire Spitter;
+
+	type = weapon;
+	secondaryType = staff;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 40;
+
+	soundPack = power;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_dragon_fire_ball.ent;
+	projectileSpeed = 10.0;
+	projectileSpin = 12.0;
+
+	element = fire;
+}
+
+mage_fireball
+{
+	name = Mage Fireball;
+
+	type = weapon;
+	secondaryType = staff;
+
+	damage = 40;
+
+	soundPack = power;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_mage_fire_ball.ent;
+	projectileSpeed = 8.0;
+	projectileSpin = 12.0;
+
+	element = fire;
+}
+
+black_mage_beam
+{
+	name = Black Mage Beam;
+
+	type = weapon;
+	secondaryType = staff;
+
+	damage = 40;
+
+	soundPack = power;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_death_beam.ent;
+	projectileSpeed = 8.0;
+
+	element = darkness;
+}
+
+paladin_hammer
+{
+	name = Paladin Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+
+	sprite = hammer_2_clean.png;
+
+	damage = 40;
+
+	soundPack = powerhammer;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_paladin_hammer.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = light;
+}
+
+fire_agent
+{
+	name = Fire Agent;
+
+	type = weapon;
+	secondaryType = staff;
+
+	damage = 60;
+
+	soundPack = bomb;
+
+	persistAgainstProjectile = false;
+	projectileEntity = projectile_fire_agent.ent;
+	projectileSpeed = 4.0;
+	projectileSpin = 3.0;
+
+	element = fire;
+}
+
+dragon_spitter_strong
+{
+	name = Fire Agent;
+
+	type = weapon;
+	secondaryType = staff;
+
+	damage = 90;
+
+	soundPack = bomb;
+
+	persistAgainstProjectile = false;
+	projectileEntity = projectile_fire_agent.ent;
+	projectileSpeed = 5.0;
+	projectileSpin = 3.0;
+
+	element = fire;
+}
+
+ranger_sword
+{
+	name = Ranger Sword;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_ranger.png;
+
+	depthOffset = -0.04;
+
+	damage = 30;
+
+	soundPack = heavy-magic-blade;
+
+	persistAgainstProjectile = true;
+	pierceCount = 1;
+	enablePierceAreaDamage = false;
+
+	projectileEntity = projectile_ranger_sword.ent;
+	projectileSpeed = 13.0;
+}
+
+rogue_dagger
+{
+	name = Rogue Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_rogue.png;
+
+	depthOffset = -0.04;
+
+	damage = 30;
+
+	soundPack = light-blade;
+
+	persistAgainstProjectile = true;
+	pierceCount = 1;
+	enablePierceAreaDamage = false;
+
+	projectileEntity = projectile_rogue_dagger.ent;
+	element = air;
+	projectileSpeed = 17.0;
+}
+
+ice_stalactite
+{
+	name = Ice Stalactite;
+
+	type = weapon;
+	secondaryType = dagger;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 80;
+
+	soundPack = ice-stalactite;
+
+	projectileEntity = projectile_ice_stalactite.ent;
+	explosionEntity = ice_stalactite_explosion.ent;
+	projectileSpeed = 0.0;
+
+	element = water;
+	frost = true;
+}
+
+ice_shard
+{
+	name = Ice Shard;
+
+	type = weapon;
+	secondaryType = dagger;
+
+	depthOffset = -1;
+
+	equippedAngle = 0.0;
+	smoothFollow = false;
+
+	damage = 120;
+
+	soundPack = ice-stalactite;
+
+	projectileEntity = projectile_ice_shard.ent;
+	explosionEntity = ice_stalactite_explosion.ent;
+	projectileSpeed = 14.0;
+
+	element = water;
+	frost = true;
+}

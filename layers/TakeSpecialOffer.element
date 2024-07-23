@@ -1,0 +1,27 @@
+takeSpecialOffer
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.972;
+	posY = 0.024;
+	originX = 1.0;
+	originY = 0.0;
+	scale = 1.0;
+	borderScale = 0.86;
+	frameSizeX = 220;
+	frameSizeY = 280;
+
+	text = none;
+	textFont = Averia32_bold.fnt;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 1000;
+	appearDelay = 7000;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

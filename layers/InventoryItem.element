@@ -1,0 +1,76 @@
+item
+{
+	type = frame-button;
+	fileName = sprites/inventory-item-frame.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 200;
+	frameSizeY = 200;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/projectile_light-blade_hit_flesh.mp3;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}
+
+equipped
+{
+	type = frame-button;
+	fileName = sprites/frame-upper.png;
+
+	posX = 0.0;
+	posY = 0.0;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 0.8;
+	frameSizeX = 200;
+	frameSizeY = 200;
+
+	text = equipped;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+title
+{
+	type = frame-button;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.5;
+
+	frameSizeX = 600;
+	frameSizeY = 100;
+
+	scale = 0.85;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 500;
+	dismissDelay = 0;
+}

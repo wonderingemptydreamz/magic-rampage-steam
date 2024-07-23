@@ -1,0 +1,77 @@
+item0
+{
+	name = Recruit Set;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_0b.png;
+	color  = 13224889;
+
+	armor = 6;
+	swordBoost = 1.1;
+	daggerBoost = 1.15;
+}
+
+item1
+{
+	name = Soldier Set;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_0a.png;
+	color  = 13224889;
+
+	swordBoost = 1.2;
+	daggerBoost = 1.2;
+	axeBoost = 1.15;
+
+	armor = 12;
+}
+
+item2
+{
+	name = Elite Soldier Set;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_0a.png;
+	color  = 13224889;
+	swordBoost = 1.3;
+	daggerBoost = 1.2;
+	axeBoost = 1.2;
+	speedBoost = 1.03;
+	jumpBoost = 1.02;
+
+	armor = 15;
+}
+
+item3
+{
+	name = Plague Fighter Suit;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_1a.png;
+	headlessAlternativeSprite = armor_cloth_1a.png;
+	color  = 13224889;
+	daggerBoost = 1.2;
+	speedBoost = 1.04;
+	jumpBoost = 1.03;
+
+	hideFace = true;
+
+	armor = 14;
+	element = air;
+}
+
+item4
+{
+	name = Ranger Set;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_1b.png;
+	color  = 13224889;
+	swordBoost = 1.3;
+	daggerBoost = 1.3;
+	speedBoost = 1.03;
+	jumpBoost = 1.02;
+
+	armor = 19;
+	element = air;
+}

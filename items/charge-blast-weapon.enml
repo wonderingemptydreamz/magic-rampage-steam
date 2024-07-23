@@ -1,0 +1,23 @@
+charge_blast
+{
+	name = charge_blast;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = portal_projectile.png;
+
+	attackCooldown = 0;
+	damage = 1;
+
+	soundPack = charge-blast;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_charge_beam.ent;
+	projectileSpeed = 12.0;
+	invertProjectile = true;
+
+	element = darkness;
+}

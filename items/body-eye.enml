@@ -1,0 +1,59 @@
+eyeEvil
+{
+	name = eyeEvil;
+	type = head;
+	secondaryType = eye;
+	sprite = eye_0a.png;
+	depthOffset = 0.045;
+	equipEntity = character_body_part_add.ent;
+}
+
+eyePinch
+{
+	name = eyePinch;
+	type = head;
+	secondaryType = eye;
+	sprite = eye_0b.png;
+	depthOffset = 0.045;
+	equipEntity = character_body_part_add.ent;
+}
+
+eyeVivi
+{
+	name = eyeVivi;
+	type = head;
+	secondaryType = eye;
+	sprite = eye_1a.png;
+	depthOffset = 0.045;
+	equipEntity = character_body_part_add.ent;
+}
+
+eyeHero
+{
+	name = eyeHero;
+	type = head;
+	secondaryType = eye;
+	sprite = eye_1b.png;
+	depthOffset = 0.045;
+	equipEntity = character_body_part_add.ent;
+}
+
+eyeFemaleA
+{
+	name = eyeFemaleA;
+	type = head;
+	secondaryType = eye;
+	sprite = eye_2a.png;
+	depthOffset = 0.045;
+	equipEntity = character_body_part_add.ent;
+}
+
+eyeFemaleB
+{
+	name = eyeFemaleB;
+	type = head;
+	secondaryType = eye;
+	sprite = eye_2b.png;
+	depthOffset = 0.045;
+	equipEntity = character_body_part_add.ent;
+}

@@ -1,0 +1,250 @@
+// RANGER
+helmet0
+{
+	name = helmet0;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-ranger.png;
+	depthOffset = 0.041;
+	grabColorFromArmor = true;
+	armorBoost = 1.2;
+	jumpBoost = 1.05;
+	swordBoost = 1.35;
+	spearBoost = 1.25;
+	axeBoost = 1.25;
+	fixedPrice = 30000;
+	class = ranger;
+}
+
+// PRIEST
+hood2
+{
+	name = hood2;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-priest.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	magicBoost = 1.2;
+	staffBoost = 1.2;
+	daggerBoost = 0.7;
+	armorBoost = 1.2;
+	jumpBoost = 1.04;
+	speedBoost = 1.03;
+	fixedPrice = 30000;
+	class = priest;
+}
+
+// WARLOCK
+hood1
+{
+	name = hood1;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-warlock.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	speedBoost = 1.04;
+	magicBoost = 1.3;
+	axeBoost = 1.2;
+	swordBoost = 1.25;
+	daggerBoost = 1.2;
+	spearBoost = 1.4;
+	fixedPrice = 30000;
+	class = warlock;
+}
+
+// BLACK-MAGE
+hood3
+{
+	name = hood3;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-black-mage.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	magicBoost = 1.3;
+	staffBoost = 1.3;
+	daggerBoost = 1.2;
+	hammerBoost = 0.7;
+	speedBoost = 1.04;
+	jumpBoost = 1.02;
+	fixedPrice = 30000;
+	class = black-mage;
+}
+
+// ROGUE
+hood4
+{
+	name = hood4;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-rogue.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	daggerBoost = 1.45;
+	hammerBoost = 0.7;
+	axeBoost = 0.7;
+	swordBoost = 0.9;
+	speedBoost = 1.06;
+	jumpBoost = 1.05;
+	fixedPrice = 30000;
+	class = rogue;
+}
+
+// THIEF
+hood0
+{
+	name = hood0;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-thief.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	speedBoost = 1.06;
+	jumpBoost = 1.07;
+	staffBoost = 0.7;
+	swordBoost = 1.2;
+	daggerBoost = 1.3;
+	hammerBoost = 1.3;
+	fixedPrice = 30000;
+	class = thief;
+}
+
+// WARRIOR
+helmet1
+{
+	name = helmet1;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-warrior.png;
+	depthOffset = 0.041;
+	grabColorFromArmor = true;
+	swordBoost = 1.3;
+	hammerBoost = 1.3;
+	axeBoost = 1.3;
+	staffBoost = 0.6;
+	armorBoost = 1.3;
+	fixedPrice = 30000;
+	class = warrior;
+}
+
+// MAGE
+hat0
+{
+	name = hat0;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-mage.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	magicBoost = 1.3;
+	staffBoost = 1.3;
+	axeBoost = 1.2;
+	hammerBoost = 0.7;
+	speedBoost = 1.02;
+	jumpBoost = 1.04;
+	fixedPrice = 30000;
+	class = mage;
+}
+
+// DRUID
+hat1
+{
+	name = hat1;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-druid.png;
+	depthOffset = 0.03;
+	grabColorFromArmor = true;
+	magicBoost = 1.30;
+	staffBoost = 1.2;
+	spearBoost = 1.3;
+	jumpBoost = 1.06;
+	speedBoost = 1.03;
+	fixedPrice = 30000;
+	class = druid;
+}
+
+// PALADIN
+helmet2
+{
+	name = helmet2;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-paladin.png;
+	depthOffset = 0.041;
+	grabColorFromArmor = true;
+	armorBoost = 1.2;
+	swordBoost = 1.2;
+	hammerBoost = 1.2;
+	axeBoost = 1.2;
+	magicBoost = 1.2;
+	fixedPrice = 30000;
+	class = paladin;
+}
+
+// HIGH-MAGE
+hood5
+{
+	name = hood5;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-high-mage.png;
+	depthOffset = 0.041;
+	grabColorFromArmor = true;
+	magicBoost = 1.35;
+	staffBoost = 1.3;
+	swordBoost = 1.2;
+	hammerBoost = 0.7;
+	speedBoost = 1.06;
+	jumpBoost = 1.04;
+	equipEntity = character_body_part_5x2.ent;
+	fixedPrice = 180000;
+	dollarPrice = 2.99;
+	premium = true;
+	class = high-mage;
+}
+
+// ELITE-WARRIOR
+helmet3
+{
+	name = helmet3;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-elite-warrior.png;
+	depthOffset = 0.041;
+	grabColorFromArmor = true;
+	swordBoost = 1.35;
+	axeBoost = 1.35;
+	staffBoost = 0.6;
+	hammerBoost = 1.35;
+	jumpBoost = 1.05;
+	armorBoost = 1.4;
+	equipEntity = character_body_part_5x2.ent;
+	fixedPrice = 180000;
+	dollarPrice = 2.99;
+	premium = true;
+	class = elite-warrior;
+}
+
+// WITCHDOCTOR
+hat2
+{
+	name = hat2;
+	type = head;
+	secondaryType = classSkin;
+	sprite = skin-witchdoctor.png;
+	depthOffset = 0.041;
+	grabColorFromArmor = true;
+	magicBoost = 1.3;
+	daggerBoost = 1.25;
+	staffBoost = 1.25;
+	speedBoost = 1.05;
+	jumpBoost = 1.06;
+	equipEntity = character_body_part_5x2.ent;
+	fixedPrice = 180000;
+	dollarPrice = 2.99;
+	premium = true;
+	class = witchdoctor;
+}

@@ -1,0 +1,143 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.8;
+}
+
+title
+{
+	type = sprite;
+	fileName = sprites/game-over.png;
+
+	posX = 0.5;
+	posY = 0.2;
+	originX = 0.5;
+	originY = 0.5;
+
+	appearEffect = fade-in;
+	appearEffectDuration = 1200;
+	appearDelay = 0;
+
+	dismissEffectDuration = 800;
+}
+
+revive
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.38;
+	posY = 0.602;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = revive;
+	textFont = Averia64.fnt;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 1000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/coin_drop.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 400;
+}
+
+retry
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.62;
+	posY = 0.55;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = retry;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 600;
+	appearDelay = 2000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+}
+
+quit
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-red.png;
+
+	posX = 0.62;
+	posY = 0.75;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = quit;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 600;
+	appearDelay = 2500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+}
+
+moreGold
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 0.98;
+	originX = 0.5;
+	originY = 1.0;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = moreGold;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 1500;
+	appearDelay = 3000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	//releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}

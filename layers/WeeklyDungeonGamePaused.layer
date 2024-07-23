@@ -1,0 +1,176 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.6;
+}
+
+difficulty
+{
+	type = frame-text;
+	fileName = entities/faceless.png;
+
+	posX = 0.5;
+	posY = 0.3;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.9;
+
+	frameSizeX = 100;
+	frameSizeY = 100;
+
+	text = difficulty;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearDelay = 500;
+	appearEffectDuration = 800;
+
+	dismissEffect = zoom-out;
+	dismissDelay = 0;
+	dismissEffectDuration = 400;
+}
+
+goalsTitle
+{
+	type = frame-text;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.3;
+	posY = 0.44;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.9;
+	borderScale = 0.8;
+
+	frameSizeX = 100;
+	frameSizeY = 100;
+
+	text = nextScoreGoal:;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in;
+	appearDelay = 400;
+	appearEffectDuration = 600;
+
+	dismissEffect = zoom-out;
+	dismissDelay = 0;
+	dismissEffectDuration = 400;
+}
+
+goalsDesc
+{
+	type = frame-text;
+	fileName = sprites/round-shaped-shadow.png;
+
+	posX = 0.3;
+	posY = 0.55;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	borderScale = 1.0;
+
+	frameSizeX = 100;
+	frameSizeY = 100;
+
+	text = goalsDesc;
+	textFont = Averia64.fnt;
+
+	appearEffect = zoom-in;
+	appearDelay = 500;
+	appearEffectDuration = 600;
+
+	dismissEffect = zoom-out;
+	dismissDelay = 0;
+	dismissEffectDuration = 400;
+}
+
+resume
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.7;
+	posY = 0.45;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = resume;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+	dismissDelay = 75;
+}
+
+restart
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.7;
+	posY = 0.575;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = restart;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 300;
+	appearDelay = 150;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+	dismissDelay = 75;
+}
+
+back
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-red.png;
+
+	posX = 0.7;
+	posY = 0.7;
+	originX = 0.5;
+	originY = 0.5;
+
+	scale = 0.8;
+	borderScale = 0.75;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = quit;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 300;
+	appearDelay = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 600;
+}

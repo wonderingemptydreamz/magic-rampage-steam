@@ -1,0 +1,1406 @@
+[
+    {
+        "key": "black-mage1",
+        "name": "Outcast Mage Hood",
+        "class_name": "black-mage",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "black-mage2",
+        "name": "Renegade Mage Hood",
+        "class_name": "black-mage",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid1",
+        "name": "Ancient Druid Mask",
+        "class_name": "druid",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid2",
+        "name": "Relentless Druid Helm",
+        "class_name": "druid",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior1",
+        "name": "Dark Knight Helm",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior2",
+        "name": "Renegade Knight Helm",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage1",
+        "name": "Forest Mage Hat",
+        "class_name": "high-mage",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage2",
+        "name": "Swamp Mage Hat",
+        "class_name": "high-mage",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage1",
+        "name": "Desert Mage Hat",
+        "class_name": "mage",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "mage2",
+        "name": "Smoky Mage Hat",
+        "class_name": "mage",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin1",
+        "name": "Light Knight Helm",
+        "class_name": "paladin",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "paladin2",
+        "name": "Justice Knight Helm",
+        "class_name": "paladin",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest1",
+        "name": "White Bishop Mitra",
+        "class_name": "priest",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "priest2",
+        "name": "White Prophet Keffiyeh",
+        "class_name": "priest",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "ranger1",
+        "name": "Deserter Ranger Helm",
+        "class_name": "ranger",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "ranger2",
+        "name": "Outcast Ranger Helm",
+        "class_name": "ranger",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue1",
+        "name": "Fine Rogue Hat",
+        "class_name": "rogue",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "rogue2",
+        "name": "Galant Rogue Hat",
+        "class_name": "rogue",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief1",
+        "name": "Black Ninja Hood",
+        "class_name": "thief",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief2",
+        "name": "Desert Ninja Hood",
+        "class_name": "thief",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock1",
+        "name": "Cursed Warlock Hood",
+        "class_name": "warlock",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock2",
+        "name": "Monstrous Warlock Hood",
+        "class_name": "warlock",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior1",
+        "name": "Mighty Fighter Helm",
+        "class_name": "warrior",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "warrior2",
+        "name": "Gladiator Helm",
+        "class_name": "warrior",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor1",
+        "name": "Arcane Witchdoctor Mask",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_1",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor2",
+        "name": "Umbranian Doctor Mask",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_2",
+        "auto_paint": true,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage3",
+        "name": "skin-black-mage3",
+        "class_name": "black-mage",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid3",
+        "name": "skin-druid3",
+        "class_name": "druid",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior3",
+        "name": "skin-elite-warrior3",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage3",
+        "name": "skin-high-mage3",
+        "class_name": "high-mage",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage3",
+        "name": "skin-mage3",
+        "class_name": "mage",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin3",
+        "name": "skin-paladin3",
+        "class_name": "paladin",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest3",
+        "name": "skin-priest3",
+        "class_name": "priest",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger3",
+        "name": "skin-ranger3",
+        "class_name": "ranger",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue3",
+        "name": "skin-rogue3",
+        "class_name": "rogue",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief3",
+        "name": "skin-thief3",
+        "class_name": "thief",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock3",
+        "name": "skin-warlock3",
+        "class_name": "warlock",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior3",
+        "name": "skin-warrior3",
+        "class_name": "warrior",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor3",
+        "name": "skin-witchdoctor3",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage4",
+        "name": "skin-black-mage4",
+        "class_name": "black-mage",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid4",
+        "name": "skin-druid4",
+        "class_name": "druid",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior4",
+        "name": "skin-elite-warrior4",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage4",
+        "name": "skin-high-mage4",
+        "class_name": "high-mage",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage4",
+        "name": "skin-mage4",
+        "class_name": "mage",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin4",
+        "name": "skin-paladin4",
+        "class_name": "paladin",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest4",
+        "name": "skin-priest4",
+        "class_name": "priest",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "ranger4",
+        "name": "skin-ranger4",
+        "class_name": "ranger",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue4",
+        "name": "skin-rogue4",
+        "class_name": "rogue",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief4",
+        "name": "skin-thief4",
+        "class_name": "thief",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock4",
+        "name": "skin-warlock4",
+        "class_name": "warlock",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior4",
+        "name": "skin-warrior4",
+        "class_name": "warrior",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor4",
+        "name": "skin-witchdoctor4",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_4",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage5",
+        "name": "skin-black-mage5",
+        "class_name": "black-mage",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid5",
+        "name": "skin-druid5",
+        "class_name": "druid",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior5",
+        "name": "skin-elite-warrior5",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage5",
+        "name": "skin-high-mage5",
+        "class_name": "high-mage",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage5",
+        "name": "skin-mage5",
+        "class_name": "mage",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin5",
+        "name": "skin-paladin5",
+        "class_name": "paladin",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest5",
+        "name": "skin-priest5",
+        "class_name": "priest",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger5",
+        "name": "skin-ranger5",
+        "class_name": "ranger",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue5",
+        "name": "skin-rogue5",
+        "class_name": "rogue",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief5",
+        "name": "skin-thief5",
+        "class_name": "thief",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock5",
+        "name": "skin-warlock5",
+        "class_name": "warlock",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "warrior5",
+        "name": "skin-warrior5",
+        "class_name": "warrior",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor5",
+        "name": "skin-witchdoctor5",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_5",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage6",
+        "name": "skin-black-mage6",
+        "class_name": "black-mage",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid6",
+        "name": "skin-druid6",
+        "class_name": "druid",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior6",
+        "name": "skin-elite-warrior6",
+        "class_name": "elite-warrior",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage6",
+        "name": "skin-high-mage6",
+        "class_name": "high-mage",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage6",
+        "name": "skin-mage6",
+        "class_name": "mage",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin6",
+        "name": "skin-paladin6",
+        "class_name": "paladin",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest6",
+        "name": "skin-priest6",
+        "class_name": "priest",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger6",
+        "name": "skin-ranger6",
+        "class_name": "ranger",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue6",
+        "name": "skin-rogue6",
+        "class_name": "rogue",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief6",
+        "name": "skin-thief6",
+        "class_name": "thief",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock6",
+        "name": "skin-warlock6",
+        "class_name": "warlock",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior6",
+        "name": "skin-warrior6",
+        "class_name": "warrior",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor6",
+        "name": "skin-witchdoctor6",
+        "class_name": "witchdoctor",
+        "set_name": "basic2023_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage7",
+        "name": "skin-black-mage7",
+        "class_name": "black-mage",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid7",
+        "name": "skin-druid7",
+        "class_name": "druid",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior7",
+        "name": "skin-elite-warrior7",
+        "class_name": "elite-warrior",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage7",
+        "name": "skin-high-mage7",
+        "class_name": "high-mage",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage7",
+        "name": "skin-mage7",
+        "class_name": "mage",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin7",
+        "name": "skin-paladin7",
+        "class_name": "paladin",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest7",
+        "name": "skin-priest7",
+        "class_name": "priest",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger7",
+        "name": "skin-ranger7",
+        "class_name": "ranger",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue7",
+        "name": "skin-rogue7",
+        "class_name": "rogue",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief7",
+        "name": "skin-thief7",
+        "class_name": "thief",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock7",
+        "name": "skin-warlock7",
+        "class_name": "warlock",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior7",
+        "name": "skin-warrior7",
+        "class_name": "warrior",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor7",
+        "name": "skin-witchdoctor7",
+        "class_name": "witchdoctor",
+        "set_name": "basic2023_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage8",
+        "name": "skin-black-mage8",
+        "class_name": "black-mage",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "druid8",
+        "name": "skin-druid8",
+        "class_name": "druid",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior8",
+        "name": "skin-elite-warrior8",
+        "class_name": "elite-warrior",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage8",
+        "name": "skin-high-mage8",
+        "class_name": "high-mage",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage8",
+        "name": "skin-mage8",
+        "class_name": "mage",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin8",
+        "name": "skin-paladin8",
+        "class_name": "paladin",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest8",
+        "name": "skin-priest8",
+        "class_name": "priest",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger8",
+        "name": "skin-ranger8",
+        "class_name": "ranger",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue8",
+        "name": "skin-rogue8",
+        "class_name": "rogue",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief8",
+        "name": "skin-thief8",
+        "class_name": "thief",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock8",
+        "name": "skin-warlock8",
+        "class_name": "warlock",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior8",
+        "name": "skin-warrior8",
+        "class_name": "warrior",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor8",
+        "name": "skin-witchdoctor8",
+        "class_name": "witchdoctor",
+        "set_name": "basic2023_3",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage9",
+        "name": "Outcast Mage Hood",
+        "class_name": "black-mage",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid9",
+        "name": "Ancient Druid Mask",
+        "class_name": "druid",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior9",
+        "name": "Dark Knight Helm",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage9",
+        "name": "Forest Mage Hat",
+        "class_name": "high-mage",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage9",
+        "name": "Desert Mage Hat",
+        "class_name": "mage",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin9",
+        "name": "Light Knight Helm",
+        "class_name": "paladin",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest9",
+        "name": "White Bishop Mitra",
+        "class_name": "priest",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger9",
+        "name": "Deserter Ranger Helm",
+        "class_name": "ranger",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue9",
+        "name": "Fine Rogue Hat",
+        "class_name": "rogue",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief9",
+        "name": "Black Ninja Hood",
+        "class_name": "thief",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock9",
+        "name": "Cursed Warlock Hood",
+        "class_name": "warlock",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior9",
+        "name": "Mighty Fighter Helm",
+        "class_name": "warrior",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor9",
+        "name": "Arcane Witchdoctor Mask",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_9",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage10",
+        "name": "Renegade Mage Hood",
+        "class_name": "black-mage",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid10",
+        "name": "Relentless Druid Helm",
+        "class_name": "druid",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior10",
+        "name": "Renegade Knight Helm",
+        "class_name": "elite-warrior",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage10",
+        "name": "Swamp Mage Hat",
+        "class_name": "high-mage",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "mage10",
+        "name": "Smoky Mage Hat",
+        "class_name": "mage",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin10",
+        "name": "Justice Knight Helm",
+        "class_name": "paladin",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest10",
+        "name": "White Prophet Keffiyeh",
+        "class_name": "priest",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "ranger10",
+        "name": "Outcast Ranger Helm",
+        "class_name": "ranger",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "rogue10",
+        "name": "Galant Rogue Hat",
+        "class_name": "rogue",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief10",
+        "name": "Desert Ninja Hood",
+        "class_name": "thief",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock10",
+        "name": "Monstrous Warlock Hood",
+        "class_name": "warlock",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior10",
+        "name": "Gladiator Helm",
+        "class_name": "warrior",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor10",
+        "name": "Umbranian Doctor Mask",
+        "class_name": "witchdoctor",
+        "set_name": "basic2022_10",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage11",
+        "name": "skin-black-mage11",
+        "class_name": "black-mage",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid11",
+        "name": "skin-druid11",
+        "class_name": "druid",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior11",
+        "name": "skin-elite-warrior11",
+        "class_name": "elite-warrior",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "high-mage11",
+        "name": "skin-high-mage11",
+        "class_name": "high-mage",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "mage11",
+        "name": "skin-mage11",
+        "class_name": "mage",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin11",
+        "name": "skin-paladin11",
+        "class_name": "paladin",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest11",
+        "name": "skin-priest11",
+        "class_name": "priest",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger11",
+        "name": "skin-ranger11",
+        "class_name": "ranger",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "rogue11",
+        "name": "skin-rogue11",
+        "class_name": "rogue",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief11",
+        "name": "skin-thief11",
+        "class_name": "thief",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock11",
+        "name": "skin-warlock11",
+        "class_name": "warlock",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior11",
+        "name": "skin-warrior11",
+        "class_name": "warrior",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor11",
+        "name": "skin-witchdoctor11",
+        "class_name": "witchdoctor",
+        "set_name": "basic2024_1",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "black-mage12",
+        "name": "skin-black-mage12",
+        "class_name": "black-mage",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "druid12",
+        "name": "skin-druid12",
+        "class_name": "druid",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "elite-warrior12",
+        "name": "skin-elite-warrior12",
+        "class_name": "elite-warrior",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.047,
+        "price": 200
+    },
+    {
+        "key": "high-mage12",
+        "name": "skin-high-mage12",
+        "class_name": "high-mage",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "mage12",
+        "name": "skin-mage12",
+        "class_name": "mage",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "paladin12",
+        "name": "skin-paladin12",
+        "class_name": "paladin",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "priest12",
+        "name": "skin-priest12",
+        "class_name": "priest",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "ranger12",
+        "name": "skin-ranger12",
+        "class_name": "ranger",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "rogue12",
+        "name": "skin-rogue12",
+        "class_name": "rogue",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "thief12",
+        "name": "skin-thief12",
+        "class_name": "thief",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warlock12",
+        "name": "skin-warlock12",
+        "class_name": "warlock",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.03,
+        "price": 200
+    },
+    {
+        "key": "warrior12",
+        "name": "skin-warrior12",
+        "class_name": "warrior",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    },
+    {
+        "key": "witchdoctor12",
+        "name": "skin-witchdoctor12",
+        "class_name": "witchdoctor",
+        "set_name": "basic2024_2",
+        "auto_paint": false,
+        "depth_offset":0.041,
+        "price": 200
+    }
+]

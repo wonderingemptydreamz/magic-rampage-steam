@@ -1,0 +1,29 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.8;
+}
+
+back
+{
+	type = button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.044;
+	posY = 0.044;
+	originX = 0.0;
+	originY = 0.0;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 1000;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+
+	iterable = false;
+}

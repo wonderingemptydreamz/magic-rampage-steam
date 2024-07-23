@@ -1,0 +1,405 @@
+item0
+{
+	name = Pepper Brew;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-pepper-brew.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = beverage_pepper_brew;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Pepper Brew-desc;
+
+	element = fire;
+
+	effectColor = 1, 0.639, 0.208;
+}
+
+item1
+{
+	name = Draft of Freshness;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = faceless.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = beverage_draft_of_freshness;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Draft of Freshness-desc;
+
+	element = water;
+
+	effectColor = 0.1, 0.4, 0.5;
+}
+
+item2
+{
+	name = Sparkling Tonic;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-umbranian-water.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = beverage_sparkling_tonic;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Sparkling Tonic-desc;
+
+	element = air;
+
+	effectColor = 0.1, 0.4, 0.5;
+}
+
+item3
+{
+	name = Tonic of Invulnerability;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-tonic-of-invulnerability.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = beverage_tonic_of_invulnerability;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Tonic of Invulnerability-desc;
+
+	element = earth;
+	poisonous = true;
+
+	effectColor = 0.792, 1.0, 0.486;
+}
+
+item4
+{
+	name = Elixir of Duplication;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-elixir-of-duplication.png;
+
+	armor = 0;
+	damage = 1;
+
+	equipEntity = beverage_elixir_of_duplication;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 5000;
+
+	text = Elixir of Duplication-desc;
+
+	element = darkness;
+
+	effectColor = 1.0, 0.2759, 0.2831;
+}
+
+item5
+{
+	name = Arcane Precision Tonic;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-arcane-precision-tonic.png;
+
+	armor = 0;
+	damage = 1;
+
+	equipEntity = beverage_arcane_precision_tonic;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 5000;
+
+	text = Arcane Precision Tonic-desc;
+
+	element = light;
+
+	effectColor = 0.271, 0.737, 0.102;
+}
+
+item6
+{
+	name = Levitation Liqueur;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-levitation-liqueur.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = beverage_levitation_liqueur;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Levitation Liqueur-desc;
+
+	element = air;
+
+	effectColor = 0.7, 1, 0.4;
+}
+
+item7
+{
+	name = Moonjump Mixture;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-moonjump-mixture.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = beverage_moonjump_mixture;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 2000;
+
+	text = Moonjump Mixture-desc;
+
+	element = earth;
+
+	effectColor = 0.7524, 0.2304, 0.9648;
+}
+
+item8
+{
+	name = Forbidden Flowers Extract;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-forbidden-flowers-extract.png;
+
+	armor = 0;
+	damage = 1;
+
+	equipEntity = beverage_forbidden_flowers_extract;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 10;
+
+	text = Forbidden Flowers Extract-desc;
+
+	element = fire;
+
+	effectColor = 1.0, 0.6, 0.2;
+}
+
+item9
+{
+	name = Umbranian Water;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-umbranian-water.png;
+
+	armor = 0;
+	damage = 0;
+
+	equipEntity = beverage_umbranian_water;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 50;
+
+	text = Umbranian Water-desc;
+
+	element = water;
+
+	effectColor = 0.443, 1.0, 0.871;
+}
+
+item10
+{
+	name = Monsters Juice;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-monsters-juice.png;
+
+	armor = 1;
+	damage = 1;
+
+	equipEntity = beverage_monsters_juice;
+
+	depthOffset = 0;
+	maxStackSize = 20;
+
+	soundPack = potion;
+
+	fixedPrice = 4000;
+
+	text = Monsters Juice-desc;
+
+	element = darkness;
+
+	effectColor = 0.945, 0.302, 0.388;
+}
+
+item11
+{
+	name = Starlight Supertonic;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = beverage-starlight-supertonic.png;
+
+	armor = 1;
+	damage = 1;
+
+	equipEntity = beverage_starlight_supertonic;
+
+	depthOffset = 0;
+	maxStackSize = 5;
+
+	soundPack = potion;
+
+	fixedPrice = 150000;
+
+	text = Starlight Supertonic-desc;
+
+	element = light;
+
+	effectColor = 0.953, 0.722, 0.271;
+}
+
+item12
+{
+	name = Instant Radiant Shield;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = instant-radiant-shield.png;
+
+	armor = 1;
+	damage = 0;
+
+	equipEntity = instant_radiant_shield;
+
+	depthOffset = 0;
+	maxStackSize = 40;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Instant Radiant Shield-desc;
+
+	element = light;
+
+	effectColor = 1, 0.88, 0.6;
+}
+
+item13
+{
+	name = Instant Charge Blast;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = instant-charge-blast.png;
+
+	armor = 0;
+	damage = 1;
+
+	equipEntity = instant_charge_blast;
+
+	depthOffset = 0;
+	maxStackSize = 40;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Instant Charge Blast-desc;
+
+	element = earth;
+
+	effectColor = 1, 0.5, 0.1;
+}
+
+item14
+{
+	name = Instant Thunder Wave;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = instant-thunder-wave.png;
+
+	armor = 0;
+	damage = 1;
+
+	equipEntity = instant_thunder_wave;
+
+	depthOffset = 0;
+	maxStackSize = 40;
+
+	soundPack = potion;
+
+	fixedPrice = 3000;
+
+	text = Instant Thunder Wave-desc;
+
+	element = earth;
+
+	effectColor = 0.4627, 0.9803, 0.2705;
+}

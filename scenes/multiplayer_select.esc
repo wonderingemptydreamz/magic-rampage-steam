@@ -1,0 +1,543 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="3.25" parallaxIntensity="3">
+        <Ambient r="0.35" g="0.16" b="0.34" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="15212" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="5952" y="-768" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15226" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="6720" y="-768" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="3343" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="48" y="-360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19026" spriteFrame="0">
+            <EntityName>castle_bg_wall_gothic_window.ent</EntityName>
+            <Position x="768" y="-360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall_gothic_window.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19025" spriteFrame="0">
+            <EntityName>castle_bg_wall_gothic_window.ent</EntityName>
+            <Position x="1488" y="-360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall_gothic_window.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="19014" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="2208" y="-360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24208" spriteFrame="0">
+            <EntityName>light_beam_b.ent</EntityName>
+            <Position x="474" y="80" z="16" angle="0" />
+            <Entity>
+                <FileName>light_beam_b.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24957" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="48" y="360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25727" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="226" y="268" z="-36" angle="0" />
+            <Entity>
+                <FileName>torch_no_light.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25452" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="226" y="322" z="-38" angle="0" />
+            <Entity>
+                <FileName>dungeon_column.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1247" spriteFrame="0">
+            <EntityName>camMin</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24472" spriteFrame="0">
+            <EntityName>player0</EntityName>
+            <Position x="444" y="448" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25977" spriteFrame="0">
+            <EntityName>kings_room_curtain.ent</EntityName>
+            <Position x="768" y="274" z="-70" angle="0" />
+            <Entity>
+                <FileName>kings_room_curtain.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25902" spriteFrame="0">
+            <EntityName>throne.ent</EntityName>
+            <Position x="768" y="394" z="-58" angle="0" />
+            <Entity>
+                <FileName>throne.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25812" spriteFrame="0">
+            <EntityName>credit_scene_fireflies_small.ent</EntityName>
+            <Position x="790" y="99" z="-74" angle="0" />
+            <Entity>
+                <FileName>credit_scene_fireflies_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24956" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="768" y="360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24275" spriteFrame="0">
+            <EntityName>middle</EntityName>
+            <Position x="768" y="360" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24406" spriteFrame="0">
+            <EntityName>random_earthquake</EntityName>
+            <Position x="684" y="225" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25858" spriteFrame="0">
+            <EntityName>credit_scene_fireflies.ent</EntityName>
+            <Position x="791" y="240" z="42" angle="0" />
+            <Entity>
+                <FileName>credit_scene_fireflies.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25859" spriteFrame="0" flipX="1">
+            <EntityName>light_beam_b.ent</EntityName>
+            <Position x="1068" y="80" z="16" angle="0" />
+            <Entity>
+                <FileName>light_beam_b.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25728" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="1308" y="268" z="-36" angle="0" />
+            <Entity>
+                <FileName>torch_no_light.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25453" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="1310" y="322" z="-38" angle="0" />
+            <Entity>
+                <FileName>dungeon_column.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24955" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="1488" y="360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24471" spriteFrame="0">
+            <EntityName>player1</EntityName>
+            <Position x="1090" y="448" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="24954" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="2208" y="360" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25925" spriteFrame="0">
+            <EntityName>dungeon_block_04_2.ent</EntityName>
+            <Position x="454" y="608" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_04_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25449" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="48" y="900" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="416" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="16" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25768" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="344" y="512" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25923" spriteFrame="0" flipX="1">
+            <EntityName>dungeon_block_03_2.ent</EntityName>
+            <Position x="256" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25976" spriteFrame="0">
+            <EntityName>kings_room_throne_arm.ent</EntityName>
+            <Position x="768" y="536" z="-50" angle="0" />
+            <Entity>
+                <FileName>kings_room_throne_arm.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25458" spriteFrame="0">
+            <EntityName>fire_big_light.ent</EntityName>
+            <Position x="768" y="904" z="-64" angle="0" />
+            <Entity>
+                <FileName>fire_big_light.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25448" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="768" y="900" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="960" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="6" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="784" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="608" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25795" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="662" y="705" z="-62" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25796" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="845" y="700" z="-24" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25797" spriteFrame="0">
+            <EntityName>fire_flames_sparks.ent</EntityName>
+            <Position x="771" y="708" z="-18" angle="0" />
+            <Entity>
+                <FileName>fire_flames_sparks.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25918" spriteFrame="0" flipX="1">
+            <EntityName>dungeon_block_03_2.ent</EntityName>
+            <Position x="768" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25975" spriteFrame="0">
+            <EntityName>kings_throne_stairs.ent</EntityName>
+            <Position x="768" y="618" z="-14" angle="0" />
+            <Entity>
+                <FileName>kings_throne_stairs.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25924" spriteFrame="0" flipX="1">
+            <EntityName>dungeon_block_04_2.ent</EntityName>
+            <Position x="1080" y="608" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_04_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25446" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="1488" y="900" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="51" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1216" y="736" z="0" angle="0" />
+            <Entity>
+                <FileName>_marker.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25769" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1188" y="512" z="0" angle="0" />
+            <Entity>
+                <FileName>invisible_wall.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25920" spriteFrame="0">
+            <EntityName>dungeon_block_03_2.ent</EntityName>
+            <Position x="1280" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25921" spriteFrame="0">
+            <EntityName>dungeon_block_03_2.ent</EntityName>
+            <Position x="1792" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25447" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="2208" y="900" z="-80" angle="0" />
+            <Entity>
+                <FileName>castle_bg_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="25922" spriteFrame="0">
+            <EntityName>dungeon_block_03_2.ent</EntityName>
+            <Position x="-256" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03_2.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="25444" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="1792" y="1496" z="0" angle="0" />
+            <Entity>
+                <FileName>dungeon_block_03.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

@@ -1,0 +1,28 @@
+element
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0;
+	posY = 0;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.8;
+	frameSizeX = 300;
+	frameSizeY = 100;
+	borderScale = 0.7;
+
+	text = awake!;
+	textFont = Crusade128.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 500;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 200;
+	dismissDelay = 0;
+}

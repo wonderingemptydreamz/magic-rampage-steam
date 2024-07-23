@@ -1,0 +1,83 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.2;
+}
+
+title
+{
+	type = sprite;
+	fileName = sprites/game-over.png;
+
+	posX = 0.5;
+	posY = 0.25;
+	originX = 0.5;
+	originY = 0.5;
+
+	appearEffect = fade-in;
+	appearEffectDuration = 1200;
+	appearDelay = 1000;
+
+	dismissEffectDuration = 800;
+}
+
+
+retry
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.49;
+	posY = 0.75;
+	originX = 1.0;
+	originY = 0.5;
+
+	scale = 0.85;
+	borderScale = 0.8;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = retry;
+	textFont = Averia48.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 600;
+	appearDelay = 5000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 400;
+}
+
+quit
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-red.png;
+
+	posX = 0.51;
+	posY = 0.75;
+	originX = 0.0;
+	originY = 0.5;
+
+	scale = 0.85;
+	borderScale = 0.8;
+
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = quit;
+	textFont = Averia48.fnt;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 600;
+	appearDelay = 5500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 400;
+}

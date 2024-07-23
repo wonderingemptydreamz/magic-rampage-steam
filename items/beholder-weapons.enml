@@ -1,0 +1,51 @@
+beholder_spike
+{
+	name = Spike;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = projectile_beholder_spike.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	projectileSpeed = 9;
+
+	attackCooldown = 450;
+	damage = 35;
+	speedBoost = 1.05;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_beholder_spike.ent;
+}
+
+beholder_beam
+{
+	name = Beam;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = projectile_beholder_spike.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	projectileSpeed = 9;
+
+	attackCooldown = 450;
+	damage = 40;
+	speedBoost = 1.05;
+
+	soundPack = power;
+
+	element = darkness;
+
+	poisonous = true;
+
+	projectileEntity = projectile_dark_beam.ent;
+}

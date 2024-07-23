@@ -1,0 +1,27 @@
+exit
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.053;
+	originX = 1.0;
+	originY = 0.0;
+	scale = 0.7;
+	borderScale = 0.7;
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = exit;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 400;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 1000;
+}

@@ -1,0 +1,28 @@
+prizes
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-purple.png;
+
+	posX = 0.952;
+	posY = 0.030;
+	originX = 1.0;
+	originY = 0.0;
+	scale = 0.7;
+	borderScale = 0.65;
+	frameSizeX = 300;
+	frameSizeY = 100;
+
+	text = prizes;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 1000;
+	appearDelay = 8000;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 600;
+	dismissDelay = 0;
+}

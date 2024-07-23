@@ -1,0 +1,240 @@
+item0
+{
+	name = Silver Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 800;
+	damage = 13;
+	armorBoost = 1.35;
+
+	soundPack = heavy-blade;
+
+	invertProjectile = true;
+	projectileEntity = projectile_axe.ent;
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+
+	text = against-insects;
+}
+
+item1
+{
+	name = Club;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = mace_2.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -2;
+
+	attackCooldown = 800;
+	damage = 16;
+	armorBoost = 1.3;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_club.ent;
+	projectileSpeed = 15.0;
+}
+
+item2
+{
+	name = Iron Mace;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = mace_1.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -2;
+
+	attackCooldown = 800;
+	damage = 16;
+	armorBoost = 1.3;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_mace_1.ent;
+	invertProjectile = true;
+	projectileSpeed = 15.0;
+}
+
+item3
+{
+	name = Silver Mace;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = mace_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 800;
+	damage = 12;
+	armorBoost = 1.35;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_mace_0.ent;
+	invertProjectile = true;
+	projectileSpeed = 15.0;
+
+	text = against-insects;
+}
+
+item4
+{
+	name = Insect Crusher;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_2_clean.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 800;
+	damage = 16;
+	armorBoost = 1.35;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_insect_crusher.ent;
+	invertProjectile = true;
+	projectileSpeed = 10.0;
+
+	text = against-insects;
+}
+
+item5
+{
+	name = Wooden Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -30;
+	equipOffsetY = -8;
+
+	attackCooldown = 800;
+	damage = 17;
+	armorBoost = 1.35;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_0.ent;
+	invertProjectile = true;
+	projectileSpeed = 14.0;
+	element = earth;
+
+	maxLevelAllowed = 6;
+
+	text = against-insects;
+}
+
+item6
+{
+	name = Warhammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_1.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 800;
+	damage = 28;
+	armorBoost = 1.5;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_1.ent;
+	equipEntity = weapon_warhammer.ent;
+	dropEntityName = item_warhammer.ent;
+	invertProjectile = true;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 12;
+
+	text = against-insects;
+}
+
+item7
+{
+	name = Wooden Hawaiian;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = wooden_hawaiian.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -16;
+
+	attackCooldown = 800;
+	damage = 10;
+
+	soundPack = blunt;
+
+	projectileEntity = projectile_wooden_hawaiian.ent;
+	invertProjectile = true;
+	projectileSpeed = 14.0;
+	projectileSpin = 14;
+
+	fixedPrice = 4200;
+}

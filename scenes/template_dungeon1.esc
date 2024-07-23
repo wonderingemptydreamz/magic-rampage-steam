@@ -1,0 +1,1979 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <SceneProperties lightIntensity="3" parallaxIntensity="3">
+        <Ambient r="0.24" g="0.24" b="0.26" />
+        <ZAxisDirection x="0" y="0" />
+    </SceneProperties>
+    <EntitiesInScene>
+        <Entity id="5" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="608" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="960" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4623" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="768" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="3343" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="-360" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26125" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="-64" y="256" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="4613" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="1080" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14020" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="1173" y="323" z="-30" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="23662" spriteFrame="0">
+            <EntityName>castle_bg_arch_b.ent</EntityName>
+            <Position x="9000" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_arch_b.png</Sprite>
+                <Normal>castle_bg_arch_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7631" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="9000" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9299" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="8784" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9301" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="9728" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9302" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="10144" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7632" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="9720" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9300" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="9440" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4778" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="3240" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4617" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="3072" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4212" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="3840" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4618" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="3960" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7623" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="3960" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1472" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="3728" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="20344" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="1792" y="-768" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="23659" spriteFrame="0">
+            <EntityName>castle_bg_arch_b.ent</EntityName>
+            <Position x="6120" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_arch_b.png</Sprite>
+                <Normal>castle_bg_arch_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4214" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="5762" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3755" spriteFrame="0">
+            <EntityName>fire_light.ent</EntityName>
+            <Position x="5762" y="464" z="-46" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="14" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" boundingSphere="368.64" lifeTime="400" randomLifeTime="150" angleDir="0" randAngle="12" size="60.48" randomizeSize="0" growth="-2.448" minSize="0" maxSize="720" angleStart="0" randAngleStart="360">
+                        <Bitmap>fire.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="-2.448" />
+                        <RandomizeDir x="1.44" y="1.584" />
+                        <SpriteCut x="4" y="1" />
+                        <StartPoint x="0" y="0" z="-1.44" />
+                        <RandStartPoint x="0" y="0" />
+                        <Color0 r="1" g="0.4" b="0.2" a="1" />
+                        <Color1 r="1" g="0.4" b="0.2" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="504">
+                    <Position x="10" y="-10" z="26" />
+                    <Color r="1" g="0.4" b="0.1" />
+                    <HaloBitmap>crystal_halo.png</HaloBitmap>
+                </Light>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7620" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="1800" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9297" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="7792" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4758" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="9984" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7601" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="3960" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="994" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="3664" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4629" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="3840" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="12970" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="7936" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7608" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="9000" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4756" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="8960" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7609" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="9720" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12971" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="9472" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="9941" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="4512" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="23658" spriteFrame="0">
+            <EntityName>castle_bg_arch_b.ent</EntityName>
+            <Position x="5400" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_arch_b.png</Sprite>
+                <Normal>castle_bg_arch_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7617" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="-360" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4630" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="4352" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7596" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="1800" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="982" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1760" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26128" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="1792" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="23395" spriteFrame="0" shadowZ="0">
+            <EntityName>play_music</EntityName>
+            <Position x="581" y="244" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="1" shadowScale="0" shadowLengthScale="1" shadowOpacity="1" type="0" parallaxIntensity="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>music.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>index</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>loop</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="4783" spriteFrame="0">
+            <EntityName>spawn0</EntityName>
+            <Position x="764" y="507" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4209" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="768" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12976" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="768" y="349" z="-49" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.1" g="0.1" b="0.1" a="0" />
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Normal>torch_height_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7625" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="5400" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3735" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="5584" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7603" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="5400" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3726" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="5568" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3725" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="5216" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4632" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="5376" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="23657" spriteFrame="0">
+            <EntityName>castle_bg_arch_b.ent</EntityName>
+            <Position x="4680" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_arch_b.png</Sprite>
+                <Normal>castle_bg_arch_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="5077" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="5035" y="0" z="-56" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="21011" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="10817" y="2" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="3370" spriteFrame="0">
+            <EntityName>fire_light.ent</EntityName>
+            <Position x="4196" y="330" z="-76" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="14" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" boundingSphere="368.64" lifeTime="400" randomLifeTime="150" angleDir="0" randAngle="12" size="60.48" randomizeSize="0" growth="-2.448" minSize="0" maxSize="720" angleStart="0" randAngleStart="360">
+                        <Bitmap>fire.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="-2.448" />
+                        <RandomizeDir x="1.44" y="1.584" />
+                        <SpriteCut x="4" y="1" />
+                        <StartPoint x="0" y="0" z="-1.44" />
+                        <RandStartPoint x="0" y="0" />
+                        <Color0 r="1" g="0.4" b="0.2" a="1" />
+                        <Color1 r="1" g="0.4" b="0.2" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="504">
+                    <Position x="10" y="-10" z="26" />
+                    <Color r="1" g="0.4" b="0.1" />
+                    <HaloBitmap>crystal_halo.png</HaloBitmap>
+                </Light>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7621" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="2520" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1468" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2528" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1467" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2160" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="8198" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="3070" y="349" z="-49" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.1" g="0.1" b="0.1" a="0" />
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Normal>torch_height_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7597" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="2520" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="986" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2480" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="984" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2096" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4626" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="2304" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7796" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="9728" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12974" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="9728" y="384" z="-49" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.1" g="0.1" b="0.1" a="0" />
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Normal>torch_height_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7797" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="9733" y="329" z="-88" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15186" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="3055" y="-73" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="1469" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2896" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="23660" spriteFrame="0">
+            <EntityName>castle_bg_arch_b.ent</EntityName>
+            <Position x="6840" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_arch_b.png</Sprite>
+                <Normal>castle_bg_arch_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="20343" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="2560" y="-768" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15226" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="6720" y="-768" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="10462" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="7092" y="-37" z="-52" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7627" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="6840" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3740" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6992" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3739" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6672" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="989" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="2960" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26129" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="2816" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="4211" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="2304" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4616" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="2520" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="16221" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="4928" y="-768" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7605" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="6840" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3731" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6944" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4636" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="6912" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="9943" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="4784" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7624" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="4680" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3738" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="5040" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15170" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="64" y="-256" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7618" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="360" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1461" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="208" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7602" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="4680" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3723" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="4864" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4631" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="4864" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="3736" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6176" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="8717" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="1538" y="349" z="-49" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.1" g="0.1" b="0.1" a="0" />
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Normal>torch_height_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4614" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="1800" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4210" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="1536" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14021" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="1946" y="366" z="-30" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="13223" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="6400" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="3730" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6640" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3729" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6352" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7594" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="360" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="2" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="224" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4622" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="256" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7630" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="8280" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="9298" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="8272" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1247" spriteFrame="0">
+            <EntityName>camMin</EntityName>
+            <Position x="0" y="0" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4612" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="360" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4615" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="0" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14019" spriteFrame="0">
+            <EntityName>blue_light_2.ent</EntityName>
+            <Position x="419" y="336" z="-30" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="608">
+                    <Position x="6" y="-14" z="26" />
+                    <Color r="0.1" g="0.2" b="0.3" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoDelete</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7619" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="1080" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1465" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1488" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1464" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1104" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7622" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="3240" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1471" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="3552" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1470" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="3200" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12468" spriteFrame="0">
+            <EntityName>level_end.ent</EntityName>
+            <Position x="10274" y="378" z="0" angle="0" />
+            <Entity shape="1" sensor="1" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7639" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="10440" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15212" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="5952" y="-768" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="21012" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="10277" y="-134" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="21009" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="10440" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7626" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="6120" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="14300" spriteFrame="0">
+            <EntityName>instant_death.ent</EntityName>
+            <Position x="1155" y="1261" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26440" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="8448" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7607" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="8280" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7598" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="3240" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="992" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="3360" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4628" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="3328" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7595" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="1080" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="983" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="1392" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26127" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="1280" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7604" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="6120" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3728" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="6128" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3727" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="5824" y="736" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="4633" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="5888" y="704" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="15230" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="6528" y="384" z="-49" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.1" g="0.1" b="0.1" a="0" />
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Normal>torch_height_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="15229" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="6528" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="21008" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="10440" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="21007" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="10496" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="1249" spriteFrame="0">
+            <EntityName>camMax</EntityName>
+            <Position x="10394" y="720" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12831" spriteFrame="0">
+            <EntityName>red_light_large.ent</EntityName>
+            <Position x="10626" y="619" z="-60" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>wheel_sprite.png</Sprite>
+                <Light active="1" static="1" castShadows="0" range="391" haloBrightness="1" haloSize="608">
+                    <Position x="0" y="0" z="0" />
+                    <Color r="0.9" g="0" b="0" />
+                </Light>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7638" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="9720" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7593" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="-360" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26126" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="-64" y="768" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="23661" spriteFrame="0">
+            <EntityName>castle_bg_arch_b.ent</EntityName>
+            <Position x="8280" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_arch_b.png</Sprite>
+                <Normal>castle_bg_arch_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7795" spriteFrame="0">
+            <EntityName>fire_light.ent</EntityName>
+            <Position x="8640" y="192" z="-77" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Particles>
+                    <ParticleSystem particles="14" allAtOnce="0" alphaMode="1" repeat="0" animationMode="2" boundingSphere="368.64" lifeTime="400" randomLifeTime="150" angleDir="0" randAngle="12" size="60.48" randomizeSize="0" growth="-2.448" minSize="0" maxSize="720" angleStart="0" randAngleStart="360">
+                        <Bitmap>fire.png</Bitmap>
+                        <Gravity x="0" y="0" />
+                        <Direction x="0" y="-2.448" />
+                        <RandomizeDir x="1.44" y="1.584" />
+                        <SpriteCut x="4" y="1" />
+                        <StartPoint x="0" y="0" z="-1.44" />
+                        <RandStartPoint x="0" y="0" />
+                        <Color0 r="1" g="0.4" b="0.2" a="1" />
+                        <Color1 r="1" g="0.4" b="0.2" a="1" />
+                        <Luminance r="1" g="1" b="1" />
+                    </ParticleSystem>
+                </Particles>
+                <Light active="1" static="1" castShadows="0" range="800" haloBrightness="1" haloSize="504">
+                    <Position x="10" y="-10" z="26" />
+                    <Color r="1" g="0.4" b="0.1" />
+                    <HaloBitmap>crystal_halo.png</HaloBitmap>
+                </Light>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="3720" spriteFrame="0">
+            <EntityName>castle_bg_wall.ent</EntityName>
+            <Position x="7560" y="360" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_bg_wall.png</Sprite>
+                <Normal>castle_bg_wall_nm.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="7794" spriteFrame="0">
+            <EntityName>dungeon_column.ent</EntityName>
+            <Position x="7552" y="340" z="-50" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.2" g="0.2" b="0.2" a="0" />
+                <Sprite>dungeon_column.png</Sprite>
+                <Normal>dungeon_column_height_2_smaller_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="12972" spriteFrame="0">
+            <EntityName>torch_no_light.ent</EntityName>
+            <Position x="7552" y="384" z="-49" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="0">
+                <EmissiveColor r="0.1" g="0.1" b="0.1" a="0" />
+                <PivotAdjust x="0" y="-61" />
+                <Sprite>torch.png</Sprite>
+                <Normal>torch_height_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1463" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="528" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="1462" spriteFrame="0">
+            <EntityName>_marker.ent</EntityName>
+            <Position x="816" y="-16" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="21010" spriteFrame="0">
+            <EntityName>invisible_wall.ent</EntityName>
+            <Position x="10816" y="512" z="0" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="0">
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="128" y="512" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>shouldBeIgnoredByProjectile</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7628" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="7560" y="-180" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26439" spriteFrame="0">
+            <EntityName>dungeon_block_03.ent</EntityName>
+            <Position x="7424" y="704" z="0" angle="180" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="1" blendMode="2">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>dungeon_block_03.png</Sprite>
+                <Collision>
+                    <Position x="0" y="0" z="0" />
+                    <Size x="512" y="128" z="1" />
+                </Collision>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="7606" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="7560" y="900" z="-80" angle="0" />
+            <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="2">
+                <Scale x="1.40625" y="1.40625" />
+                <Sprite>castle_wall_small.png</Sprite>
+                <Normal>castle_bg_wall_small_NRM.png</Normal>
+                <CustomData />
+            </Entity>
+        </Entity>
+    </EntitiesInScene>
+</Ethanon>

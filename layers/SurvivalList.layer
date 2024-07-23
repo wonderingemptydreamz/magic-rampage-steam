@@ -1,0 +1,76 @@
+back
+{
+	type = resume-button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.053;
+	posY = 0.053;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 400;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+title
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.035;
+	originX = 0.5;
+	originY = 0.0;
+	scale = 0.85;
+	borderScale = 0.8;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = survivalSelect;
+	textFont = Averia64.fnt;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 400;
+	appearDelay = 0;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+//total
+//{
+//	type = text;
+//
+//	posX = 0.5;
+//	posY = 0.25;
+//	originX = 0.5;
+//	originY = 0.5;
+//	scale = 1.0;
+//
+//	text = survivorScore;
+//	textFont = Averia32_bold.fnt;
+//
+//	appearEffect = slide-up;
+//	appearEffectDuration = 400;
+//	appearDelay = 100;
+//
+//	dismissEffect = slide-up;
+//	dismissEffectDuration = 300;
+//	dismissDelay = 0;
+//
+//	iterable = false;
+//}

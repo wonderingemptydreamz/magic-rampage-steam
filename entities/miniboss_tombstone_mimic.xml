@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd1893ee53b9d887394c27149445abef:2b50bfab3f3f0138aeb8acf65a4135b6:e83665e780643d8e10ea2457ed253f33$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Tombstone_mimic.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="2" y="2" w="110" h="170" oX="9" oY="78" oW="128" oH="256"/>
+    <sprite n="Sprite 2.png" x="116" y="152" w="104" h="138" oX="12" oY="110" oW="128" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="176" w="103" h="147" oX="13" oY="101" oW="128" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="327" w="101" h="178" oX="12" oY="60" oW="128" oH="256"/>
+    <sprite n="Sprite 5.png" x="116" y="2" w="110" h="146" oX="9" oY="101" oW="128" oH="256"/>
+    <sprite n="Sprite 6.png" x="230" y="2" w="1" h="1" oX="0" oY="0" oW="128" oH="256"/>
+    <sprite n="Sprite 7.png" x="230" y="2" w="1" h="1" oX="0" oY="0" oW="128" oH="256"/>
+    <sprite n="Sprite 8.png" x="230" y="2" w="1" h="1" oX="0" oY="0" oW="128" oH="256"/>
+</TextureAtlas>

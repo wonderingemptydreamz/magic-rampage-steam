@@ -1,0 +1,30 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.6;
+}
+
+waiting
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 300;
+	frameSizeY = 256;
+
+	text = ...;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+}

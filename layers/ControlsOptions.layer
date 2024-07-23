@@ -1,0 +1,159 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.6;
+}
+
+back
+{
+	type = resume-button;
+	fileName = sprites/inventory-back-button.png;
+
+	posX = 0.053;
+	posY = 0.053;
+	originX = 0.0;
+	originY = 0.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 400;
+	appearDelay = 0;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+title
+{
+	type = frame-button;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.03;
+	originX = 0.5;
+	originY = 0.0;
+	scale = 1;
+	//borderScale = 0.8;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = screenPadAdjustments;
+	textFont = Averia48.fnt;
+
+	appearEffect = slide-up;
+	appearEffectDuration = 600;
+	appearDelay = 0;
+
+	dismissEffect = slide-up;
+	dismissEffectDuration = 300;
+	dismissDelay = 0;
+
+	iterable = false;
+}
+
+
+//////////////////////////////////////////////////////////////
+//	 SHRINK AND ENLARGE
+//////////////////////////////////////////////////////////////
+shrink
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+	frameSizeX = 128;
+	frameSizeY = 128;
+
+	posX = 0.5;
+	posY = 0.27;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.8;
+	borderScale = 0.8;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 1000;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+}
+
+enlarge
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+	frameSizeX = 128;
+	frameSizeY = 128;
+
+	posX = 0.5;
+	posY = 0.27;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.8;
+	borderScale = 0.8;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 1000;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+}
+
+//////////////////////////////////////////////////////////////
+//	 DIM AND BRIGHTEN
+//////////////////////////////////////////////////////////////
+dim
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+	frameSizeX = 128;
+	frameSizeY = 128;
+
+	posX = 0.5;
+	posY = 0.4;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.8;
+	borderScale = 0.8;
+
+	appearEffect = slide-left;
+	appearDelay = 300;
+	appearEffectDuration = 1000;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+}
+
+brighten
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+	frameSizeX = 128;
+	frameSizeY = 128;
+
+	posX = 0.5;
+	posY = 0.4;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 0.8;
+	borderScale = 0.8;
+
+	appearEffect = slide-right;
+	appearDelay = 300;
+	appearEffectDuration = 1000;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 300;
+}

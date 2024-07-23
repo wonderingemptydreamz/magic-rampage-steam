@@ -1,0 +1,79 @@
+layer
+{
+	options = popup;
+	darkenBg = 0.0;
+}
+
+title
+{
+	type = frame-sprite;
+	fileName = sprites/frame-title-bg.png;
+
+	posX = 0.5;
+	posY = 0.35;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+	frameSizeX = 400;
+	frameSizeY = 100;
+
+	text = startChallengeConfirmation;
+	textFont = Crusade128.fnt;
+
+	appearEffect = null;
+	dismissEffect = null;
+}
+
+no
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.35;
+	posY = 0.65;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1;
+	borderScale = 0.95;
+	frameSizeX = 200;
+	frameSizeY = 100;
+
+	text = decline;
+	textFont = Averia48.fnt;
+
+	appearEffect = null;
+
+	hitSoundEffect = soundfx/click.mp3;
+	//releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 150;
+	dismissDelay = 0;
+}
+
+yes
+{
+	type = frame-button;
+	fileName = sprites/frame-bg-green.png;
+
+	posX = 0.65;
+	posY = 0.65;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1;
+	borderScale = 0.95;
+	frameSizeX = 200;
+	frameSizeY = 100;
+
+	text = accept;
+	textFont = Averia48.fnt;
+
+	appearEffect = null;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 150;
+	dismissDelay = 0;
+}

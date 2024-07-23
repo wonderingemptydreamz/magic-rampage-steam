@@ -1,0 +1,178 @@
+slot
+{
+	type = frame-button;
+	fileName = SEF/media/frame-bg.png;
+
+	posX = 0.5;
+	posY = 0.5;
+	originX = 0.5;
+	originY = 0.44;
+	scale = 1.0;
+
+	frameSizeX = 360;
+	frameSizeY = 720;
+
+	appearEffect = zoom-in;
+	appearEffectDuration = 600;
+	appearDelay = 300;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+edit
+{
+	type = button;
+	fileName = sprites/edit-icon.png;
+
+	posX = 0.053;
+	posY = 0.947;
+	originX = 0.0;
+	originY = 1.0;
+	scale = 0.85;
+
+	appearEffect = slide-left;
+	appearEffectDuration = 600;
+	appearDelay = 500;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-left;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+trash
+{
+	type = button;
+	fileName = sprites/trash-icon.png;
+
+	posX = 2.0;
+	posY = 2.0;
+	originX = 0.5;
+	originY = 0.5;
+	scale = 1.0;
+
+	scale = 0.95;
+	borderScale = 0.9;
+
+	appearEffect = zoom-in-elastic;
+	appearEffectDuration = 600;
+	appearDelay = 400;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = zoom-out;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+done
+{
+	type = button;
+	fileName = sprites/check-icon.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+	scale = 0.85;
+
+	appearEffect = slide-right;
+	appearEffectDuration = 600;
+	appearDelay = 200;
+
+	hitSoundEffect = soundfx/click.mp3;
+	releaseSoundEffect = soundfx/button.mp3;
+
+	dismissEffect = slide-right;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
+
+achievements
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+
+	text = achievements;
+	textFont = Averia32_bold.fnt;
+
+	scale = 0.95;
+	borderScale = 0.9;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 600;
+	appearDelay = 600;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 400;
+	dismissDelay = 100;
+}
+
+leaderboards
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+
+	text = leaderboards;
+	textFont = Averia32_bold.fnt;
+
+	scale = 0.95;
+	borderScale = 0.9;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 600;
+	appearDelay = 700;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 400;
+	dismissDelay = 50;
+}
+
+quests
+{
+	type = frame-button;
+	fileName = sprites/smaller-frame-bg.png;
+
+	posX = 0.947;
+	posY = 0.947;
+	originX = 1.0;
+	originY = 1.0;
+
+	scale = 0.95;
+	borderScale = 0.9;
+
+	text = quests;
+	textFont = Averia32_bold.fnt;
+
+	appearEffect = slide-down;
+	appearEffectDuration = 600;
+	appearDelay = 800;
+
+	hitSoundEffect = soundfx/click.mp3;
+
+	dismissEffect = slide-down;
+	dismissEffectDuration = 400;
+	dismissDelay = 0;
+}
