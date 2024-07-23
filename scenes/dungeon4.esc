@@ -145,6 +145,14 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="26983" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="469" y="-2607" z="20" angle="85" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="20565" spriteFrame="0">
             <EntityName>light_beam_b.ent</EntityName>
             <Position x="503" y="-2683" z="18" angle="-5" />
@@ -310,6 +318,22 @@
                         <Value>stone</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26981" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog_xl.ent</EntityName>
+            <Position x="855" y="-2765" z="-4" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog_xl.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26982" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="1207" y="-2612" z="-60" angle="85" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="26297" spriteFrame="0">
@@ -1108,6 +1132,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="24740" spriteFrame="0">
+            <EntityName>swamp_firefly_yellow.ent</EntityName>
+            <Position x="251" y="-1598" z="44" angle="0" />
+            <Entity>
+                <FileName>swamp_firefly_yellow.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="24739" spriteFrame="0">
             <EntityName>ethereal_yellow_spark_rain.ent</EntityName>
             <Position x="133" y="-1590" z="-70" angle="90" />
@@ -1310,6 +1342,14 @@
                         <Value>A</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26972" spriteFrame="0">
+            <EntityName>volumetric_yellow_fog_s.ent</EntityName>
+            <Position x="177" y="-1695" z="-60" angle="0" />
+            <Entity>
+                <FileName>volumetric_yellow_fog_s.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="24050" spriteFrame="0">
@@ -2073,11 +2113,19 @@
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="24740" spriteFrame="0">
-            <EntityName>swamp_firefly_yellow.ent</EntityName>
-            <Position x="347" y="-1504" z="44" angle="0" />
+        <Entity id="26984" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog_xl.ent</EntityName>
+            <Position x="400" y="-1119" z="-4" angle="0" />
             <Entity>
-                <FileName>swamp_firefly_yellow.ent</FileName>
+                <FileName>volumetric_green_dark_fog_xl.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26985" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="105" y="-1254" z="-4" angle="90" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -2631,6 +2679,22 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="26978" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="76" y="-897" z="-4" angle="130" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26979" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="108" y="-908" z="4" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="25009" spriteFrame="0" flipX="1">
             <EntityName>dark_block_03.ent</EntityName>
             <Position x="768" y="-992" z="0.01" angle="0" />
@@ -3001,6 +3065,14 @@
                         <Value>stone</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26976" spriteFrame="0">
+            <EntityName>volumetric_orangeyellow_fog_s.ent</EntityName>
+            <Position x="813" y="-748" z="4" angle="0" />
+            <Entity>
+                <FileName>volumetric_orangeyellow_fog_s.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="26268" spriteFrame="2">
@@ -3572,6 +3644,30 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="26968" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="226" y="-63" z="0.01" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26969" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="404" y="-43" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26977" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="65" y="-27" z="-4" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="19307" spriteFrame="0">
             <EntityName>falling_column.ent</EntityName>
             <Position x="674" y="-294" z="-30" angle="1" />
@@ -3944,6 +4040,14 @@
             <Position x="1286" y="-149" z="-62" angle="90" />
             <Entity>
                 <FileName>fireflies_large_dungeon0.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26973" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="1204" y="-511" z="-4" angle="90" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -4421,6 +4525,14 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="26965" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="897" y="474" z="-0.01" angle="40" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="20100" spriteFrame="0">
             <EntityName>blood_decal_2.ent</EntityName>
             <Position x="680" y="23" z="0.1" angle="0" />
@@ -4796,6 +4908,14 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="26980" spriteFrame="0">
+            <EntityName>volumetric_yellow_fog_s.ent</EntityName>
+            <Position x="-5" y="156" z="-60" angle="0" />
+            <Entity>
+                <FileName>volumetric_yellow_fog_s.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="19111" spriteFrame="0">
             <EntityName>web_1.ent</EntityName>
             <Position x="102" y="532" z="-8" angle="180" />
@@ -4868,6 +4988,22 @@
             <Position x="192" y="624" z="0" angle="0" />
             <Entity>
                 <FileName>spikes.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26964" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="212" y="578" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="26967" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog_xl.ent</EntityName>
+            <Position x="591" y="624" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog_xl.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -5080,6 +5216,14 @@
                         <Value>1</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="26966" spriteFrame="0">
+            <EntityName>volumetric_green_dark_fog.ent</EntityName>
+            <Position x="600" y="579" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>volumetric_green_dark_fog.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="25285" spriteFrame="0" flipX="1">

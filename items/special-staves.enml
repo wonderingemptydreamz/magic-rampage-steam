@@ -1,0 +1,1103 @@
+item4
+{
+	name = Staff of Darkness;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_3.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -29.0;
+	smoothFollow = true;
+
+	equipOffsetX = -29;
+	equipOffsetY = -1;
+
+	attackCooldown = 700;
+	damage = 41;
+
+	soundPack = power;
+
+	speedBoost = 1.02;
+	jumpBoost = 1.02;
+
+	projectileEntity = projectile_dark_beam.ent;
+	equipEntity = weapon_darkness_staff.ent;
+
+	element = darkness;
+	projectileSpeed = 16.0;
+
+	text = against-insects;
+
+	maxLevelAllowed = 11;
+}
+
+item10
+{
+	name = Oxymo's Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_4.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -35.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 600;
+	damage = 21;
+
+	jumpBoost = 1.02;
+
+	soundPack = magic;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_light_beam.ent;
+	equipEntity = weapon_light_staff.ent;
+
+	element = light;
+	projectileSpin = 24.0;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+}
+
+item17
+{
+	name = Gadarast's Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_1b.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 700;
+	damage = 32;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.01;
+	armorBoost = 1.3;
+	projectileSpeed = 12.0;
+
+	projectileEntity = projectile_nature_staff.ent;
+	equipEntity = weapon_nature_staff_1.ent;
+	dropEntityName = item_nature_staff_1.ent;
+
+	element = earth;
+
+	maxLevelAllowed = 10;
+
+	text = against-insects;
+}
+
+item36
+{
+	name = Death Scythe;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_6.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -45.0;
+	smoothFollow = true;
+
+	equipOffsetX = -22;
+	equipOffsetY = -1;
+
+	attackCooldown = 650;
+	damage = 80;
+	explosionRange = 160;
+
+	soundPack = power;
+
+	speedBoost = 1.04;
+	jumpBoost  = 1.01;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_death_beam.ent;
+
+	element = darkness;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+}
+
+item50
+{
+	name = Epic Fire Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_7.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -35.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 49;
+	explosionRange = 150;
+
+	jumpBoost  = 1.01;
+	speedBoost = 1.03;
+
+	soundPack = power;
+
+	projectileEntity = projectile_epic_fire_ball.ent;
+	equipEntity = weapon_epic_fire_staff.ent;
+	dropEntityName = item_epic_fire_staff.ent;
+	projectileSpeed = 14.0;
+	projectileSpin = 16;
+
+	element = fire;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 11;
+}
+
+item52
+{
+	name = Dragonskull Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_9.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 650;
+	damage = 72;
+	explosionRange = 150;
+
+	jumpBoost  = 1.01;
+	speedBoost = 1.05;
+
+	soundPack = power;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_firehorn_staff.ent;
+	projectileSpeed = 14.0;
+	projectileSpin = 16;
+
+	element = fire;
+
+	maxLevelAllowed = 15;
+}
+
+item55
+{
+	name = Hippie Dragon Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_10.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 650;
+	damage = 75;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.02;
+	armorBoost = 1.3;
+	projectileSpeed = 12.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_nature_tanker_staff_2.ent;
+	equipEntity = weapon_nature_staff_2.ent;
+	dropEntityName = item_nature_staff_2.ent;
+
+	element = earth;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 15;
+}
+
+item69
+{
+	name = Dragon Orb Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_11.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 500;
+	damage = 48;
+	explosionRange = 150;
+
+	soundPack = power;
+
+	jumpBoost = 1.01;
+	speedBoost = 1.01;
+	projectileSpeed = 13.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_dragon_orb_staff.ent;
+	equipEntity = weapon_dragon_orb_staff.ent;
+
+	element = fire;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 13;
+}
+
+item75
+{
+	name = Water Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_12.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -22.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 650;
+	damage = 80;
+	explosionRange = 220;
+
+	soundPack = power;
+
+	jumpBoost = 1.03;
+	speedBoost = 1.03;
+	armorBoost = 1.0;
+	projectileSpeed = 13.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_water_tanker_staff.ent;
+	equipEntity = weapon_water_staff.ent;
+	dropEntityName = item_water_staff_1.ent;
+
+	element = water;
+
+	maxLevelAllowed = 15;
+}
+
+item117
+{
+	name = Hippie Dragon Staff+;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_10.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 550;
+	damage = 70;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	jumpBoost = 1.03;
+	speedBoost = 1.05;
+	armorBoost = 1.4;
+	projectileSpeed = 13.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_nature_tanker_staff_2.ent;
+	equipEntity = weapon_nature_staff_2.ent;
+	dropEntityName = item_nature_staff_2.ent;
+
+	element = earth;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 15;
+}
+
+item133
+{
+	name = Death Scythe+;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_6.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -45.0;
+	smoothFollow = true;
+
+	equipOffsetX = -22;
+	equipOffsetY = -1;
+
+	attackCooldown = 450;
+	damage = 85;
+	explosionRange = 160;
+
+	soundPack = power;
+
+	speedBoost = 1.04;
+	jumpBoost  = 1.03;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_death_beam.ent;
+
+	element = darkness;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+}
+
+item161
+{
+	name = Cthulhu Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_cthulhu.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -29.0;
+	smoothFollow = true;
+
+	equipOffsetX = -29;
+	equipOffsetY = -1;
+
+	attackCooldown = 590;
+	damage = 77;
+	explosionRange = 180;
+
+	soundPack = power;
+
+	armorBoost = 1.3;
+	jumpBoost = 1.03;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_death_beam_green.ent;
+	equipEntity = weapon_darkness_staff.ent;
+
+	element = darkness;
+	projectileSpeed = 13.0;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	poisonous = true;
+}
+
+item162
+{
+	name = Ancient Stone Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_stone.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = 0;
+
+	attackCooldown = 700;
+	damage = 120;
+
+	soundPack = magic;
+
+	projectileSpeed = 9.0;
+
+	persistAgainstProjectile = false;
+	projectileEntity = projectile_light_beam.ent;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 2000;
+}
+
+item163
+{
+	name = Bit Staff;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item164
+{
+	name = Dead Vulture;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_bone.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -45.0;
+	smoothFollow = true;
+
+	equipOffsetX = -22;
+	equipOffsetY = -1;
+
+	attackCooldown = 650;
+	damage = 95;
+	explosionRange = 160;
+
+	soundPack = power;
+
+	speedBoost = 1.04;
+	jumpBoost  = 1.01;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_death_beam.ent;
+
+	element = darkness;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 3000;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = epicHammerDescription;
+}
+
+item165
+{
+	name = Toxic Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_poison.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -22.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 450;
+	damage = 90;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.05;
+	armorBoost = 1.0;
+	projectileSpeed = 13.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_nature_staff.ent;
+	equipEntity = weapon_nature_staff_2.ent;
+	dropEntityName = item_nature_staff_2.ent;
+
+	element = earth;
+	poisonous = true;
+
+	maxLevelAllowed = 15;
+}
+
+item189
+{
+	name = Dragonskull Staff+;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_9.png;
+	equipEntity = weapon_dragonskull_staff_plus_a.ent;
+	alternativeMaxedEquipEntity = weapon_dragonskull_staff_plus.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 550;
+	damage = 90;
+	explosionRange = 160;
+
+	jumpBoost  = 1.02;
+	speedBoost = 1.04;
+
+	soundPack = power;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_firehorn_staff.ent;
+	projectileSpeed = 14.0;
+	projectileSpin = 16;
+
+	element = fire;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 4000;
+
+	text = epicHammerDescription;
+}
+
+item196
+{
+	name = Golden Dragon Staff+;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_13.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 650;
+	damage = 90;
+	explosionRange = 180;
+
+	soundPack = power;
+
+	jumpBoost = 1.03;
+	speedBoost = 1.05;
+	armorBoost = 1.25;
+	projectileSpeed = 14.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_golden_dragon_staff.ent;
+	equipEntity = weapon_golden_dragon_staff.ent;
+
+	element = light;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	fixedPrice = 500000;
+	coinPrice = 3000;
+}
+
+item197
+{
+	name = Broom Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_halloween.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -30;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = 2;
+
+	attackCooldown = 650;
+	damage = 60;
+	explosionRange = 180;
+
+	soundPack = power;
+
+	jumpBoost = 1.09;
+	projectileSpeed = 12.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_witch_broom.ent;
+
+	element = earth;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	fixedPrice = 10;
+	coinPrice = 500;
+}
+
+item253
+{
+	name = Windbane;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_air.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -29.0;
+	smoothFollow = true;
+
+	equipOffsetX = -29;
+	equipOffsetY = -1;
+
+	attackCooldown = 600;
+	damage = 90;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	speedBoost = 1.08;
+	jumpBoost = 1.02;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_witch_broom.ent;
+	equipEntity = weapon_staff_air.ent;
+
+	//autoPaintEntities = true;
+	//autoPaintSwitchesProjectileSprite = false;
+	//autoPaintColorA = 0,     0,     0, 1,   0.502, 2, 1.772, 1; // projectile
+	//autoPaintColorB = 0.251, 1, 0.886, 1,   0.251, 1, 0.886, 0; // projectile
+
+	//effectColor     =  0.15, 0.7,   0.4, 1,   0,       0,     0, 1; // explosion/equip
+	//effectColorB    = 0.048, 0.2, 0.128, 1,   0.048, 0.2, 0.128, 1; // explosion/equip
+
+	element = air;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+}
+
+item261
+{
+	name = Legacy of the Oracle;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_earth.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 500;
+	damage = 72;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.05;
+	armorBoost = 1.45;
+	projectileSpeed = 15.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_nature_tanker_staff_2.ent;
+	equipEntity = weapon_staff_earth.ent;
+
+	element = earth;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = epicHammerDescription;
+}
+
+item264
+{
+	name = Seabane;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_sea.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 610;
+	damage = 75;
+	explosionRange = 220;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.04;
+	armorBoost = 1.3;
+	projectileSpeed = 13.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_water_tanker_staff.ent;
+	equipEntity = weapon_staff_water.ent;
+
+	element = water;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = epicHammerDescription;
+}
+
+item277
+{
+	name = Royal War Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_treasure.png;
+	equipEntity = weapon_staff_treasure.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -6;
+
+	attackCooldown = 600;
+	damage = 72;
+	explosionRange = 180;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.03;
+	armorBoost = 1.2;
+	projectileSpeed = 13.0;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_golden_dragon_staff.ent;
+
+	maxLevelAllowed = 15;
+
+	text = treasure-item-desc;
+
+	fixedPrice = 1400000;
+}
+
+item279
+{
+	name = Icebane Magic Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_ice.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 610;
+	damage = 62;
+	explosionRange = 320;
+
+	soundPack = power;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.04;
+	armorBoost = 1.3;
+	projectileSpeed = 11;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_ice_tanker_staff.ent;
+	equipEntity = weapon_staff_ice.ent;
+
+	element = water;
+	frost = true;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = epicHammerDescription;
+}
+
+item288
+{
+	name = Firebane;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_fire.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -29.0;
+	smoothFollow = true;
+
+	equipOffsetX = -29;
+	equipOffsetY = -1;
+
+	attackCooldown = 700;
+	damage = 41;
+
+	soundPack = power;
+
+	speedBoost = 1.02;
+	jumpBoost = 1.02;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_epic_fire_ball.ent;
+	equipEntity = weapon_staff_fire.ent;
+	explosionRange = 0;
+
+	element = fire;
+	projectileSpeed = 16.0;
+
+	text = against-insects;
+
+	dropEntityName = item_fire_staff.ent;
+
+	maxLevelAllowed = 11;
+}
+
+item297
+{
+	name = Staff of the Wicked;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_survivor.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -6;
+
+	attackCooldown = 400;
+	damage = 110;
+	explosionRange = 180;
+
+	soundPack = magic;
+
+	jumpBoost = 1.02;
+	speedBoost = 1.03;
+	armorBoost = 1.2;
+	projectileSpeed = 11.0;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_light_beam.ent;
+
+	maxLevelAllowed = 15;
+}
+
+item317
+{
+	name = Spider Staff;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_spider.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -29.0;
+	smoothFollow = true;
+
+	equipOffsetX = -29;
+	equipOffsetY = -1;
+
+	attackCooldown = 590;
+	damage = 90;
+	explosionRange = 210;
+	projectileLifetime = 4000;
+
+	projectileSpeed = 8;
+
+	persistAgainstProjectile = true;
+
+	soundPack = magic;
+
+	speedBoost = 1.04;
+	jumpBoost = 1.04;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = false;
+
+	autoPaintColorA = 1, 1, 1, 1,   1, 1, 1, 0; // projectile
+	autoPaintColorB = 0.3541, 0.2555, 0.4444, 1,   0, 0, 0, 1; // projectile
+
+	projectileEntity = projectile_spider_power_web.ent;
+	equipEntity = weapon_darkness_staff.ent;
+
+	element = darkness;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	poisonous = true;
+}
+
+item347
+{
+	name = Nightfall;
+
+	type = weapon;
+	secondaryType = staff;
+	sprite = staff_2022_3.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -28;
+	equipOffsetY = 6;
+
+	attackCooldown = 610;
+	damage = 62;
+	explosionRange = 320;
+
+	soundPack = power;
+
+	jumpBoost = 1.04;
+	speedBoost = 1.02;
+	armorBoost = 1.3;
+	projectileSpeed = 12.0;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_ice_tanker_staff.ent;
+
+	element = darkness;
+	frost = true;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = false;
+
+	autoPaintColorA =     1.96, 1.1949, 4.88, 1.0,   0.392, 0.239, 0.976, 0.3; // projectile
+	autoPaintColorB =     2, 1.066, 2, 1.0,       1.0, 0.533, 1.0, 1.0; // projectile
+
+	effectColor     =   0.784, 0.478, 1.952, 1.0,    1.0, 0.533, 1.0, 1.0;   // explosion/equip
+	effectColorB    =     0,   0,   0,   1,       0.1825, 0.2275, 0.25, 1; // explosion/equip
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = epicHammerDescription;
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <SceneProperties lightIntensity="3" parallaxIntensity="3">
-        <Ambient r="0.1" g="0.04" b="0.35" />
+    <SceneProperties lightIntensity="3" parallaxIntensity="2">
+        <Ambient r="0.341" g="0.196" b="0.576" />
         <ZAxisDirection x="0" y="0" />
     </SceneProperties>
     <EntitiesInScene>
@@ -1146,6 +1146,22 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="35295" spriteFrame="0">
+            <EntityName>volumetric_fog_xl.ent</EntityName>
+            <Position x="786" y="36" z="0" angle="0" />
+            <Entity>
+                <FileName>volumetric_fog_xl.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="35298" spriteFrame="0">
+            <EntityName>volumetric_fog.ent</EntityName>
+            <Position x="872" y="248" z="20" angle="0" />
+            <Entity>
+                <FileName>volumetric_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="29531" spriteFrame="0">
             <EntityName>dungeon_block_06.ent</EntityName>
             <Position x="1344" y="4" z="0" angle="0" />
@@ -1361,6 +1377,22 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="31110" spriteFrame="0">
+            <EntityName>column_shadow_adder</EntityName>
+            <Position x="1249" y="189" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
         <Entity id="33764" spriteFrame="0">
             <EntityName>fireflies_blue_ambient_dungeon0.ent</EntityName>
             <Position x="1978" y="323" z="-54" angle="0" />
@@ -1501,6 +1533,60 @@
                         <Type>string</Type>
                         <Name>material</Name>
                         <Value>ceramic</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="35304" spriteFrame="0">
+            <EntityName>hoc_512x256_bg.ent</EntityName>
+            <Position x="1536" y="88" z="-20" angle="0" />
+            <Entity>
+                <FileName>hoc_512x256_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="35597" spriteFrame="0">
+            <EntityName>black_bar_2x2_parallax.ent</EntityName>
+            <Position x="2038" y="195" z="-24" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x2_parallax.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="35598" spriteFrame="0">
+            <EntityName>black_bar_2x2_parallax.ent</EntityName>
+            <Position x="1591" y="189" z="-24" angle="0" />
+            <Entity>
+                <FileName>black_bar_2x2_parallax.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="37221" spriteFrame="1">
+            <EntityName>hoc_512x256_bg.ent</EntityName>
+            <Position x="1536" y="344" z="-20" angle="0" />
+            <Entity>
+                <FileName>hoc_512x256_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -1670,6 +1756,63 @@
                         <Type>string</Type>
                         <Name>material</Name>
                         <Value>wood</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="35303" spriteFrame="1" flipX="1">
+            <EntityName>hoc_512x256_bg.ent</EntityName>
+            <Position x="2048" y="88" z="-20" angle="0" />
+            <Entity>
+                <FileName>hoc_512x256_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="35305" spriteFrame="0" flipY="1">
+            <EntityName>hoc_512x256_bg.ent</EntityName>
+            <Position x="2048" y="344" z="-20" angle="0" />
+            <Entity>
+                <FileName>hoc_512x256_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="35307" spriteFrame="0">
+            <EntityName>hoc_512x256_bg.ent</EntityName>
+            <Position x="2388" y="95" z="-22" angle="0" />
+            <Entity>
+                <FileName>hoc_512x256_bg.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -1999,6 +2142,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="35300" spriteFrame="0">
+            <EntityName>volumetric_fog.ent</EntityName>
+            <Position x="3767" y="266" z="40" angle="0" />
+            <Entity>
+                <FileName>volumetric_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="26512" spriteFrame="0">
             <EntityName>torch_no_light_no_emissive.ent</EntityName>
             <Position x="4324" y="136" z="-79" angle="0" />
@@ -2012,6 +2163,14 @@
             <Position x="4590" y="360" z="96" angle="1" />
             <Entity>
                 <FileName>falling_column.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="35299" spriteFrame="0">
+            <EntityName>volumetric_fog_xl.ent</EntityName>
+            <Position x="4199" y="57" z="0" angle="0" />
+            <Entity>
+                <FileName>volumetric_fog_xl.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -2239,6 +2398,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="35301" spriteFrame="0">
+            <EntityName>volumetric_fog.ent</EntityName>
+            <Position x="5490" y="159" z="4" angle="0" />
+            <Entity>
+                <FileName>volumetric_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="26995" spriteFrame="0">
             <EntityName>castle_chain_3.ent</EntityName>
             <Position x="6136" y="68" z="-30" angle="0" />
@@ -2346,6 +2513,14 @@
             <Position x="5823" y="350" z="110" angle="0" />
             <Entity>
                 <FileName>run_home_ambient_sparks_big.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="35297" spriteFrame="0">
+            <EntityName>volumetric_fog_xl.ent</EntityName>
+            <Position x="5861" y="44" z="-2" angle="0" />
+            <Entity>
+                <FileName>volumetric_fog_xl.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -2722,6 +2897,14 @@
                         <Value>stone</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="34482" spriteFrame="0">
+            <EntityName>volumetric_orange_fog_s.ent</EntityName>
+            <Position x="7615" y="116" z="-4" angle="0" />
+            <Entity>
+                <FileName>volumetric_orange_fog_s.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="35154" spriteFrame="0">
@@ -3955,6 +4138,14 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="34149" spriteFrame="0">
+            <EntityName>volumetric_orange_fog.ent</EntityName>
+            <Position x="3783" y="632" z="-28" angle="0" />
+            <Entity>
+                <FileName>volumetric_orange_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="4630" spriteFrame="0">
             <EntityName>dungeon_block_03.ent</EntityName>
             <Position x="4352" y="704" z="0" angle="0" />
@@ -4022,6 +4213,14 @@
             <Position x="4311" y="631" z="-4" angle="0" />
             <Entity>
                 <FileName>volumetric_orange_fog_s.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="34148" spriteFrame="0">
+            <EntityName>volumetric_orange_fog.ent</EntityName>
+            <Position x="4379" y="628" z="-28" angle="0" />
+            <Entity>
+                <FileName>volumetric_orange_fog.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -4485,6 +4684,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="34153" spriteFrame="0">
+            <EntityName>volumetric_orange_fog.ent</EntityName>
+            <Position x="7197" y="651" z="-8" angle="0" />
+            <Entity>
+                <FileName>volumetric_orange_fog.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="12970" spriteFrame="0">
             <EntityName>dungeon_block_03.ent</EntityName>
             <Position x="7936" y="704" z="0" angle="180" />
@@ -4525,6 +4732,14 @@
             <Position x="7961" y="575" z="-25.9" angle="0" />
             <Entity>
                 <FileName>blood_decal_2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="34152" spriteFrame="0">
+            <EntityName>volumetric_orange_fog.ent</EntityName>
+            <Position x="7877" y="648" z="-20" angle="0" />
+            <Entity>
+                <FileName>volumetric_orange_fog.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>

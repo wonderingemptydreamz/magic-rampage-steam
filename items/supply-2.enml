@@ -16,11 +16,14 @@ item0
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 5000;
 
 	text = Pepper Brew-desc;
 
 	element = fire;
+
+	// used as sfx speed
+	projectileSpeed = 0.8;
 
 	effectColor = 1, 0.639, 0.208;
 }
@@ -43,11 +46,14 @@ item1
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 5000;
 
 	text = Draft of Freshness-desc;
 
 	element = water;
+
+	// used as sfx speed
+	projectileSpeed = 0.8;
 
 	effectColor = 0.1, 0.4, 0.5;
 }
@@ -70,11 +76,14 @@ item2
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 5000;
 
 	text = Sparkling Tonic-desc;
 
 	element = air;
+
+	// used as sfx speed
+	projectileSpeed = 0.8;
 
 	effectColor = 0.1, 0.4, 0.5;
 }
@@ -97,12 +106,15 @@ item3
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 5000;
 
 	text = Tonic of Invulnerability-desc;
 
 	element = earth;
 	poisonous = true;
+
+	// used as sfx speed
+	projectileSpeed = 1.0;
 
 	effectColor = 0.792, 1.0, 0.486;
 }
@@ -125,11 +137,14 @@ item4
 
 	soundPack = potion;
 
-	fixedPrice = 5000;
+	fixedPrice = 12000;
 
 	text = Elixir of Duplication-desc;
 
 	element = darkness;
+
+	// used as sfx speed
+	projectileSpeed = 0.9;
 
 	effectColor = 1.0, 0.2759, 0.2831;
 }
@@ -152,11 +167,14 @@ item5
 
 	soundPack = potion;
 
-	fixedPrice = 5000;
+	fixedPrice = 12000;
 
 	text = Arcane Precision Tonic-desc;
 
 	element = light;
+
+	// used as sfx speed
+	projectileSpeed = 0.9;
 
 	effectColor = 0.271, 0.737, 0.102;
 }
@@ -179,11 +197,14 @@ item6
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 5000;
 
 	text = Levitation Liqueur-desc;
 
 	element = air;
+
+	// used as sfx speed
+	projectileSpeed = 0.9;
 
 	effectColor = 0.7, 1, 0.4;
 }
@@ -206,11 +227,14 @@ item7
 
 	soundPack = potion;
 
-	fixedPrice = 2000;
+	fixedPrice = 4000;
 
 	text = Moonjump Mixture-desc;
 
 	element = earth;
+
+	// used as sfx speed
+	projectileSpeed = 0.95;
 
 	effectColor = 0.7524, 0.2304, 0.9648;
 }
@@ -239,6 +263,12 @@ item8
 
 	element = fire;
 
+	// used as sfx speed
+	projectileSpeed = 0.8;
+
+	// used as sfx speed
+	projectileSpeed = 0.85;
+
 	effectColor = 1.0, 0.6, 0.2;
 }
 
@@ -260,11 +290,14 @@ item9
 
 	soundPack = potion;
 
-	fixedPrice = 50;
+	fixedPrice = 1000;
 
 	text = Umbranian Water-desc;
 
 	element = water;
+
+	// used as sfx speed
+	projectileSpeed = 0.75;
 
 	effectColor = 0.443, 1.0, 0.871;
 }
@@ -287,11 +320,14 @@ item10
 
 	soundPack = potion;
 
-	fixedPrice = 4000;
+	fixedPrice = 6000;
 
 	text = Monsters Juice-desc;
 
 	element = darkness;
+
+	// used as sfx speed
+	projectileSpeed = 0.7;
 
 	effectColor = 0.945, 0.302, 0.388;
 }
@@ -314,11 +350,14 @@ item11
 
 	soundPack = potion;
 
-	fixedPrice = 150000;
+	fixedPrice = 400000;
 
 	text = Starlight Supertonic-desc;
 
 	element = light;
+
+	// used as sfx speed
+	projectileSpeed = 0.85;
 
 	effectColor = 0.953, 0.722, 0.271;
 }
@@ -341,11 +380,14 @@ item12
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 4000;
 
 	text = Instant Radiant Shield-desc;
 
 	element = light;
+
+	// used as sfx speed
+	projectileSpeed = 1.3;
 
 	effectColor = 1, 0.88, 0.6;
 }
@@ -368,11 +410,14 @@ item13
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 4000;
 
 	text = Instant Charge Blast-desc;
 
 	element = earth;
+
+	// used as sfx speed
+	projectileSpeed = 1.3;
 
 	effectColor = 1, 0.5, 0.1;
 }
@@ -395,11 +440,44 @@ item14
 
 	soundPack = potion;
 
-	fixedPrice = 3000;
+	fixedPrice = 4000;
 
 	text = Instant Thunder Wave-desc;
 
 	element = earth;
 
+	// used as sfx speed
+	projectileSpeed = 1.3;
+
 	effectColor = 0.4627, 0.9803, 0.2705;
+}
+
+item15
+{
+	name = Instant Dark Twin;
+
+	type = supply;
+	secondaryType = beverage;
+	sprite = instant-dark-twin.png;
+
+	armor = 0;
+	damage = 1;
+
+	equipEntity = instant_dark_twin;
+
+	depthOffset = 0;
+	maxStackSize = 40;
+
+	soundPack = potion;
+
+	fixedPrice = 4000;
+
+	text = Instant Dark Twin-desc;
+
+	element = darkness;
+
+	// used as sfx speed
+	projectileSpeed = 1.3;
+
+	effectColor = 0.576, 0.929, 0.957;
 }

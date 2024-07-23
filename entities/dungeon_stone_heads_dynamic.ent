@@ -20,6 +20,11 @@
                 <Name>material</Name>
                 <Value>stone</Value>
             </Variable>
+            <Variable>
+                <Type>uint</Type>
+                <Name>shouldBeIgnoredByDebris</Name>
+                <Value>1</Value>
+            </Variable>
         </CustomData>
     </Entity>
 </Ethanon>

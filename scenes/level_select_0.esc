@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <SceneProperties lightIntensity="2.5" parallaxIntensity="3">
+    <SceneProperties lightIntensity="2.5" parallaxIntensity="2">
         <Ambient r="0.2" g="0.2" b="0.2" />
         <ZAxisDirection x="0" y="0" />
     </SceneProperties>

@@ -1,0 +1,748 @@
+item7
+{
+	name = Axe of Fire;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 600;
+	damage = 17;
+	armorBoost = 1.3;
+	speedBoost = 1.03;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_axe_2.ent;
+	equipEntity = weapon_axe_of_fire.ent;
+	dropEntityName = item_axe_of_fire.ent;
+	projectileSpin = 16;
+	projectileSpeed = 14.0;
+
+	element = fire;
+
+	maxLevelAllowed = 15;
+}
+
+item12
+{
+	name = Bone Chopper;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_1.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 450;
+	damage = 22;
+	armorBoost = 1.35;
+	speedBoost = 1.06;
+	jumpBoost = 1.03;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_axe_1.ent;
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+	element = air;
+
+	maxLevelAllowed = 9;
+}
+
+item22
+{
+	name = Lightning Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 350;
+	damage = 25;
+	speedBoost = 1.03;
+	jumpBoost  = 1.02;
+
+	soundPack = electric-blade;
+
+	invertProjectile = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_lightning_axe.ent;
+	equipEntity = weapon_lightning_axe.ent;
+	dropEntityName = item_lightning_axe.ent;
+
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+
+	element = light;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+}
+
+item105
+{
+	name = Spider Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_spider.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 700;
+	damage = 40;
+	armorBoost = 1.4;
+	speedBoost = 1.03;
+	jumpBoost = 1.03;
+
+	persistAgainstProjectile = true;
+
+	soundPack = heavy-magic-blade;
+
+	projectileEntity = projectile_spider_axe.ent;
+	projectileSpin = 17;
+	projectileSpeed = 13.0;
+
+	element = fire;
+
+	maxLevelAllowed = 3;
+	poisonous = true;
+
+	fixedPrice = 150000;
+}
+
+item123
+{
+	name = Gorgon Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_snake.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 700;
+	damage = 90;
+	armorBoost = 1.6;
+	speedBoost = 1.06;
+	jumpBoost = 1.01;
+
+	explosionRange = 180;
+
+	persistAgainstProjectile = false;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	projectileEntity = projectile_spider_axe.ent;
+	explosionEntity = explosion_spider_axe.ent;
+	projectileSpin = 0;
+	projectileSpeed = 14.0;
+	invertProjectile = true;
+
+	element = earth;
+
+	autoPaintEntities = true;
+	autoPaintColorA =   0,   0,         0, 1,     1.585,   2.0, 0.972, 1;  // projectile
+	autoPaintColorB = 1.758, 0.628, 1.952, 1,   1.758,   0.628, 1.952, 1; // projectile
+
+	effectColor     = 1.758, 0.628, 1.952,   1,   0.0, 0.0, 0.0, 1; // explosion/equip
+	effectColorB    = 1.584, 2.0, 0.972,   1,     0,   0,   0, 1;   // explosion/equip
+
+	maxLevelAllowed = 15;
+
+	text = epicHammerDescription;
+	poisonous = true;
+
+	fixedPrice = 500000;
+	coinPrice = 3500;
+}
+
+item125
+{
+	name = Cthulhu Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_cthulhu.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 700;
+	damage = 74;
+	armorBoost = 1.7;
+	speedBoost = 1.04;
+	jumpBoost = 1.03;
+
+	explosionRange = 200;
+
+	persistAgainstProjectile = true;
+
+	soundPack = power;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	projectileEntity = projectile_spider_axe.ent;
+	explosionEntity = explosion_spider_axe.ent;
+	projectileSpin = 13;
+	projectileSpeed = 13.0;
+
+	element = darkness;
+
+	autoPaintEntities = true;
+	autoPaintColorA =   0,   0,   0,   1,     3, 1.2,   4, 1;
+	autoPaintColorB = 0.6,   2, 0.1,   1,   0.6,   2, 0.1, 1;
+
+	effectColor     = 1.5,   2, 0.3,   1,   0.0, 0.0, 0.0, 1;
+	effectColorB    =   3, 1.2,   4,   1,     0,   0,   0, 1;
+
+	maxLevelAllowed = 15;
+
+	text = epicHammerDescription;
+	poisonous = true;
+}
+
+item126
+{
+	name = All Seeing Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_all_seeing.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 700;
+	damage = 98;
+	armorBoost = 1.7;
+	speedBoost = 1.03;
+	jumpBoost = 1.03;
+
+	persistAgainstProjectile = true;
+
+	soundPack = heavy-flesh-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	projectileEntity = projectile_all_seeing_axe.ent;
+	projectileSpin = 17;
+	projectileSpeed = 13.0;
+
+	element = darkness;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 6000;
+
+	text = epicHammerDescription;
+}
+
+item130
+{
+	name = Flaming Cutter;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_2.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-35.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -14;
+
+	attackCooldown = 600;
+	damage = 24;
+	armorBoost = 1.4;
+	jumpBoost = 1.01;
+	speedBoost = 1.04;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_flaming_cutter.ent;
+	equipEntity = weapon_flaming_cutter.ent;
+	dropEntityName = item_flaming_cutter.ent;
+	projectileSpin = 16;
+	projectileSpeed = 14.0;
+
+	element = fire;
+
+	maxLevelAllowed = 15;
+}
+
+item166
+{
+	name = Steel Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_steel.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 800;
+	damage = 70;
+	armorBoost = 1.35;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+
+	invertProjectile = true;
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_steel_axe.ent;
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+
+	text = pierce-weapon-std-desc;
+}
+
+item167
+{
+	name = Bit Axe;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item168
+{
+	name = Bone Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_bone.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 380;
+	damage = 60;
+	armorBoost = 1.2;
+	speedBoost = 1.07;
+	jumpBoost = 1.03;
+
+	persistAgainstProjectile = true;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	flipWhileEquipped = true;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_bone_axe.ent;
+	projectileSpin = 17;
+	projectileSpeed = 13.0;
+
+	maxLevelAllowed = 15;
+}
+
+item169
+{
+	name = Toxic Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_poison.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 700;
+	damage = 52;
+	armorBoost = 1.6;
+	speedBoost = 1.03;
+	jumpBoost = 1.02;
+
+	persistAgainstProjectile = true;
+
+	soundPack = heavy-magic-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	projectileEntity = projectile_spider_axe.ent;
+	projectileSpin = 17;
+	projectileSpeed = 13.0;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.25, 0.4, 0.1, 1,   0, 0, 0, 0;
+	effectColor     = 0.4,  0.8, 0.2, 1,   0, 0, 0, 0;
+
+	maxLevelAllowed = 15;
+	poisonous = true;
+
+	fixedPrice = 10;
+	coinPrice = 3000;
+
+	text = epicHammerDescription;
+}
+
+item259
+{
+	name = Dawnlight;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_justice.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 350;
+	damage = 80;
+	armorBoost = 1.7;
+	speedBoost = 1.04;
+	jumpBoost  = 1.03;
+
+	soundPack = electric-blade;
+
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.996, 0.753, 0.741, 1,   0, 0, 0, 1; // projectile
+	autoPaintColorB = 0.7, 0.98, 0.978, 1,  0.988, 0.815, 0.096, 1; // projectile
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_lightning_axe.ent;
+	equipEntity = weapon_lightning_axe.ent;
+	explosionEntity = explosion_golden_dragon_staff.ent;
+
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+
+	element = light;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 1.3, 1.3, 0.7, 1,   0, 0, 0, 1; // projectile
+
+	effectColor     = 2.2, 2.2, 1.3, 1,   0, 0, 0, 0;
+	effectColorB    = 2.2, 2.2, 1.3, 1,   0, 0, 0, 0;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+}
+
+item271
+{
+	name = Path of Exile;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_epic_fire_small.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -38;
+	equipOffsetY = -4;
+
+	attackCooldown = 700;
+	damage = 74;
+	armorBoost = 1.7;
+	speedBoost = 1.04;
+	jumpBoost = 1.03;
+
+	explosionRange = 200;
+
+	persistAgainstProjectile = true;
+
+	soundPack = power;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	projectileEntity = projectile_path_of_exile.ent;
+	equipEntity = weapon_fire_axe.ent;
+	explosionEntity = explosion_fire_axe.ent;
+	projectileSpin = 13;
+	projectileSpeed = 13.0;
+
+	element = fire;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 10;
+
+	text = epicHammerDescription;
+}
+
+item272
+{
+	name = Fortunes Battleaxe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_treasure.png;
+	equipEntity = weapon_axe_treasure.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 800;
+	damage = 48;
+	armorBoost = 1.35;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	autoPaintEntities = true;
+
+	invertProjectile = true;
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_steel_axe.ent;
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+
+	text = treasure-item-desc;
+
+	fixedPrice = 2000000;
+}
+
+item280
+{
+	name = Stormcaller;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_water.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 64;
+	armorBoost = 1.4;
+	jumpBoost  = 1.01;
+	speedBoost = 1.02;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.2, 0.6, 0.8, 1,    0, 0, 0, 1; // projectile
+	autoPaintColorB = 0.8, 2.4, 3.2, 1,    0, 0, 0, 1; // projectile
+
+	effectColor    =  0.2, 0.6, 0.8, 1,     0.2, 0.6, 0.8, 1;  // explosion/equip	
+	effectColorB   =  1.2, 3.6, 4.8, 1,     0, 0, 0, 1;  // explosion/equip
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_liquid.ent;
+	equipEntity = weapon_liquid.ent;
+	projectileSpin = 0.0;
+	projectileSpeed = 11.0;
+	projectileLifetime = 3000.0;
+	explosionRange = 230;
+	explosionEntity = water_staff_explosion_no_area_damage.ent;
+	invertProjectile = true;
+
+	element = water;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item292
+{
+	name = Axe of Rusted Gods;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_survivor.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 800;
+	damage = 53;
+	armorBoost = 1.35;
+
+	soundPack = heavy-blade;
+
+	autoPaintEntities = true;
+
+	invertProjectile = true;
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_steel_axe.ent;
+	projectileSpin = 16;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+}
+
+item305
+{
+	name = Ice Axe;
+
+	type = weapon;
+	secondaryType = axe;
+	sprite = axe_frost.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -42;
+	equipOffsetY = -18;
+
+	attackCooldown = 420;
+	damage = 70;
+	armorBoost = 1.2;
+
+	persistAgainstProjectile = true;
+
+	flipWhileEquipped = true;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_ice_axe.ent;
+	projectileSpin = 15;
+	projectileSpeed = 12.0;
+
+	maxLevelAllowed = 15;
+
+	explosionEntity = ice_staff_explosion.ent;
+	explosionRange = 290;
+
+	coinPrice = 3000;
+
+	frost = true;
+}
+

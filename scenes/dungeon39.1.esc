@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <SceneProperties lightIntensity="3" parallaxIntensity="2.5">
-        <Ambient r="0.34" g="0.3" b="0.46" />
+    <SceneProperties lightIntensity="3" parallaxIntensity="1.1">
+        <Ambient r="0.444" g="0.366" b="0.69" />
         <ZAxisDirection x="0" y="0" />
     </SceneProperties>
     <EntitiesInScene>
@@ -1822,6 +1822,22 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="31110" spriteFrame="0">
+            <EntityName>column_shadow_adder</EntityName>
+            <Position x="1249" y="189" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
         <Entity id="4210" spriteFrame="0">
             <EntityName>dungeon_column.ent</EntityName>
             <Position x="1536" y="340" z="-50" angle="0" />
@@ -2410,6 +2426,41 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="30678" spriteFrame="0">
+            <EntityName>parallax_intensity_slider</EntityName>
+            <Position x="4672" y="216" z="4" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>hysteresisRange</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>leftSideParallaxBias</Name>
+                        <Value>2.5</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>rightSideParallaxBias</Name>
+                        <Value>-1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>slideTimeMS</Name>
+                        <Value>2000</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
         <Entity id="35043" spriteFrame="0">
             <EntityName>respawn</EntityName>
             <Position x="5182" y="282" z="0" angle="0" />
@@ -2729,7 +2780,13 @@
             <Position x="5762" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="3722" spriteFrame="0">

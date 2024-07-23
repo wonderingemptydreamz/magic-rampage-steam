@@ -79,7 +79,7 @@
 "logout" = "Sair";
 "chapterComingSoon" = "Nova fase\nem breve!";
 "chapterComingSoonText" = "Fique ligado para <strong>mais conteúdo</strong> nas próximas atualizações!<strong></strong>";
-"loginRecommendation" = "<default>Você parece já estar jogando <strong>Magic Rampage<default> por algum tempo. Que tal <login>logar-se<default>?\n\n<weak>Os serviços da <login><service><weak> armazenam seus personagens na <strong>nuvem<weak>, e disponibilizam <strong>conquistas<weak> e <strong>placares<weak> on-line para você comparar seu desempenho com seus amigos!";
+"loginRecommendation" = "<default>Você parece já estar jogando <strong>Magic Rampage<default> por algum tempo. Que tal <login>logar-se<default>?\n\n<weak>Os serviços da <login><service><weak> armazenam seus personagens na <strong>nuvem<weak>, e disponibilizam <strong>conquistas<weak> e <strong>placares<weak> online para você comparar seu desempenho com seus amigos!";
 "complete100pct" = "Que tal tentar completar 100% das fases anteriores, enquanto você espera?";
 "ok" = "Certo!";
 "achievements" = "Conquistas";
@@ -382,7 +382,7 @@
 "energyDrain" = "Drenagem de energia";
 "specialKill" = "Morte especial";
 "classSpecials" = "Habilidades especiais";
-"notLoggedMessage" = "Você precisa estar logado à <service> para jogar partidas multiplayer on-line.";
+"notLoggedMessage" = "Você precisa estar logado à <service> para jogar partidas multiplayer online.";
 "logInNow" = "Logar";
 "connectionIssue" = "Não foi possível conectar ao servidor.";
 "tryAgain" = "Tentar novamente";
@@ -455,7 +455,7 @@
 "clear" = "Apagar";
 "refresh" = "Atualizar";
 "update" = "Atualizar";
-"gameVersionTooOld" = "A versão do seu jogo é muito antiga! Por favor atualize-o para continuar jogando on-line.";
+"gameVersionTooOld" = "A versão do seu jogo é muito antiga! Por favor atualize-o para continuar jogando online.";
 "using2ndController" = "Parece que você está usando o segundo controle. Por favor pegue o primeiro controle.";
 "using2ndControllerEx" = "Parece que você está usando o segundo controle. O controle nos menus e no jogo pode não funcionar corretamente. Por favor pegue o primeiro controle.";
 "noFriends" = "Sua lista de amigos está vazia.";
@@ -1089,3 +1089,20 @@
 "playerNameDefeatedExcl" = "<player-name> foi derrotado!";
 "flawlessVictory" = "Vitória perfeita";
 "flawlessVictoryExcl" = "Vitória perfeita!";
+"sideSip" = "Trago Extra";
+"downloadingDuelArenaScene" = "Baixando a arena do duelo...";
+"duelArenaSceneLoaded" = "Arena do duelo carregada.";
+"couldntLoadDuelArenaScene" = "Não foi possível carregar a arena do duelo.";
+"couldntLoadDuelArenaSceneTryAgain" = "Não foi possível carregar a arena do duelo. Por favor, tente novamente.";
+"duelArenaSceneLoadingFailed" = "Falha ao carregar a arena do duelo.";
+"downloadingResources" = "Baixando recursos...";
+"resourcesDownloaded" = "Recursos baixados.";
+"couldntDownloadResources" = "Não foi possível baixar os recursos.";
+"couldntDownloadResourcesTryAgain" = "Não foi possível baixar os recursos. Por favor, tente novamente.";
+"resourceDownloadFailed" = "Falha no download dos recursos.";
+"cheaterNoticeOnlineFeatures" = "Atividade irregular foi detectada em sua conta. Alguns recursos multijogador online podem não funcionar como esperado.";
+"fileCorrupted" = "Arquivo corrompido";
+"fileIncomplete" = "Arquivo incompleto";
+"fileIsInvalid" = "Arquivo inválido";
+"invalidMatchChallenger" = "Não foi possível completar a partida. Desafiante não encontrado!";
+"invalidMatchChallengedPlayer" = "Não foi possível completar a partida. Jogador desafiado não encontrado!";

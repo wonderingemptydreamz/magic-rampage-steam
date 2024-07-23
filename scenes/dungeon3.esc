@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <SceneProperties lightIntensity="3" parallaxIntensity="3">
-        <Ambient r="0.75" g="0.28" b="0.32" />
+    <SceneProperties lightIntensity="2" parallaxIntensity="2">
+        <Ambient r="1" g="0.44" b="0.487" />
         <ZAxisDirection x="0" y="0" />
     </SceneProperties>
     <EntitiesInScene>
@@ -607,6 +607,22 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="34097" spriteFrame="0">
+            <EntityName>hoc_bg_512x256.ent</EntityName>
+            <Position x="5032" y="-3" z="-8" angle="90" />
+            <Entity>
+                <FileName>hoc_bg_512x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="34102" spriteFrame="0">
+            <EntityName>black_bar_4x05.ent</EntityName>
+            <Position x="5030" y="-4" z="-12" angle="90" />
+            <Entity>
+                <FileName>black_bar_4x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="3735" spriteFrame="0">
             <EntityName>_marker.ent</EntityName>
             <Position x="5584" y="-16" z="0" angle="0" />
@@ -1007,7 +1023,13 @@
             <Position x="768" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="4783" spriteFrame="0">
@@ -1213,6 +1235,22 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="31110" spriteFrame="0">
+            <EntityName>column_shadow_adder</EntityName>
+            <Position x="1249" y="189" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
         <Entity id="26488" spriteFrame="0">
             <EntityName>torch_no_light_no_emissive.ent</EntityName>
             <Position x="1920" y="320" z="-79" angle="0" />
@@ -1288,7 +1326,13 @@
             <Position x="2304" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="26759" spriteFrame="0">
@@ -1657,6 +1701,22 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="34098" spriteFrame="1">
+            <EntityName>hoc_bg_512x256.ent</EntityName>
+            <Position x="3366" y="23" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_512x256.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="34101" spriteFrame="0">
+            <EntityName>black_bar_4x05.ent</EntityName>
+            <Position x="3385" y="17" z="-12" angle="0" />
+            <Entity>
+                <FileName>black_bar_4x05.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="27323" spriteFrame="0">
             <EntityName>dungeon_block_04.ent</EntityName>
             <Position x="4000" y="32" z="0" angle="90" />
@@ -1724,7 +1784,13 @@
             <Position x="3840" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="29724" spriteFrame="0">
@@ -1959,7 +2025,7 @@
         </Entity>
         <Entity id="30045" spriteFrame="0">
             <EntityName>dungeon_one_sided_tile.ent</EntityName>
-            <Position x="4450" y="326" z="-2" angle="0" />
+            <Position x="4450" y="336" z="-2" angle="0" />
             <Entity>
                 <FileName>dungeon_one_sided_tile.ent</FileName>
                 <CustomData>
@@ -2013,6 +2079,44 @@
                         <Value>earth</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="34095" spriteFrame="2">
+            <EntityName>hoc_bg_512x128.ent</EntityName>
+            <Position x="4270" y="160" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_512x128.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="34096" spriteFrame="1">
+            <EntityName>hoc_bg_512x128.ent</EntityName>
+            <Position x="4260" y="32" z="-8" angle="0" />
+            <Entity>
+                <FileName>hoc_bg_512x128.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="34099" spriteFrame="0">
+            <EntityName>powerup.ent</EntityName>
+            <Position x="4104" y="98" z="-3" angle="0" />
+            <Entity>
+                <FileName>powerup.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>itemName</Name>
+                        <Value>Elixir of Duplication</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="34100" spriteFrame="0">
+            <EntityName>black_bar_4x05.ent</EntityName>
+            <Position x="4251" y="96" z="-12" angle="0" />
+            <Entity>
+                <FileName>black_bar_4x05.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="32321" spriteFrame="0">
@@ -2178,7 +2282,13 @@
             <Position x="4680" y="360" z="-80" angle="0" />
             <Entity>
                 <FileName>castle_bg_arch_b.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="26953" spriteFrame="0">
@@ -2512,7 +2622,13 @@
             <Position x="5762" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="23659" spriteFrame="0">
@@ -2951,7 +3067,13 @@
             <Position x="7552" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="3720" spriteFrame="0">

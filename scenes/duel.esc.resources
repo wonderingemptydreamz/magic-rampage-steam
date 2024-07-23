@@ -1,1 +1,15 @@
+entities/character_body_head_only.png
 sprites/vs.png
+sprites/health-bar-bg.png
+sprites/health-bar.png
+sprites/health-bar-frame.png
+sprites/health-bar-frame-marker.png
+sprites/cooldown_ball_sheet_flipped.png
+sprites/skills/skill_tree_point_ring_8.png
+sprites/skills/charge_blast.png
+sprites/skills/thunder_wave.png
+sprites/skills/dark_twin.png
+sprites/skills/small/dark_twin_small.png
+sprites/skills/small/thunder_wave_small.png
+sprites/skills/small/charge_blast_small.png
+particles/arcane_rune_ready.png

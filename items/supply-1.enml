@@ -3,8 +3,10 @@ item0
 	name = Potion;
 
 	type = supply;
-	secondaryType = potion;
+	secondaryType = beverage;
 	sprite = potion.png;
+
+	equipEntity = beverage_potion;
 
 	depthOffset = 1;
 	maxStackSize = 99;
@@ -14,4 +16,9 @@ item0
 	fixedPrice = 500;
 
 	text = potion-desc;
+
+	// used as sfx speed
+	projectileSpeed = 1.0;
+
+	effectColor = 2, 0.2, 0.2;
 }

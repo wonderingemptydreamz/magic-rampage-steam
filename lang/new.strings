@@ -1,3 +1,9 @@
+"fileCorrupted" = "Corrupted file";
+"fileIncomplete" = "Incomplete file";
+"fileIsInvalid" = "Invalid file";
+"invalidMatchChallenger" = "Could not complete match. Challenger not found!";
+"invalidMatchChallengedPlayer" = "Could not complete match. Challenged player not found!";
+
 "Tome of the Sands" = "Tome of the Sands";
 "Scarabs Sting" = "Scarab's Sting";
 "Dune Whisper" = "Dune Whisper";
@@ -13,11 +19,11 @@
 "Sunset Reaper" = "Sunset Reaper";
 "Desert Vengeance" = "Desert Vengeance";
 "Oasis Crusher" = "Oasis Crusher";
-"Scarabs Fury" = "Scarab’s Fury";
-"Sun Gods Might" = "Sun God’s Might";
+"Scarabs Fury" = "Scarab's Fury";
+"Sun Gods Might" = "Sun God's Might";
 "Desert Pounder" = "Desert Pounder";
 "Spear of the Sand King" = "Spear of the Sand King";
-"Scarabs Piercer" = "Scarab’s Piercer";
+"Scarabs Piercer" = "Scarab's Piercer";
 "Sunstrike Spear" = "Sunstrike Spear";
 "Oasis Javelin" = "Oasis Javelin";
 "Shadow Fang Dagger" = "Shadow Fang";
@@ -106,6 +112,65 @@
 "Plaguebearers Plate" = "Plaguebearer's Plate";
 "Voidsteel Plate" = "Voidsteel Plate";
 "Gravekeepers Armor" = "Gravekeeper's Armor";
+"Robe of Shadows" = "Robe of Shadows";
+"Twilight Armor" = "Twilight Armor";
+"Void Tunic" = "Void Tunic";
+"Nightfall Robe" = "Nightfall Robe";
+"Eclipse Armor" = "Eclipse Armor";
+"Phantom Tunic" = "Phantom Tunic";
+"Radiant Robe" = "Radiant Robe";
+"Solar Armor" = "Solar Armor";
+"Aurora Tunic" = "Aurora Tunic";
+"Luminous Robe" = "Luminous Robe";
+"Celestial Armor" = "Celestial Armor";
+"Glorious Tunic" = "Glorious Tunic";
+"Verdant Robe" = "Verdant Robe";
+"Stoneplate Armor" = "Stoneplate Armor";
+"Terra Tunic" = "Terra Tunic";
+"Moss Robe" = "Moss Robe";
+"Granite Armor" = "Granite Armor";
+"Rooted Tunic" = "Rooted Tunic";
+"Gale Robe" = "Gale Robe";
+"Skyguard Armor" = "Skyguard Armor";
+"Breeze Tunic" = "Breeze Tunic";
+"Zephyr Robe" = "Zephyr Robe";
+"Storm Armor" = "Storm Armor";
+"Cloud Tunic" = "Cloud Tunic";
+"Tidal Robe" = "Tidal Robe";
+"Coral Armor" = "Coral Armor";
+"Wave Tunic" = "Wave Tunic";
+"Oceanic Robe" = "Oceanic Robe";
+"Aquatic Armor" = "Aquatic Armor";
+"Stream Tunic" = "Stream Tunic";
+"Inferno Robe" = "Inferno Robe";
+"Blaze Armor" = "Blaze Armor";
+"Ember Tunic" = "Ember Tunic";
+"Flame Robe" = "Flame Robe";
+"Molten Armor" = "Molten Armor";
+"Scorch Tunic" = "Scorch Tunic";
+
+
+--------------------
+UNTIL 8th July 2024
+--------------------
+
+/* Side Sip is a feature that allows players to bring an extra power-up bottle to battle - please try to keep it as short as possible */
+"sideSip" = "Side Sip";
+
+"downloadingDuelArenaScene" = "Downloading duel arena...";
+"duelArenaSceneLoaded" = "Duel arena loaded.";
+"couldntLoadDuelArenaScene" = "Couldn't load duel arena.";
+"couldntLoadDuelArenaSceneTryAgain" = "Couldn't load duel arena. Please try again.";
+"duelArenaSceneLoadingFailed" = "Duel arena loading failed.";
+"downloadingResources" = "Downloading resources...";
+"resourcesDownloaded" = "Resources downloaded.";
+"couldntDownloadResources" = "Couldn't download resources.";
+"couldntDownloadResourcesTryAgain" = "Couldn't download resources. Please try again.";
+"resourceDownloadFailed" = "Resource download failed.";
+"cheaterNoticeOnlineFeatures" = "Irregular activity has been detected on your account. Some online multiplayer features may not work as expected.";
+
+"Instant Dark Twin" = "Instant Dark Twin";
+"Instant Dark Twin-desc" = "Summons a Dark Twin to fight alongside the Dirty Faced Soldier. To activate, fire an attack.";
 
 
 --------------------

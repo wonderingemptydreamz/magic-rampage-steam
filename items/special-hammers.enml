@@ -1,0 +1,888 @@
+item21
+{
+	name = Dark Mace;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = mace_0.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 700;
+	damage = 35;
+	speedBoost = 1.02;
+	jumpBoost  = 1.01;
+	armorBoost = 1.5;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_dark_mace.ent;
+	equipEntity = weapon_dark_mace.ent;
+	dropEntityName = item_dark_mace.ent;
+
+	invertProjectile = true;
+	projectileSpeed = 15.0;
+
+	element = darkness;
+
+	maxLevelAllowed = 11;
+}
+
+item23
+{
+	name = Thunder Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_2.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 800;
+	damage = 70;
+	armorBoost = 1.45;
+	jumpBoost  = 1.02;
+	speedBoost  = 1.0;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_thunder_hammer.ent;
+	equipEntity = weapon_thunder_hammer.ent;
+	dropEntityName = item_thunder_hammer.ent;
+	invertProjectile = true;
+	projectileSpeed = 13.0;
+
+	maxLevelAllowed = 8;
+}
+
+item37
+{
+	name = Spider Crusher;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_3.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -30;
+	equipOffsetY = -8;
+
+	attackCooldown = 800;
+	damage = 47;
+
+	maxLevelAllowed = 10;
+
+	jumpBoost = 1.02;
+	armorBoost = 1.35;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_2.ent;
+	invertProjectile = true;
+	projectileSpeed = 14.0;
+	element = earth;
+
+	text = against-insects;
+}
+
+item44
+{
+	name = Bionic Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_chapulin.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 500;
+	damage = 38;
+	armorBoost = 1.35;
+	jumpBoost  = 1.06;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_bionic.ent;
+	invertProjectile = true;
+	projectileSpeed = 13.0;
+}
+
+item87
+{
+	name = Inquisidor;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_4.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -30;
+	equipOffsetY = -8;
+
+	attackCooldown = 700;
+	damage = 40;
+
+	maxLevelAllowed = 3;
+
+	jumpBoost = 1.01;
+	speedBoost = 1.01;
+	armorBoost = 1.5;
+
+	soundPack = blunt;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_inquisidor.ent;
+	invertProjectile = true;
+	projectileSpeed = 14.0;
+	element = darkness;
+
+	fixedPrice = 150000;
+}
+
+item110
+{
+	name = Mojaras Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_mojara.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 55;
+	armorBoost = 1.7;
+	jumpBoost  = 1.02;
+	speedBoost = 1.02;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_mojara.ent;
+	alternativeMaxedEquipEntity = weapon_mojara.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = darkness;
+
+	fixedPrice = 300000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item111
+{
+	name = Verdant Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_verdant.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 48;
+	armorBoost = 1.8;
+	jumpBoost  = 1.03;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_verdant.ent;
+	alternativeMaxedEquipEntity = weapon_verdant.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = earth;
+
+	fixedPrice = 300000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item115
+{
+	name = Falcon Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_falcon.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 45;
+	armorBoost = 1.6;
+	jumpBoost  = 1.02;
+	speedBoost = 1.09;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_falcon.ent;
+	alternativeMaxedEquipEntity = weapon_falcon.ent;
+	projectileSpeed = 13.0;
+	invertProjectile = true;
+
+	element = air;
+
+	fixedPrice = 300000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item118
+{
+	name = Hammer of Light;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_light.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 48;
+	armorBoost = 1.5;
+	jumpBoost  = 1.03;
+	speedBoost = 1.03;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_light.ent;
+	equipEntity = weapon_light_hammer.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = light;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item127
+{
+	name = Volcano Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_volcano.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 47;
+	armorBoost = 1.8;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_volcano.ent;
+	alternativeMaxedEquipEntity = weapon_volcano.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = fire;
+
+	fixedPrice = 300000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item128
+{
+	name = Liquid Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_liquid.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 46;
+	armorBoost = 1.65;
+	jumpBoost  = 1.01;
+	speedBoost = 1.05;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_liquid.ent;
+	equipEntity = weapon_liquid.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = water;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item181
+{
+	name = Bit Mace;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item182
+{
+	name = Bone Mace;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item183
+{
+	name = Toxic Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_poison.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 800;
+	damage = 47;
+	armorBoost = 1.7;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_volcano.ent;
+	alternativeMaxedEquipEntity = weapon_volcano.ent;
+	projectileSpeed = 17.0;
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA =   0.583, 1.0, 0.0, 1.0,           0,   0,   0, 1.0; // projectile
+	autoPaintColorB =   1.749, 3.0, 0.0, 1.0,       0.583, 1.0, 0.0, 1.0; // projectile
+
+	effectColor     =   0.2915, 1.0, 0.0, 1.0,     0.2915, 1.0, 0.0, 1.0; // explosion/equip
+	effectColorB    =    1.749, 3.0, 0.0, 1.0,          0,   0,   0, 1.0;   // explosion/equip
+
+	poisonous = true;
+
+	coinPrice = 2000;
+	fixedPrice = 500000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item215
+{
+	name = Bone Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_bone.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 62;
+	armorBoost = 1.7;
+	jumpBoost  = 1.02;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_verdant.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.4845, 0.449, 0.3785, 1.0, 0.0, 0.0, 0.0, 1.0;
+	autoPaintColorB = 0.969, 0.898, 0.757, 1.0,   0.0, 0.0, 0.0, 1.0;
+	effectColor     = 0.4845, 0.449, 0.3785, 1.0, 0.0, 0.0, 0.0, 1.0;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item216
+{
+	name = Toxic Mace;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = mace_poison.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -10;
+
+	attackCooldown = 600;
+	damage = 46;
+	armorBoost = 1.5;
+	speedBoost = 1.02;
+
+	soundPack = blunt;
+
+	poisonous = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_dark_mace.ent;
+	explosionEntity = explosion_spider_axe.ent;
+	explosionRange = 270;
+	equipEntity = weapon_dark_mace.ent;
+
+	invertProjectile = true;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.198, 0.25, 0.1215, 1,   1.584, 2, 0.972, 1; // projectile
+	//autoPaintColorB = 0.7, 0.98, 0.978, 1,  0.988, 0.815, 0.096, 1; // projectile
+
+	effectColor     = 1.584, 2, 0.972, 1,      0, 0, 0, 1;
+	effectColorB    = 1.584, 2, 0.972, 1,      0, 0, 0, 1;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+
+	text = epicHammerDescription;
+}
+
+item254
+{
+	name = Wit of Ancient Power;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_ancient.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1400;
+	damage = 60;
+	armorBoost = 1.8;
+	jumpBoost  = 1.02;
+	speedBoost = 1.0;
+
+	soundPack = ancient-force;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_ancient.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	fixedPrice = 10;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 16;
+}
+
+item267
+{
+	name = War-Forged Smasher;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_fire.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 800;
+	damage = 52;
+	armorBoost = 1.7;
+	speedBoost = 0.99;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_volcano.ent;
+	alternativeMaxedEquipEntity = weapon_volcano.ent;
+	projectileSpeed = 14.0;
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA =     1,   0.5,   0.2, 1,       0,       0,     0, 1; // projectile
+	autoPaintColorB =     3,   1.5,   0.6, 1,       1,     0.5,   0.2, 1; // projectile
+
+	effectColor     =   0.5,  0.25,   0.1,   1,     0.5,  0.25,  0.1, 1; // explosion/equip
+	effectColorB    =     3,   1.5,   0.6,   1,       0,     0,    0, 1;   // explosion/equip
+
+	element = fire;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item275
+{
+	name = Wealthy Smasher Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_treasure.png;
+	equipEntity = weapon_hammer_treasure.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 46;
+	armorBoost = 1.7;
+	jumpBoost  = 1.02;
+
+	soundPack = powerhammer;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_verdant.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.4845, 0.449, 0.3785, 1.0, 0.0, 0.0, 0.0, 1.0;
+	autoPaintColorB = 0.969, 0.898, 0.757, 1.0,   0.0, 0.0, 0.0, 1.0;
+
+	text = treasure-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 2600000;
+}
+
+item295
+{
+	name = Smasher of Decay Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_survivor.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 900;
+	damage = 52;
+	armorBoost = 1.5;
+
+	soundPack = powerhammer;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+	effectColor    =  0.4, 0.3, 0.4, 1,     0.4, 0.3, 0.4, 1;  // explosion/equip	
+	effectColorB   =  0.4, 0.3, 0.4, 1,     0, 0, 0, 1;  // explosion/equip
+
+	explosionRange = 320;
+	projectileLifetime = 1100;	
+
+	explosionEntity = explosion_falcon.ent;
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_steel_axe.ent;
+	projectileSpin = 12;
+	projectileSpeed = 14.0;
+	invertProjectile = true;
+
+	maxLevelAllowed = 15;
+}
+
+item314
+{
+	name = Wealthy Crusher Mace;
+
+	type = weapon;
+	secondaryType = mace;
+	sprite = mace_treasure.png;
+	equipEntity = weapon_mace_treasure.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 1050;
+	damage = 46;
+	armorBoost = 1.7;
+	speedBoost  = 1.02;
+
+	projectileLifetime = 1200;
+	explosionRange = 320;
+	explosionEntity = explosion_light_spear.ent;
+
+	soundPack = powerhammer;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+
+	projectileEntity = projectile_hammer_verdant.ent;
+	projectileSpeed = 14.0;
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+	autoPaintColorA = 0.4845, 0.449, 0.3785, 1.0, 0.0, 0.0, 0.0, 1.0;
+	autoPaintColorB = 0.969, 0.898, 0.757, 1.0,   0.0, 0.0, 0.0, 1.0;
+
+	text = treasure-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 3000000;
+}
+
+item344
+{
+	name = Enlightened Hammer;
+
+	type = weapon;
+	secondaryType = hammer;
+	sprite = hammer_blessed.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 650;
+	damage = 61;
+	armorBoost = 1.7;
+
+	soundPack = powerhammer;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+
+	projectileEntity = projectile_hammer_light.ent;
+	alternativeMaxedEquipEntity = weapon_light_hammer.ent;
+
+	explosionRange = 400;
+
+	projectileSpeed = 18.0;
+	invertProjectile = true;
+
+	element = light;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+
+	text = epicHammerDescription;
+
+	maxLevelAllowed = 15;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 1, 1, 0.5,  1,   0, 0,    0, 1;  // projectile
+	autoPaintColorB = 1, 1, 0.46, 1,   1, 1, 0.46, 1; // projectile
+
+	effectColor     = 0.8, 0.8, 0.35,   1,   0.8, 0.8, 0.35, 1; // explosion/equip
+	effectColorB    = 6, 6, 2.2,   1,     0,   0,   0, 1;   // explosion/equip
+}
+

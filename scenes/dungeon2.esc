@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <SceneProperties lightIntensity="3" parallaxIntensity="1.5">
-        <Ambient r="0.389" g="0.328" b="0.565" />
+    <SceneProperties lightIntensity="3" parallaxIntensity="1.2">
+        <Ambient r="0.693" g="0.463" b="0.89" />
         <ZAxisDirection x="0" y="0" />
     </SceneProperties>
     <EntitiesInScene>
@@ -1486,6 +1486,22 @@
                 </CustomData>
             </Entity>
         </Entity>
+        <Entity id="31110" spriteFrame="0">
+            <EntityName>column_shadow_adder</EntityName>
+            <Position x="1249" y="189" z="0" angle="0" />
+            <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Scale x="2" y="2" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
         <Entity id="13673" spriteFrame="1">
             <EntityName>blood_decal_1.ent</EntityName>
             <Position x="1760" y="480" z="0.1" angle="180" />
@@ -1991,6 +2007,41 @@
                         <Type>uint</Type>
                         <Name>useAlphaOnDepthFill</Name>
                         <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="30678" spriteFrame="0">
+            <EntityName>parallax_intensity_slider</EntityName>
+            <Position x="3520" y="216" z="4" angle="0" />
+            <Entity shape="1" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0" gravityScale="1" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+                <EmissiveColor r="1" g="1" b="1" a="0" />
+                <Sprite>film.png</Sprite>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>autoHide</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>hysteresisRange</Name>
+                        <Value>64</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>leftSideParallaxBias</Name>
+                        <Value>1.8</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>rightSideParallaxBias</Name>
+                        <Value>-1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>float</Type>
+                        <Name>slideTimeMS</Name>
+                        <Value>3000</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -2976,7 +3027,13 @@
             <Position x="5762" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="8250" spriteFrame="0">
@@ -3409,44 +3466,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="7966" spriteFrame="0">
-            <EntityName>dungeon_block_02.ent</EntityName>
-            <Position x="7936" y="320" z="0" angle="0" />
-            <Entity>
-                <FileName>dungeon_block_02.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>uint</Type>
-                        <Name>allowDecals</Name>
-                        <Value>1</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>material</Name>
-                        <Value>stone</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
-        <Entity id="7964" spriteFrame="0">
-            <EntityName>dungeon_block_05.ent</EntityName>
-            <Position x="7744" y="320" z="0" angle="0" />
-            <Entity>
-                <FileName>dungeon_block_05.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>uint</Type>
-                        <Name>allowDecals</Name>
-                        <Value>1</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>material</Name>
-                        <Value>stone</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
         <Entity id="7939" spriteFrame="0">
             <EntityName>dungeon_column.ent</EntityName>
             <Position x="7936" y="340" z="-50" angle="0" />
@@ -3575,6 +3594,71 @@
                         <Value>1</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="31470" spriteFrame="0">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="7744" y="320" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x128b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="31472" spriteFrame="1">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="8000" y="320" z="0" angle="180" />
+            <Entity>
+                <FileName>hoc_128x128b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="31690" spriteFrame="0" flipY="1">
+            <EntityName>hoc_128x128a.ent</EntityName>
+            <Position x="7872" y="320" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x128a.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="31691" spriteFrame="0">
+            <EntityName>black_bar_05x05.ent</EntityName>
+            <Position x="7808" y="320" z="-0.01" angle="0" />
+            <Entity>
+                <FileName>black_bar_05x05.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="10176" spriteFrame="0">
@@ -3816,11 +3900,19 @@
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="7979" spriteFrame="0">
-            <EntityName>dungeon_block_02.ent</EntityName>
-            <Position x="8320" y="320" z="0" angle="0" />
+        <Entity id="14356" spriteFrame="0">
+            <EntityName>web_0.ent</EntityName>
+            <Position x="8278" y="76" z="-16" angle="-85" />
             <Entity>
-                <FileName>dungeon_block_02.ent</FileName>
+                <FileName>web_0.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="31476" spriteFrame="0">
+            <EntityName>hoc_128x128a.ent</EntityName>
+            <Position x="8384" y="320" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x128a.ent</FileName>
                 <CustomData>
                     <Variable>
                         <Type>uint</Type>
@@ -3835,12 +3927,23 @@
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="14356" spriteFrame="0">
-            <EntityName>web_0.ent</EntityName>
-            <Position x="8278" y="76" z="-16" angle="-85" />
+        <Entity id="31477" spriteFrame="1" flipX="1">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="8256" y="320" z="0" angle="-90" />
             <Entity>
-                <FileName>web_0.ent</FileName>
-                <CustomData />
+                <FileName>hoc_128x128b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="13683" spriteFrame="1">
@@ -4129,7 +4232,13 @@
             <Position x="9344" y="340" z="-50" angle="0" />
             <Entity>
                 <FileName>dungeon_column.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>dimmerShadow</Name>
+                        <Value>1</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="8231" spriteFrame="0">
@@ -6416,25 +6525,6 @@
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="4754" spriteFrame="0">
-            <EntityName>dungeon_block_03.ent</EntityName>
-            <Position x="7936" y="704" z="0" angle="0" />
-            <Entity>
-                <FileName>dungeon_block_03.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>uint</Type>
-                        <Name>allowDecals</Name>
-                        <Value>1</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>material</Name>
-                        <Value>stone</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
         <Entity id="8238" spriteFrame="0">
             <EntityName>dungeon_block_04.ent</EntityName>
             <Position x="7712" y="512" z="0" angle="90" />
@@ -6476,6 +6566,25 @@
             <Entity>
                 <FileName>tavern_hard_dust_bright.ent</FileName>
                 <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="31468" spriteFrame="0">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="7936" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="12418" spriteFrame="0">
@@ -6547,25 +6656,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="4755" spriteFrame="0">
-            <EntityName>dungeon_block_03.ent</EntityName>
-            <Position x="8448" y="704" z="0" angle="180" />
-            <Entity>
-                <FileName>dungeon_block_03.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>uint</Type>
-                        <Name>allowDecals</Name>
-                        <Value>1</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>material</Name>
-                        <Value>stone</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
         <Entity id="23778" spriteFrame="0">
             <EntityName>volumetric_fog_xl.ent</EntityName>
             <Position x="8511" y="624" z="-0.02" angle="0" />
@@ -6588,6 +6678,25 @@
             <Entity>
                 <FileName>tavern_hard_dust_bright.ent</FileName>
                 <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="31469" spriteFrame="1">
+            <EntityName>hoc_512x128.ent</EntityName>
+            <Position x="8448" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_512x128.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="22370" spriteFrame="0">
@@ -6617,11 +6726,19 @@
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="12503" spriteFrame="0">
-            <EntityName>dungeon_block_02.ent</EntityName>
-            <Position x="8832" y="704" z="0" angle="0" />
+        <Entity id="7959" spriteFrame="0">
+            <EntityName>castle_bg_small.ent</EntityName>
+            <Position x="9000" y="900" z="-80" angle="0" />
             <Entity>
-                <FileName>dungeon_block_02.ent</FileName>
+                <FileName>castle_bg_small.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="31473" spriteFrame="0">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="8896" y="704" z="0" angle="0" />
+            <Entity>
+                <FileName>hoc_128x128b.ent</FileName>
                 <CustomData>
                     <Variable>
                         <Type>uint</Type>
@@ -6636,12 +6753,23 @@
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="7959" spriteFrame="0">
-            <EntityName>castle_bg_small.ent</EntityName>
-            <Position x="9000" y="900" z="-80" angle="0" />
+        <Entity id="31474" spriteFrame="1">
+            <EntityName>hoc_128x128b.ent</EntityName>
+            <Position x="8768" y="704" z="0" angle="0" />
             <Entity>
-                <FileName>castle_bg_small.ent</FileName>
-                <CustomData />
+                <FileName>hoc_128x128b.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>uint</Type>
+                        <Name>allowDecals</Name>
+                        <Value>1</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>material</Name>
+                        <Value>stone</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="12420" spriteFrame="0">

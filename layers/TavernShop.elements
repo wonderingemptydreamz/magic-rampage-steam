@@ -75,7 +75,7 @@ title
 	iterable = false;
 
 	posX = 0.5;
-	posY = 0.34;
+	posY = 0.32;
 	originX = 0.5;
 	originY = 0.5;
 

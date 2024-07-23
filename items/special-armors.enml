@@ -1,0 +1,2926 @@
+item0
+{
+	name = Jumpman Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_1b.png;
+	color  = 4288707141;
+	jumpBoost = 1.28;
+	speedBoost = 0.8;
+	element = air;
+	hideFace = true;
+	forceEyes = true;	
+
+	armor = 0;
+
+	maxLevelAllowed = 0;
+
+	text = Jumpman-Suit-desc;
+}
+
+item2
+{
+	name = Minion Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_2b.png;
+	color  = 10066329;
+
+	armor = 0;
+}
+
+item5
+{
+	name = Warlock Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_2b.png;
+	color  = 10066329;
+	magicBoost = 1.5;
+	staffBoost = 1.3;
+	daggerBoost = 1.3;
+	speedBoost = 1.04;
+	jumpBoost = 1.02;
+	element = darkness;
+
+	armor = 22;
+
+	maxLevelAllowed = 13;
+}
+
+item6
+{
+	name = Hero's Set;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_4.png;
+	color  = 13224889;
+	swordBoost = 1.4;
+	daggerBoost = 1.4;
+	hammerBoost = 1.2;
+	speedBoost = 1.06;
+	jumpBoost = 1.02;
+
+	armor = 25;
+	element = air;
+
+	maxLevelAllowed = 5;
+}
+
+item8
+{
+	name = Ifrit's Disciple Robe;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_5.png;
+	color  = 4282990137;
+	colorMultiplier = 1.6;
+	magicBoost = 1.4;
+	staffBoost = 1.35;
+	axeBoost = 1.35;
+	daggerBoost = 1.35;
+	speedBoost = 1.03;
+	jumpBoost = 1.02;
+	element = fire;
+
+	armor = 22;
+
+	dropEntityName = item_fire_armor.ent;
+
+	maxLevelAllowed = 10;
+}
+
+item13
+{
+	name = Elite Obsidian Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_1a.png;
+	color  = 8293059;
+
+	armor = 53;
+	speedBoost = 1.03;
+	jumpBoost = 1.02;
+	swordBoost = 1.35;
+	hammerBoost = 1.35;
+	axeBoost = 1.35;
+}
+
+item15
+{
+	name = Umbranian Vest;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_1b.png;
+	color  = 13224889;
+	speedBoost = 1.05;
+	jumpBoost = 1.03;
+
+	armor = 21;
+	magicBoost = 1.3;
+	swordBoost = 1.2;
+	daggerBoost = 1.4;
+
+	element = air;
+}
+
+item16
+{
+	name = Faldang's Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_3a.png;
+	color  = 11250603;
+	magicBoost = 1.45;
+	staffBoost = 1.35;
+	jumpBoost = 1.01;
+	speedBoost = 1.04;
+	element = light;
+
+	armor = 22;
+
+	maxLevelAllowed = 11;
+}
+
+item28
+{
+	name = Umbranian Tanker;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_cloth_3b.png;
+	color  = 8293059;
+
+	speedBoost = 1.03;
+	jumpBoost = 1.02;
+	swordBoost = 1.6;
+	hammerBoost = 1.6;
+	axeBoost = 1.6;
+	armor = 80;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 6;
+}
+
+item32
+{
+	name = High Elf Robe;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_4.png;
+	color  = 4288181333;
+	colorMultiplier = 1.3;
+
+	magicBoost = 1.40;
+	staffBoost = 1.4;
+	spearBoost = 1.4;
+	swordBoost = 1.4;
+	speedBoost = 1.03;
+	jumpBoost  = 1.02;
+
+	element = earth;
+
+	armor = 25;
+
+	equipEntity = character_armor_high_elf_robe.ent;
+	dropEntityName = item_high_elf_robe.ent;
+	effectsXOffsetAdjust = -28;
+
+	maxLevelAllowed = 9;
+}
+
+item41
+{
+	name = Anti-hero's Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_a1.png;
+	depthOffset = 0.04;
+
+	color  = 15718575;
+	colorMultiplier = 1.4;
+	speedBoost = 1.07;
+	jumpBoost = 1.03;
+	swordBoost = 1.60;
+	daggerBoost = 1.60;
+	magicBoost = 1.40;
+
+	armor = 27;
+	element = air;
+
+	maxLevelAllowed = 9;
+}
+
+item42
+{
+	name = Monk's Tunic;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_special_a2.png;
+	color  = 6834739;
+	colorMultiplier = 1.3;
+	magicBoost = 1.6;
+	staffBoost = 1.3;
+	hammerBoost = 1.3;
+	jumpBoost = 1.02;
+	speedBoost = 1.04;
+	element = light;
+
+	armor = 24;
+
+	maxLevelAllowed = 9;
+}
+
+item46
+{
+	name = Crow Set;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_plate_2b.png;
+	color = 6973802;
+	depthOffset = 0.04;
+
+	magicBoost = 1.8;
+	speedBoost = 1.06;
+	jumpBoost = 1.02;
+	swordBoost = 1.5;
+	hammerBoost = 1.5;
+	element = darkness;
+
+	armor = 38;
+
+	maxLevelAllowed = 8;
+}
+
+item47
+{
+	name = Greenmoon Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_a2.png;
+	color  = 7390126;
+	depthOffset = 0.04;
+
+	magicBoost = 1.60;
+	staffBoost = 1.4;
+	hammerBoost = 1.4;
+	spearBoost = 1.4;
+	speedBoost = 1.04;
+	jumpBoost  = 1.03;
+
+	element = earth;
+
+	armor = 27;
+
+	maxLevelAllowed = 10;
+}
+
+item49
+{
+	name = Dragon Vest;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_a1.png;
+	color  = 16096587;
+	colorMultiplier = 1.45;
+	depthOffset = 0.04;
+
+	magicBoost = 1.60;
+	staffBoost = 1.4;
+	axeBoost = 1.4;
+	daggerBoost = 1.4;
+	speedBoost = 1.05;
+	jumpBoost  = 1.01;
+
+	element = fire;
+
+	armor = 24;
+
+	maxLevelAllowed = 10;
+}
+
+item53
+{
+	name = Penumbra Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_c2.png;
+
+	magicBoost = 1.7;
+	staffBoost = 1.7;
+	daggerBoost = 1.5;
+	speedBoost = 1.05;
+	jumpBoost  = 1.03;
+
+	element = darkness;
+
+	headlessAlternativeSprite = armor_cloth_special_c1.png;
+	armor = 23;
+	color = 9663897;
+	colorMultiplier = 1.2;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 13;
+}
+
+item58
+{
+	name = Improved Jumpman Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_1b.png;
+	color  = 4288707141;
+	jumpBoost = 1.28;
+	speedBoost = 1.05;
+	element = air;
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 10;
+
+	maxLevelAllowed = 0;
+
+	fixedPrice = 10;
+
+	text = Jumpman-Suit-desc;
+}
+
+item61
+{
+	name = High Cleric Tunic;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_g.png;
+
+	magicBoost = 1.6;
+	staffBoost = 1.4;
+	speedBoost = 1.05;
+	jumpBoost  = 1.02;
+
+	element = light;
+
+	armor = 20;
+	color = 4294960790;
+	colorMultiplier = 1.4;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 13;
+}
+
+item63
+{
+	name = Moonkeeper Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_c1.png;
+	color  = 4294958669;
+	colorMultiplier = 1.2;
+	depthOffset = 0.04;
+
+	magicBoost = 1.6;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+	daggerBoost = 1.4;
+	hammerBoost = 1.4;
+
+	element = earth;
+
+	armor = 36;
+
+	maxLevelAllowed = 7;
+}
+
+item66
+{
+	name = Bacoon Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_leather_3.png;
+
+	magicBoost = 1.65;
+	speedBoost = 1.04;
+	jumpBoost  = 1.03;
+	hammerBoost = 1.6;
+	swordBoost = 1.5;
+
+	element = water;
+
+	armor = 34;
+	color = 4288454305;
+	colorMultiplier = 1.3;
+
+	maxLevelAllowed = 10;
+}
+
+item67
+{
+	name = Deathdoctor Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_e2.png;
+	headlessAlternativeSprite = armor_special_e1.png;
+	color  = 10066329;
+	magicBoost = 1.2;
+	staffBoost = 1.2;
+	speedBoost = 1.04;
+	jumpBoost = 1.01;
+	daggerBoost = 1.55;
+	element = darkness;
+
+	armor = 20;
+
+	hideFace = true;
+	forceEyes = false;
+
+	maxLevelAllowed = 6;
+}
+
+item72
+{
+	name = Blue Wizard Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_d2.png;
+
+	magicBoost = 1.6;
+	speedBoost = 1.04;
+	jumpBoost  = 1.02;
+	axeBoost = 1.6;
+	staffBoost = 1.6;
+
+	element = water;
+
+	headlessAlternativeSprite = armor_cloth_special_d1.png;
+	armor = 30;
+	color = 4294943287;
+	colorMultiplier = 1.2;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 9;
+}
+
+item76
+{
+	name = Special Dragon Vest;
+	type = armor;
+	secondaryType = cloth;
+	equipEntity = character_armor_fire_promo.ent;
+	sprite = armor_cloth_special_a1.png;
+	color  = 16096587;
+	colorMultiplier = 1.45;
+	depthOffset = 0.04;
+	effectsXOffsetAdjust = -16;
+
+	magicBoost = 1.8;
+	swordBoost = 1.7;
+	daggerBoost = 1.7;
+	staffBoost = 1.9;
+	axeBoost = 1.9;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	element = fire;
+
+	armor = 180;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 0;
+}
+
+item77
+{
+	name = Special Dragon Vest B;
+	type = armor;
+	secondaryType = cloth;
+	equipEntity = character_armor_firestorm.ent;
+	sprite = character_armor_gorgon_purple.png;
+	color  = 16096587;
+	colorMultiplier = 1.45;
+	depthOffset = 0.04;
+	effectsXOffsetAdjust = -16;
+
+	magicBoost = 2.70;
+	swordBoost = 1.70;
+	daggerBoost = 1.70;
+	staffBoost = 1.45;
+	speedBoost = 1.07;
+	jumpBoost  = 1.07;
+
+	element = fire;
+
+	armor = 150;
+
+	fixedPrice = 10;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 0;
+}
+
+item80
+{
+	name = Steelblow Armor;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_3b.png;
+	headlessAlternativeSprite = armor_plate_3a.png;
+
+	hideFace = true;
+	forceEyes = true;
+
+	color  = 4294967295;
+	colorMultiplier = 1.0;
+	speedBoost = 1.08;
+	jumpBoost = 1.04;
+	daggerBoost = 1.75;
+	swordBoost = 1.65;
+	magicBoost = 1.6;
+
+	armor = 45;
+	element = air;
+
+	maxLevelAllowed = 9;
+}
+
+item84
+{
+	name = Special Crow Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_h1.png;
+	color = 6973802;
+
+	magicBoost = 1.8;
+	axeBoost = 1.6;
+	swordBoost = 1.7;
+	hammerBoost = 1.6;
+	speedBoost = 1.06;
+	jumpBoost = 1.04;
+	element = darkness;
+
+	armor = 29;
+
+	fixedPrice = 150000;
+
+	maxLevelAllowed = 6;
+}
+
+item85
+{
+	name = Special Anti-hero Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_h2.png;
+	headlessAlternativeSprite = armor_special_a1.png;
+	depthOffset = 0.04;
+
+	color  = 15718575;
+	colorMultiplier = 1.4;
+	speedBoost = 1.08;
+	jumpBoost = 1.05;
+	swordBoost = 1.70;
+	daggerBoost = 1.70;
+	magicBoost = 1.6;
+
+	armor = 25;
+	element = air;
+
+	fixedPrice = 150000;
+
+	maxLevelAllowed = 3;
+
+	hideFace = true;
+	forceEyes = true;
+}
+
+item88
+{
+	name = Anti-hero's Set B;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_a1.png;
+	depthOffset = 0.04;
+
+	color  = 15718575;
+	colorMultiplier = 1.4;
+	speedBoost = 1.07;
+	jumpBoost = 1.05;
+	swordBoost = 1.60;
+	daggerBoost = 1.60;
+	magicBoost = 1.65;
+	axeBoost = 1.65;
+
+	armor = 33;
+	element = air;
+
+	fixedPrice = 86000;
+
+	maxLevelAllowed = 9;
+}
+
+item89
+{
+	name = Champion Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_cloth_special_e2.png;
+	headlessAlternativeSprite = armor_cloth_special_e2b.png;
+	color  = 4294366659;
+	colorMultiplier = 1.22;
+
+	speedBoost = 1.04;
+	jumpBoost = 1.04;
+
+	swordBoost = 2.0;
+	spearBoost = 2.2;
+	magicBoost = 1.7;
+
+	armor = 90;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 3;
+}
+
+item90
+{
+	name = Light Champion Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_i.png;
+	headlessAlternativeSprite = armor_special_ib.png;
+	color  = 4291009157;
+	colorMultiplier = 1.25;
+
+	speedBoost = 1.04;
+	jumpBoost = 1.04;
+	axeBoost = 2.0;
+	swordBoost = 2.0;
+	hammerBoost = 2.0;
+	spearBoost = 2.0;
+
+	magicBoost = 1.5;
+
+	armor = 110;
+	element = light;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 0;
+}
+
+item91
+{
+	name = Dark Lord Set;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_f2.png;
+
+	magicBoost = 2.3;
+	swordBoost = 1.7;
+	daggerBoost = 1.7;
+	spearBoost = 1.5;
+	speedBoost = 1.06;
+	jumpBoost  = 1.02;
+
+	armor = 45;
+	element = darkness;
+
+	color  = 4291017386;
+	colorMultiplier = 1.1;
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 7;
+}
+
+item92
+{
+	name = Gayan Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_j2.png;
+
+	headlessAlternativeSprite = armor_special_j1.png;
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 1.8;
+	daggerBoost = 1.8;
+	axeBoost = 1.8;
+	spearBoost = 2;
+	speedBoost = 1.04;
+	jumpBoost  = 1.03;
+
+	armor = 80;
+	element = earth;
+
+	color  = 4290028169;
+	colorMultiplier = 1.28;
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 0;
+}
+
+item95
+{
+	name = Firestorm Armor;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_2b.png;
+	headlessAlternativeSprite = armor_leather_2a.png;
+	color  = 4287257915;
+	colorMultiplier = 1.55;
+	depthOffset = 0.04;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.2;
+	speedBoost = 1.06;
+	jumpBoost  = 1.02;
+
+	daggerBoost = 1.3;
+	spearBoost = 1.5;
+	axeBoost = 1.6;
+
+	element = fire;
+	frost = true;
+
+	armor = 50;
+
+	maxLevelAllowed = 6;
+}
+
+item97
+{
+	name = Bankers Coat;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_special_k.png;
+	color  = 10066329;
+	magicBoost = 1.4;
+	spearBoost = 1.5;
+	daggerBoost = 1.3;
+	speedBoost = 1.04;
+	jumpBoost = 1.04;
+	element = darkness;
+
+	hideFace = true;
+	forceEyes = true;	
+
+	armor = 10;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 7;
+}
+
+item104
+{
+	name = Special Dragon Vest C;
+	type = armor;
+	secondaryType = cloth;
+	sprite = character_armor_gorgon_purple.png;
+	color  = 16096587;
+	colorMultiplier = 1.45;
+	depthOffset = 0.04;
+
+	magicBoost = 2.0;
+	swordBoost = 1.0;
+	daggerBoost = 1.35;
+	speedBoost = 1.06;
+	jumpBoost  = 1.03;
+	spearBoost = 1.6;
+
+	element = fire;
+
+	armor = 25;
+
+	fixedPrice = 150000;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 3;
+}
+
+item106
+{
+	name = Spider Exoskeleton;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_spider.png;
+	color  = 16096587;
+	colorMultiplier = 1.45;
+	depthOffset = 0.04;
+
+	magicBoost = 2.0;
+	swordBoost = 1.0;
+	daggerBoost = 1.35;
+	speedBoost = 1.06;
+	jumpBoost  = 1.03;
+	axeBoost = 2.0;
+
+	element = darkness;
+
+	armor = 27;
+
+	fixedPrice = 150000;
+
+	hideFace = true;
+	forceEyes = false;
+
+	maxLevelAllowed = 3;
+}
+
+item112
+{
+	name = Penumbra Suit+;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_c2.png;
+
+	magicBoost = 2.4;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+	spearBoost = 1.6;
+	staffBoost = 1.5;
+
+	element = darkness;
+
+	alternativeMaxedEquipEntity = character_armor_penumbra_plus.ent;
+	headlessAlternativeSprite = armor_cloth_special_c1.png;
+	armor = 26;
+	color = 9663897;
+	colorMultiplier = 1.2;
+	effectsXOffsetAdjust = -16;
+
+	hideFace = true;
+	forceEyes = true;
+
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 2;
+}
+
+item113
+{
+	name = Bacoon Set+;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_leather_3.png;
+
+	magicBoost = 1.75;
+	speedBoost = 1.05;
+	jumpBoost  = 1.05;
+	hammerBoost = 1.8;
+	swordBoost = 1.6;
+	spearBoost = 1.6;
+
+	element = water;
+
+	alternativeMaxedEquipEntity = character_armor_bacoon_plus.ent;
+	armor = 28;
+	color = 4288454305;
+	colorMultiplier = 1.3;
+	effectsXOffsetAdjust = -22;
+
+	maxLevelAllowed = 2;
+}
+
+item114
+{
+	name = Steelblow Armor+;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_3b.png;
+	headlessAlternativeSprite = armor_plate_3a.png;
+
+	hideFace = true;
+	forceEyes = true;
+
+	alternativeMaxedEquipEntity = character_armor_windblow_plus.ent;
+	color  = 4294967295;
+	colorMultiplier = 1.0;
+	effectsXOffsetAdjust = -20;
+
+	speedBoost = 1.09;
+	jumpBoost = 1.05;
+	daggerBoost = 1.80;
+	swordBoost = 1.70;
+	magicBoost = 1.65;
+
+	armor = 28;
+	element = air;
+
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 2;
+}
+
+item119
+{
+	name = Light Spellmaster Suit;
+	type = armor;
+	secondaryType = cloth;
+	equipEntity = character_armor_light_spellmaster.ent;
+	sprite = armor_cloth_6.png;
+	color  = 4288454305;
+	colorMultiplier = 1.6;
+
+	speedBoost = 1.06;
+	jumpBoost = 1.03;
+
+	effectsXOffsetAdjust = -19;
+
+	staffBoost = 1.8;
+	swordBoost = 1.8;
+	magicBoost = 2.1;
+
+	armor = 100;
+	element = light;
+
+	maxLevelAllowed = 0;
+}
+
+item134
+{
+	name = Purple Assassin;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item137
+{
+	name = Time Patroller;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_cloth_special_e1.png;
+	color  = 4290033336;
+	headlessAlternativeSprite = armor_cloth_special_e1B.png;
+	colorMultiplier = 1.3;
+
+	alternativeMaxedEquipEntity = character_armor_patroller_cosmos.ent;
+	effectsXOffsetAdjust = -20;
+
+	magicBoost = 4.0;
+	speedBoost = 1.04;
+	jumpBoost  = 1.04;
+
+	hideFace = true;
+	forceEyes = false;
+
+	armor = 60;
+
+	maxLevelAllowed = 10;
+
+	fixedPrice = 10;
+}
+
+item138
+{
+	name = Portal Mage Vest;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item139
+{
+	name = Blue Spellmaster;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item152
+{
+	name = Necromancer Vest;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item153
+{
+	name = Jungle Master;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_jungle_b.png;
+	alternativeMaxedEquipEntity = character_armor_high_elf_robe.ent;
+	headlessAlternativeSprite = armor_jungle_a.png;
+
+	magicBoost = 1.8;
+	staffBoost = 1.8;
+	hammerBoost = 1.8;
+	spearBoost = 2;
+	speedBoost = 1.04;
+	jumpBoost  = 1.05;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 50;
+	element = earth;
+
+	color  = 11898189;
+	colorMultiplier = 1.3;
+	effectsXOffsetAdjust = -28;
+
+	maxLevelAllowed = 6;
+}
+
+item154
+{
+	name = Firestorm Armor+;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_2b.png;
+	alternativeMaxedEquipEntity = character_armor_firestorm.ent;
+	headlessAlternativeSprite = armor_leather_2a.png;
+	color  = 4287257915;
+	colorMultiplier = 1.55;
+	depthOffset = 0.04;
+	effectsXOffsetAdjust = -16;
+
+	magicBoost = 1.8;
+	speedBoost = 1.08;
+	jumpBoost  = 1.03;
+
+	daggerBoost = 1.5;
+	spearBoost = 1.7;
+	axeBoost = 1.7;
+	swordBoost = 1.8;
+
+	hideFace = true;
+	forceEyes = true;
+
+	element = fire;
+
+	armor = 28;
+	frost = true;
+
+	maxLevelAllowed = 2;
+
+	fixedPrice = 500000;
+}
+
+item190
+{
+	name = Fire Moonkeeper Set;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_special_c2.png;
+	alternativeMaxedEquipEntity = character_armor_white_cosmos.ent;
+	color  = 4294958669;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+
+	frost = true;
+
+	magicBoost = 2.0;
+	speedBoost = 1.06;
+	jumpBoost  = 1.03;
+
+	daggerBoost = 2.1;
+	spearBoost = 2.1;
+	staffBoost = 2.1;
+
+	element = fire;
+
+	armor = 35;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 15;
+
+	effectsXOffsetAdjust = -24;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0, 0, 0, 1,   0.4899, 0.3429, 0.147, 1.0;
+	autoPaintColorB = 0, 0, 0, 1,   0.4899, 0.3429, 0.147, 1.0;
+	effectColor     = 0, 0, 0, 1,   0.4899, 0.3429, 0.147, 1.0;
+}
+
+item191
+{
+	name = Hero's Set+;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_4.png;
+	color  = 4294039980;
+	colorMultiplier = 1.24;
+	alternativeMaxedEquipEntity = character_armor_white_cosmos.ent;
+
+	speedBoost = 1.09;
+	jumpBoost = 1.04;
+	swordBoost = 2.0;
+	magicBoost = 1.7;
+	spearBoost = 2.0;
+	hammerBoost = 2.0;
+
+	armor = 32;
+	element = air;
+
+	maxLevelAllowed = 15;
+
+	effectsXOffsetAdjust = -24;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0, 0, 0, 1,   0.5, 0.46, 0.21, 1;
+	autoPaintColorB = 0, 0, 0, 1,   0.5, 0.46, 0.21, 1;
+	effectColor     = 0, 0, 0, 1,   0.5, 0.46, 0.21, 1;
+
+	fixedPrice = 500000;
+	coinPrice = 4000;
+}
+
+item192
+{
+	name = Bankers Coat+;
+	type = armor;
+	secondaryType = cloth;
+	alternativeMaxedEquipEntity = character_armor_stinky_effect.ent;
+	sprite = armor_special_k.png;
+	color  = 10066329;
+	effectsXOffsetAdjust = -22;
+
+	magicBoost = 1.6;
+	daggerBoost = 2.6;
+	speedBoost = 1.05;
+	jumpBoost = 1.04;
+
+	element = darkness;
+
+	hideFace = true;
+	forceEyes = true;	
+
+	armor = 32;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 1500;
+}
+
+item193
+{
+	name = Jungle Assassin;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_14.png;
+	color  = 4288183912;
+	colorMultiplier = 1.35;
+
+	magicBoost = 1.45;
+	staffBoost = 1.35;
+	daggerBoost = 1.35;
+	hammerBoost = 1.4;
+	speedBoost = 1.04;
+	jumpBoost  = 1.04;
+
+	element = earth;
+
+	armor = 25;
+
+	maxLevelAllowed = 9;
+}
+
+item194
+{
+	name = Elite Assassin;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_13.png;
+	color  = 4284637861;
+	colorMultiplier = 1.5;
+
+	magicBoost = 1.6;
+	swordBoost = 1.6;
+	axeBoost = 1.6;
+	daggerBoost = 1.6;
+	spearBoost = 1.6;
+	speedBoost = 1.05;
+	jumpBoost = 1.03;
+	element = darkness;
+
+	armor = 32;
+
+	maxLevelAllowed = 6;
+}
+
+item195
+{
+	name = Liquid Assassin;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_12.png;
+
+	magicBoost = 1.6;
+	speedBoost = 1.06;
+	jumpBoost  = 1.03;
+	daggerBoost = 1.6;
+	swordBoost = 1.6;
+	spearBoost = 1.6;
+	hammerBoost = 1.6;
+
+	element = water;
+
+	armor = 34;
+	color = 4280906149;
+	colorMultiplier = 1.5;
+
+	maxLevelAllowed = 9;
+}
+
+item198
+{
+	name = Witch Dress;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_halloween_A.png;
+	alternativeMaxedEquipEntity = character_armor_high_elf_robe.ent;
+	headlessAlternativeSprite = armor_halloween_B.png;
+
+	magicBoost = 2.2;
+	staffBoost = 1.8;
+	daggerBoost = 1.8;
+	speedBoost = 1.02;
+	jumpBoost  = 1.07;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 16;
+	element = earth;
+
+	color  = 4283846291;
+	colorMultiplier = 1.3;
+	effectsXOffsetAdjust = -28;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 10;
+	coinPrice = 500;
+}
+
+item199
+{
+	name = Purple Witch Dress;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_dark_Fa.png;
+	color  = 4282922349;
+	colorMultiplier = 1.35;
+
+	headlessAlternativeSprite = armor_dark_Fb.png;
+
+	magicBoost = 1.5;
+	staffBoost = 1.3;
+	speedBoost = 1.03;
+	jumpBoost = 1.03;
+
+	armor = 22;
+
+	hideFace = true;
+	forceEyes = true;
+
+	element = darkness;
+
+	maxLevelAllowed = 15;
+}
+
+item200
+{
+	name = Green Witch Dress;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_earth_Fa.png;
+	color  = 4285957732;
+	colorMultiplier = 1.35;
+
+	headlessAlternativeSprite = armor_earth_Fb.png;
+
+	magicBoost = 1.4;
+	staffBoost = 1.4;
+	jumpBoost = 1.03;
+	speedBoost = 1.03;
+
+	armor = 16;
+
+	hideFace = true;
+	forceEyes = true;
+
+	element = earth;
+
+	maxLevelAllowed = 15;
+}
+
+item201
+{
+	name = Red Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item202
+{
+	name = White Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item203
+{
+	name = Blue Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item204
+{
+	name = Swamp Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_Neutralp_Fa.png;
+	color  = 4290161343;
+	headlessAlternativeSprite = armor_Neutralp_Fb.png;
+	colorMultiplier = 1.25;
+
+	magicBoost = 2.3;
+	staffBoost = 2.4;
+	daggerBoost = 1.8;
+	swordBoost = 2.4;
+	speedBoost = 1.05;
+	jumpBoost  = 1.03;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 37;
+
+	maxLevelAllowed = 10;
+}
+
+item205
+{
+	name = Forest Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_earthp_Fa.png;
+	color  = 4287390520;
+	colorMultiplier = 1.35;
+
+	headlessAlternativeSprite = armor_earthp_Fb.png;
+
+	magicBoost = 1.6;
+	staffBoost = 1.6;
+	hammerBoost = 1.4;
+	speedBoost = 1.03;
+	jumpBoost  = 1.04;
+
+	element = earth;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 14;
+
+	maxLevelAllowed = 15;
+}
+
+item206
+{
+	name = Fire Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item207
+{
+	name = Black Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_darkp_Fa.png;
+	color  = 4285416844;
+	headlessAlternativeSprite = armor_darkp_Fb.png;
+
+	magicBoost = 1.7;
+	staffBoost = 1.75;
+	spearBoost = 1.6;
+	speedBoost = 1.04;
+	jumpBoost  = 1.02;
+
+	element = darkness;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 19;
+
+	maxLevelAllowed = 15;
+}
+
+item208
+{
+	name = Yellow Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item209
+{
+	name = Lighting Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item210
+{
+	name = Light Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item211
+{
+	name = Wind Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_wind_leather_a.png;
+	headlessAlternativeSprite = armor_wind_leather_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_windblow_plus.ent;
+	effectsXOffsetAdjust = -20;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	swordBoost = 2.0;
+	daggerBoost = 2.4;
+	spearBoost = 2.0;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	armor = 33;
+	element = air;
+
+	color  = 4294568407;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item212
+{
+	name = Desert Witch Dress;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item223
+{
+	name = Arcane Mage Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_Na.png;
+	color  = 4284502344;
+
+	armor = 30;
+
+	magicBoost = 2.1;
+	staffBoost = 2.2;
+	daggerBoost = 1.8;
+	hammerBoost = 1.8;
+	spearBoost = 2.0;
+
+	frost = true;
+
+	speedBoost = 1.05;
+	jumpBoost  = 1.03;
+
+	headlessAlternativeSprite = armor_cloth_Nb.png;
+	colorMultiplier = 1.35;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 10;
+}
+
+item224
+{
+	name = Swamp Ranger Suit;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_leather_Na.png;
+	color  = 4286546774;
+
+	armor = 40;
+
+	magicBoost = 1.7;
+	swordBoost = 2.0;
+	daggerBoost = 2.0;
+	spearBoost = 2.2;
+	axeBoost = 2.0;
+	speedBoost = 1.05;
+	jumpBoost  = 1.03;
+
+	headlessAlternativeSprite = armor_leather_Nb.png;
+	colorMultiplier = 1.35;
+
+	frost = true;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 10;
+
+	fixedPrice = 0;
+}
+
+item225
+{
+	name = Desert Rogue Suit;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_plate_Na.png;
+	color  = 4289693524;
+
+	armor = 50;
+
+	magicBoost = 1.7;
+	spearBoost = 2.5;
+	daggerBoost = 2.3;
+	axeBoost = 2.0;
+	speedBoost = 1.06;
+	jumpBoost  = 1.03;
+
+	frost = true;
+
+	headlessAlternativeSprite = armor_plate_Nb.png;
+	colorMultiplier = 1.35;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 10;
+
+	fixedPrice = 0;
+}
+
+item226
+{
+	name = Iron Widow;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_Neutralpp_Fa.png;
+	color  = 4289045175;
+	headlessAlternativeSprite = armor_Neutralpp_Fb.png;
+	colorMultiplier = 1.25;
+
+	magicBoost = 1.7;
+	spearBoost = 2.6;
+	axeBoost = 2.6;
+	hammerBoost = 2.4;
+	swordBoost = 2.4;
+
+	frost = true;
+
+	armor = 56;
+
+	hideFace = true;
+	forceEyes = true;
+
+	maxLevelAllowed = 10;
+}
+
+item232
+{
+	name = Bunny Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = easter_armor_a2.png;
+	color  = 4288707141;
+	jumpBoost = 1.28;
+	speedBoost = 1.05;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 15;
+
+	maxLevelAllowed = 0;
+
+	coinPrice = 3500;
+	fixedPrice = 10;
+
+	text = Jumpman-Suit-desc;
+}
+
+item234
+{
+	name = Warden of Demons;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_dark_plate_a.png;
+	headlessAlternativeSprite = armor_dark_plate_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_penumbra_plus.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 1.9;
+	swordBoost = 2.4;
+	hammerBoost = 2.2;
+	axeBoost = 2.0;
+	jumpBoost  = 0.98;
+	//speedBoost  = 0.98;
+
+	armor = 44;
+	element = darkness;
+
+	color  = 4290225769;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item236
+{
+	name = Dummy Armor;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_dummy.png;
+	color  = 13224889;
+
+	armor = 5;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item239
+{
+	name = Unholy Storm;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_water_cloth_a.png;
+	headlessAlternativeSprite = armor_water_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_bacoon_plus.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	staffBoost = 1.8;
+	spearBoost = 1.8;
+	daggerBoost = 1.8;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	element = water;
+
+	armor = 42;
+	color = 16777215;
+	colorMultiplier = 1.3;
+	effectsXOffsetAdjust = -22;
+
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 5000;
+	fixedPrice = 500000;
+}
+
+item240
+{
+	name = Tunic of the Relentless;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_water_leather_b.png;
+	headlessAlternativeSprite = armor_water_leather_a.png;
+
+	alternativeMaxedEquipEntity = character_armor_bacoon_plus.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	swordBoost = 1.7;
+	staffBoost = 1.8;
+	spearBoost = 1.8;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	element = water;
+
+	armor = 38;
+	frost = true;
+
+	color = 4292343038;
+	colorMultiplier = 1.3;
+	effectsXOffsetAdjust = -22;
+
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+}
+
+item243
+{
+	name = Destroyer of the Corrupted;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_light_plate_a.png;
+	headlessAlternativeSprite = armor_light_plate_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_light_spellmaster.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 1.9;
+	swordBoost = 2.0;
+	hammerBoost = 2.6;
+	axeBoost = 2.0;
+	jumpBoost  = 0.98;
+	//speedBoost  = 0.98;
+
+	armor = 44;
+	element = light;
+
+	color  = 4291612099;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -19;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item244
+{
+	name = Interrogator;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_water_plate_a.png;
+	headlessAlternativeSprite = armor_water_plate_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_bacoon_plus.ent;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.2;
+	spearBoost = 2.5;
+	hammerBoost = 2.2;
+	axeBoost = 2.5;
+	jumpBoost  = 0.98;
+
+	armor = 45;
+	element = water;
+
+	color  = 4294946819;
+	colorMultiplier = 1.15;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -22;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item245
+{
+	name = Protector of the Oracle;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_earth_plate_a.png;
+	headlessAlternativeSprite = armor_earth_plate_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_earth_modelement.ent;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.4;
+	staffBoost = 2.0;
+	spearBoost = 1.9;
+	hammerBoost = 2.4;
+	//jumpBoost  = 0.98;
+	speedBoost  = 0.98;
+
+	armor = 45;
+	element = earth;
+
+	color  = 4288642392;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -20;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item247
+{
+	name = Death Stalker;
+
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_dark_cloth_a.png;
+	headlessAlternativeSprite = armor_dark_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_penumbra_plus.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	staffBoost = 2.1;
+	spearBoost = 2.5;
+	daggerBoost = 2.3;
+	speedBoost = 1.02;
+
+	armor = 26;
+	element = darkness;
+
+	color  = 4281345360;
+	colorMultiplier = 2.5;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item248
+{
+	name = Tunic of Endless Justice;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_light_leather_a.png;
+	headlessAlternativeSprite = armor_light_leather_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_light_spellmaster.ent;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.7;
+	swordBoost = 1.7;
+	spearBoost = 1.7;
+	staffBoost = 2.3;
+	speedBoost = 1.05;
+	jumpBoost  = 1.03;
+
+	armor = 24;
+	element = light;
+
+	effectsXOffsetAdjust = -19;
+
+	color  = 4294307560;
+	colorMultiplier = 1.35;
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item251
+{
+	name = Dark Lord Set+;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_cloth_special_f1b.png;
+
+	headlessAlternativeSprite = armor_cloth_special_f2.png;
+	hideFace = true;
+	forceEyes = true;
+
+	alternativeMaxedEquipEntity = character_armor_penumbra_plus.ent;
+
+	magicBoost = 2.3;
+	swordBoost = 1.8;
+	daggerBoost = 1.8;
+	spearBoost = 1.8;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	armor = 45;
+	element = darkness;
+
+	color  = 4291017386;
+	colorMultiplier = 1.1;
+	depthOffset = 0.04;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 8;
+}
+
+item256
+{
+	name = Cataclysmic Plate;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_fire_plate_a.png;
+	headlessAlternativeSprite = armor_fire_plate_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_firestorm.ent;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 1.6;
+	swordBoost = 2.0;
+	hammerBoost = 3.1;
+	axeBoost = 2.6;
+	speedBoost  = 0.98;
+	jumpBoost  = 0.98;
+
+	armor = 49;
+	element = fire;
+
+	color  = 4294815509;
+	colorMultiplier = 1.4;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item257
+{
+	name = Tunic of Frozen Voices;
+
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_water_cloth_a.png;
+	headlessAlternativeSprite = armor_water_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_windblow_plus.ent;
+	effectsXOffsetAdjust = -20;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.6;
+	staffBoost = 2.2;
+	spearBoost = 2.5;
+	daggerBoost = 2.1;
+
+	armor = 30;
+	element = water;
+	frost = true;
+
+	autoPaintEntities = true;
+	effectColor = 0, 0, 0, 1,     0.14, 0.16, 0.18, 1;
+
+	color  = 4289710073;
+	colorMultiplier = 1.55;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item260
+{
+	name = Armor of Distant Visions;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_earth_cloth_a.png;
+	headlessAlternativeSprite = armor_earth_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_earth_modelement.ent;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.7;
+	staffBoost = 2.3;
+	spearBoost = 2.1;
+	jumpBoost  = 1.03;
+
+	armor = 29;
+	element = earth;
+
+	color  = 4290749593;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -20;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item265
+{
+	name = Tunic of Distant Ancestors;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_earth_leather_a.png;
+	headlessAlternativeSprite = armor_earth_leather_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_earth_modelement.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+
+	axeBoost = 2.4;
+	daggerBoost = 2.3;
+
+	jumpBoost  = 1.02;
+	speedBoost  = 1.02;
+
+	armor = 36;
+	element = earth;
+
+	color  = 4292465090;
+	colorMultiplier = 1.3;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -20;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item269
+{
+	name = Vanquisher;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_wind_plate_a.png;
+	headlessAlternativeSprite = armor_wind_plate_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_air_modelement.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 1.8;
+	spearBoost = 2.7;
+	swordBoost = 2.7;
+
+	armor = 48;
+	element = air;
+
+	color  = 4294374631;
+	colorMultiplier = 1.3;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item270
+{
+	name = Vest of Phantoms Keeper;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_halloween_2021_A.png;
+	headlessAlternativeSprite = armor_halloween_2021_B.png;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.0;
+	swordBoost = 2.2;
+	daggerBoost = 2.2;
+	speedBoost = 1.04;
+	jumpBoost  = 1.02;
+
+	armor = 30;
+	element = darkness;
+
+	color  = 4293823540;
+	colorMultiplier = 1.65;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item283
+{
+	name = Robe of Imminent Fires;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_fire_cloth_a.png;
+	headlessAlternativeSprite = armor_fire_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_firestorm.ent;
+	dropEntityName = item_fire_armor.ent;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.4;
+	axeBoost = 2.3;
+	spearBoost = 1.8;
+	staffBoost = 2.1;
+	speedBoost = 1.02;
+
+	armor = 35;
+	element = fire;
+
+	color  = 4294432946;
+	colorMultiplier = 1.4;
+	depthOffset = 0.04;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item285
+{
+	name = Winter Witch Armor;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_elite_frost_skeleton_b.png;
+	color  = 4283513166;
+	colorMultiplier = 1.3;
+
+	magicBoost = 2.0;
+	swordBoost = 2.0;
+	staffBoost = 2.0;
+	speedBoost = 1.04;
+	jumpBoost  = 1.02;
+
+	armor = 35;
+
+	element = water;
+	frost = true;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 10;
+}
+
+item286
+{
+	name = YT Streamers Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_social_tube.png;
+	color  = 4288707141;
+	jumpBoost = 1.28;
+	speedBoost = 1.05;
+	element = air;
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 10;
+
+	maxLevelAllowed = 0;
+
+	fixedPrice = 10;
+
+	text = Jumpman-Suit-desc;
+}
+
+item287
+{
+	name = TW Streamers Suit;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_social_twitch.png;
+	color  = 4288707141;
+	jumpBoost = 1.28;
+	speedBoost = 1.05;
+	element = air;
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 10;
+
+	maxLevelAllowed = 0;
+
+	fixedPrice = 10;
+
+	text = Jumpman-Suit-desc;
+}
+
+item301
+{
+	name = Easter Bunny Terminator Armor;
+
+	type = armor;
+	secondaryType = plate;
+
+	sprite = armor_easter_2022_B.png;
+	headlessAlternativeSprite = armor_easter_2022_A.png;
+
+	hideFace = true;
+	forceEyes = true;
+
+	color  = 4294897342;
+	colorMultiplier = 1.6;
+
+	depthOffset = 0.04;
+
+	jumpBoost = 1.18;
+	speedBoost = 1.05;
+	magicBoost = 1.50;
+	hammerBoost = 1.50;
+	daggerBoost = 1.50;
+	swordBoost = 1.50;
+
+	armor = 46;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+}
+
+item307
+{
+	name = Kings Spectre Tunic;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_king.png;
+	alternativeMaxedEquipEntity = character_armor_kings_cosmos.ent;
+	headlessAlternativeSprite = armor_king_b.png;
+	color  = 4285673351;
+	depthOffset = 0.04;
+
+	magicBoost = 5.0;
+	speedBoost = 1.04;
+	jumpBoost  = 1.04;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 28;
+	colorMultiplier = 1.4;
+
+	maxLevelAllowed = 10;
+
+	fixedPrice = 10;
+}
+
+item309
+{
+	name = Vest of Twisted Illusions;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_dark_leather_a.png;
+
+	headlessAlternativeSprite = armor_dark_leather_b.png;
+	hideFace = true;
+	forceEyes = false;
+
+	equipEntity = character_armor_vest_of_twisted_illusions.ent;
+
+	magicBoost = 1.6;
+	spearBoost = 3.4;
+
+	speedBoost = 1.03;
+
+	armor = 30;
+	element = darkness;
+
+	frost = true;
+
+	color  = 4279508488;
+	colorMultiplier = 1.5;
+	depthOffset = 0.04;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item318
+{
+	name = Cthulhu Set;
+
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_cthulhu_a.png;
+	headlessAlternativeSprite = armor_cthulhu_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_penumbra_plus.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.2;
+	staffBoost = 2.0;
+	spearBoost = 2.0;
+	axeBoost = 2.0;
+	daggerBoost = 2.0;
+	hammerBoost = 2.0;
+	swordBoost = 2.0;
+	speedBoost = 1.02;
+	jumpBoost  = 1.02;
+
+	armor = 34;
+
+	color  = 4291021019;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+}
+
+item319
+{
+	name = Barrenlands Bandit Female;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_cangaceira_a.png;
+	color  = 4288290067;
+
+	armor = 34;
+
+	magicBoost = 1.7;
+	daggerBoost = 3.0;
+	axeBoost = 2.2;
+	staffBoost = 1.8;
+	speedBoost = 1.02;
+	jumpBoost  = 1.03;
+
+	headlessAlternativeSprite = armor_cangaceira_b.png;
+	colorMultiplier = 1.4;
+
+	hideFace = true;
+	forceEyes = true;
+
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+}
+
+item320
+{
+	name = Tunic of Ending Nights;
+
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_frozen_mage_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_penumbra_plus.ent;
+
+	hideFace = false;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	staffBoost = 2.4;
+	daggerBoost = 2.4;
+	speedBoost = 1.03;
+	jumpBoost  = 1.02;
+
+	armor = 23;
+	frost = true;
+
+	autoPaintEntities = true;
+	//effectColor  = 0, 0, 0, 0,     0, 0, 0, 1;
+	effectColor = 0, 0, 0, 0,     0.7000, 0.8, 0.8999, 0.4;
+
+	color  = 4291411141;
+	colorMultiplier = 1.4;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4500;
+	fixedPrice = 500000;
+}
+
+item321
+{
+	name = Santa Claus;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_christmas_2022_A.png;
+	headlessAlternativeSprite = armor_christmas_2022_B.png;
+
+	color  = 4290583853;
+	colorMultiplier = 1.45;
+
+	jumpBoost = 1.2;
+	speedBoost = 1.08;
+
+	frost = true;
+
+	element = light;
+
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 30;
+
+	maxLevelAllowed = 0;
+
+	coinPrice = 500;
+	fixedPrice = 10;
+
+	text = Jumpman-Suit-desc;
+}
+
+item324
+{
+	name = Tunic of Twisted Illusions;
+
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_carnival_acrobat_II_A.png;
+	headlessAlternativeSprite = armor_carnival_acrobat_II_B.png;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.0;
+	staffBoost = 1.8;
+	spearBoost = 1.8;
+	daggerBoost = 2.0;
+	speedBoost = 1.04;
+	jumpBoost  = 1.08;
+
+	armor = 28;
+
+	color  = 4278452017;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	element = earth;
+
+	coinPrice = 1500;
+	fixedPrice = 500000;
+}
+
+item325
+{
+	name = Vest of Blessed Glory;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_light_cloth_a.png;
+	headlessAlternativeSprite = armor_light_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_patroller_cosmos.ent;
+	effectsXOffsetAdjust = -20;
+
+	autoPaintEntities = true;
+
+	effectColor     = 0, 0, 0, 1,   0.504, 0.4032, 0.504, 1; // explosion/equip
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.0;
+	swordBoost = 2.7;
+	spearBoost = 2.6;
+	hammerBoost = 2.3;
+	daggerBoost = 2.0;
+	speedBoost = 1.03;
+	jumpBoost  = 1.02;
+
+	armor = 36;
+	element = light;
+
+	color  = 4289441188;
+	colorMultiplier = 1.35;
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 4000;
+	fixedPrice = 500000;
+}
+
+item326
+{
+	name = Dancers Raiment TikTok;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_tiktok_A.png;
+	headlessAlternativeSprite = armor_tiktok_B.png;
+	color  = 4281216558;
+	jumpBoost = 1.28;
+	speedBoost = 1.05;
+	element = air;
+	hideFace = true;
+	forceEyes = true;
+
+	armor = 10;
+
+	maxLevelAllowed = 0;
+
+	fixedPrice = 10;
+
+	text = Jumpman-Suit-desc;
+}
+
+item333
+{
+	name = Barrenlands Bandit Male;
+	type = armor;
+	secondaryType = leather;
+	sprite = armor_cangaceiro_a.png;
+	color  = 4286598962;
+
+	armor = 34;
+
+	magicBoost = 1.7;
+	daggerBoost = 2.3;
+	swordBoost = 2.8;
+	hammerBoost = 2.5;
+	speedBoost = 1.02;
+	jumpBoost  = 1.03;
+
+	headlessAlternativeSprite = armor_cangaceiro_b.png;
+	colorMultiplier = 1.5;
+
+	hideFace = true;
+	forceEyes = true;
+
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+}
+
+item334
+{
+	name = Robe of Eternal Fire;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_fire_leather_a.png;
+	headlessAlternativeSprite = armor_fire_leather_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_firestorm.ent;
+	dropEntityName = item_fire_armor.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.8;
+	axeBoost = 1.5;
+	spearBoost = 2.2;
+	swordBoost = 2.2;
+	speedBoost = 1.04;
+	jumpBoost  = 1.03;
+
+	armor = 27;
+	element = fire;
+
+	color  = 4291015323;
+	colorMultiplier = 1.4;
+	depthOffset = 0.029;
+	effectsXOffsetAdjust = -16;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+
+item335
+{
+	name = Greenfang Ensemble;
+	type = armor;
+	secondaryType = plate;
+	sprite = armor_gigaspider_A.png;
+	headlessAlternativeSprite = armor_gigaspider_B.png;
+
+	equipEntity = character_armor_no_legs.ent;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.0;
+	daggerBoost = 2.35;
+	hammerBoost = 2.35;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	element = darkness;
+
+	armor = 48;
+
+	color  = 4284043601;
+	colorMultiplier = 1.25;
+
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+}
+
+item340
+{
+	name = Enchanted Nutcracker;
+	type = armor;
+	secondaryType = cloth;
+	sprite = xmas_enemy_red.png;
+	headlessAlternativeSprite = xmas_armor_red.png;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.0;
+	swordBoost = 2.2;
+	staffBoost = 2.2;
+	speedBoost = 1.02;
+	jumpBoost  = 1.04;
+
+	armor = 30;
+
+	color  = 4294826752;
+	colorMultiplier = 1.4;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+}
+
+item345
+{
+	name = Tunic of Hellish Illusions;
+
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_carnival_acrobat_I_A.png;
+	headlessAlternativeSprite = armor_carnival_acrobat_I_B.png;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	axeBoost = 1.8;
+	spearBoost = 1.8;
+	hammerBoost = 2.0;
+	speedBoost = 1.04;
+	jumpBoost  = 1.08;
+
+	armor = 20;
+
+	color  = 4285879968;
+	colorMultiplier = 1.2;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	element = darkness;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item348
+{
+	name = Scarlet Shadowweaver Garb;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_bruxa_carmesim_A.png;
+	headlessAlternativeSprite = armor_bruxa_carmesim_B.png;
+
+	equipEntity = character_armor_bruxa_carmesim.ent;
+	effectsXOffsetAdjust = -32;
+
+	hideFace = true;
+	forceEyes = false;
+
+	magicBoost = 2.3;
+	daggerBoost = 2.35;
+	staffBoost = 2.35;
+	speedBoost = 1.04;
+	jumpBoost  = 1.06;
+
+	element = darkness;
+
+	armor = 30;
+
+	color  = 4286789419;
+	colorMultiplier = 1.25;
+
+	depthOffset = 0.04;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+}
+
+item352
+{
+	name = Storm;
+	type = armor;
+	secondaryType = cloth;
+	sprite = armor_wind_cloth_a.png;
+	headlessAlternativeSprite = armor_wind_cloth_b.png;
+
+	alternativeMaxedEquipEntity = character_armor_windblow_plus.ent;
+	effectsXOffsetAdjust = -20;
+
+	hideFace = true;
+	forceEyes = true;
+
+	magicBoost = 2.5;
+	staffBoost = 2.5;
+	axeBoost = 2.5;
+	speedBoost = 1.06;
+	jumpBoost  = 1.04;
+
+	armor = 28;
+	element = air;
+
+	color  = 4294833127;
+	colorMultiplier = 1.3;
+	depthOffset = 0.029;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3900;
+	fixedPrice = 500000;
+}
+

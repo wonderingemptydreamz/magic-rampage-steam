@@ -1,0 +1,349 @@
+item306
+{
+	name = Necromorphicon;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_necro.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -48;
+	equipOffsetY = -8;
+
+	attackCooldown = 450;
+	damage = 39;
+	explosionRange = 160;
+
+	soundPack = power;
+
+	speedBoost = 1.0;
+	jumpBoost  = 1.0;
+
+	armorBoost = 0.6;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_necro_dagger.ent;
+
+	element = darkness;
+	projectileSpeed = 12.0;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 10;
+}
+
+item322
+{
+	name = The Oxymos Codex;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_light.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 450;
+	damage = 44;
+	explosionRange = 200;
+
+	soundPack = power;
+
+	armorBoost = 0.8;
+	speedBoost = 1.1;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_grimoire_light.ent;
+	explosionEntity = explosion_light_beam.ent;
+
+	element = light;
+	invertProjectile = true;
+	projectileSpeed = 12.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item330
+{
+	name = Compendium of Trees;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_earth.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 550;
+	damage = 43;
+	explosionRange = 250;
+
+	soundPack = power;
+
+	armorBoost = 1.4;
+	speedBoost = 1.03;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_grimoire_earth.ent;
+	explosionEntity = nature_staff_explosion_2.ent;
+
+	element = earth;
+	invertProjectile = true;
+	projectileSpeed = 12.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item332
+{
+	name = The Abyssal Scrolls;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_water.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 650;
+	damage = 48;
+	explosionRange = 240;
+
+	soundPack = power;
+
+	speedBoost = 1.03;
+
+	pierceCount = 3;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_grimoire_water.ent;
+	explosionEntity = water_staff_explosion.ent;
+
+	element = water;
+	invertProjectile = true;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item336
+{
+	name = The Testament of Ifrit;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_fire.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 380;
+	damage = 39;
+	explosionRange = 220;
+
+	soundPack = power;
+
+	speedBoost = 1.08;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_grimoire_fire.ent;
+	explosionEntity = explosion_epic_fire_ball.ent;
+
+	element = fire;
+	invertProjectile = true;
+	projectileSpeed = 15.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item337
+{
+	name = The Arachnid Codex;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_2.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 500;
+	damage = 42;
+	explosionRange = 210;
+	poisonous = true;
+
+	soundPack = power;
+
+	armorBoost = 0.7;
+	speedBoost = 1.03;
+	jumpBoost = 1.04;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_grimoire_sword_red_spider.ent;
+	explosionEntity = death_beam_explosion.ent;
+
+	invertProjectile = false;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item343
+{
+	name = The Word of the Wind;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_air.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 500;
+	damage = 51;
+	explosionRange = 150;
+
+	soundPack = power;
+
+	armorBoost = 0.8;
+	speedBoost = 1.08;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_grimoire_air.ent;
+	explosionEntity = explosion_air_striker.ent;
+
+	element = air;
+	invertProjectile = false;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+}
+
+item351
+{
+	name = Tome of the Sands;
+
+	type = weapon;
+	secondaryType = grimoire;
+	sprite = spellbook_anubis.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = 0.0;
+	smoothFollow = true;
+
+	smoothFollow = 0.2;
+
+	equipOffsetX = -38;
+	equipOffsetY = -6;
+
+	attackCooldown = 400;
+	damage = 66;
+	explosionRange = 0;
+
+	soundPack = power;
+
+	armorBoost = 0.65;
+	speedBoost = 1.1;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = armor-bypass-desc;
+
+	projectileEntity = projectile_tome_of_the_sands.ent;
+	explosionEntity = explosion_sand_dagger.ent;
+
+	element = air;
+	invertProjectile = false;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+}

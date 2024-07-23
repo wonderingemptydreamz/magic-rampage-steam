@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+    <Entity shape="0" applyLight="0" castShadow="0" type="0" hideFromSceneEditor="1" static="0" blendMode="0">
         <Particles>
             <ParticleSystem particles="5" allAtOnce="1" alphaMode="1" repeat="1" animationMode="1" lifeTime="500" randomLifeTime="250" angleDir="0" randAngle="0" size="77.2789" randomizeSize="0" growth="0" minSize="0" maxSize="603.742" angleStart="0" randAngleStart="360">
                 <Bitmap>dusty-explosion-8x6_bw.png</Bitmap>

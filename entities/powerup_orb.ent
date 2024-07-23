@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <Entity shape="0" applyLight="0" castShadow="0" type="0" hideFromSceneEditor="1" static="0" blendMode="0">
+    <Entity shape="0" applyLight="0" castShadow="0" type="0" hideFromSceneEditor="1" static="1" blendMode="0">
         <EmissiveColor r="1" g="1" b="1" a="0" />
         <Particles>
             <ParticleSystem particles="6" allAtOnce="0" alphaMode="1" repeat="0" animationMode="1" lifeTime="250" randomLifeTime="0" angleDir="0" randAngle="0" size="42" randomizeSize="0" growth="-1.4" minSize="0" maxSize="1000" angleStart="0" randAngleStart="0">

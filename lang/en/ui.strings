@@ -92,7 +92,7 @@
 "logout" = "Sign out";
 "chapterComingSoon" = "New dungeon\ncoming soon!";
 "chapterComingSoonText" = "Stay tuned for <strong>more dungeons</strong> and <strong>new game modes</strong> in the upcoming updates!";
-"loginRecommendation" = "<default>You seem to have been playing <strong>Magic Rampage<default> for quite a while now. How about <login>signing in<default>?\n\n<weak>The <login><service><weak> services let you save your characters in the <strong>cloud<weak>, browse your <strong>achievements<weak> and check on-line <strong>leaderboards<weak> with your friends!";
+"loginRecommendation" = "<default>You seem to have been playing <strong>Magic Rampage<default> for quite a while now. How about <login>signing in<default>?\n\n<weak>The <login><service><weak> services let you save your characters in the <strong>cloud<weak>, browse your <strong>achievements<weak> and check online <strong>leaderboards<weak> with your friends!";
 "complete100pct" = "Why not try to complete 100% of the previous Dungeons while you wait?";
 "ok" = "Ok!";
 "achievements" = "Achievements";
@@ -428,7 +428,7 @@
 "energyDrain" = "Energy Drain";
 "specialKill" = "Special Kill";
 "classSpecials" = "Class Special Abilities";
-"notLoggedMessage" = "You must be signed in to <service> in order to play any on-line multiplayer match.";
+"notLoggedMessage" = "You must be signed in to <service> in order to play any online multiplayer match.";
 "logInNow" = "Sign in now";
 "connectionIssue" = "Couldn't connect to the server.";
 /* try connecting to the server again */
@@ -1219,3 +1219,20 @@
 "playerNameDefeatedExcl" = "<player-name> was defeated!";
 "flawlessVictory" = "Flawless Victory";
 "flawlessVictoryExcl" = "Flawless Victory!";
+"sideSip" = "Side Sip";
+"downloadingDuelArenaScene" = "Downloading duel arena...";
+"duelArenaSceneLoaded" = "Duel arena loaded.";
+"couldntLoadDuelArenaScene" = "Couldn't load duel arena.";
+"couldntLoadDuelArenaSceneTryAgain" = "Couldn't load duel arena. Please try again.";
+"duelArenaSceneLoadingFailed" = "Duel arena loading failed.";
+"downloadingResources" = "Downloading resources...";
+"resourcesDownloaded" = "Resources downloaded.";
+"couldntDownloadResources" = "Couldn't download resources.";
+"couldntDownloadResourcesTryAgain" = "Couldn't download resources. Please try again.";
+"resourceDownloadFailed" = "Resource download failed.";
+"cheaterNoticeOnlineFeatures" = "Irregular activity has been detected on your account. Some online multiplayer features may not work as expected.";
+"fileCorrupted" = "Corrupted file";
+"fileIncomplete" = "Incomplete file";
+"fileIsInvalid" = "Invalid file";
+"invalidMatchChallenger" = "Could not complete match. Challenger not found!";
+"invalidMatchChallengedPlayer" = "Could not complete match. Challenged player not found!";

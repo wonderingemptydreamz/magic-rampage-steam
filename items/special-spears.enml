@@ -1,0 +1,725 @@
+item98
+{
+	name = Fire Pierce;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_fire.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 58;
+	jumpBoost  = 1.03;
+	speedBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_fire_spear.ent;
+	alternativeMaxedEquipEntity = weapon_fire_spear.ent;
+	projectileSpeed = 13.0;
+	invertProjectile = true;
+	flipWhileEquipped = true;
+
+	element = fire;
+
+	fixedPrice = 300000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item99
+{
+	name = Gayan Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_earth.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 53;
+	armorBoost = 1.65;
+	jumpBoost  = 1.04;
+	speedBoost = 1.03;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_earth_spear.ent;
+	alternativeMaxedEquipEntity = weapon_earth_spear.ent;
+	projectileSpeed = 15.0;
+	invertProjectile = true;
+
+	element = earth;
+
+	fixedPrice = 300000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item100
+{
+	name = Azatoth;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_darkness.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 67;
+	armorBoost = 1.3;
+	jumpBoost  = 1.03;
+	speedBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_dark_spear.ent;
+	alternativeMaxedEquipEntity = weapon_dark_spear.ent;
+	projectileSpeed = 12.0;
+	invertProjectile = true;
+
+	element = darkness;
+
+	fixedPrice = 300000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item101
+{
+	name = Osun;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_water.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 64;
+	armorBoost = 1.2;
+	jumpBoost  = 1.04;
+	speedBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_water_spear.ent;
+	alternativeMaxedEquipEntity = weapon_water_spear.ent;
+	projectileSpeed = 11.0;
+	invertProjectile = true;
+
+	element = water;
+
+	fixedPrice = 300000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item102
+{
+	name = Yansahn;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_air.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 57;
+	jumpBoost  = 1.04;
+	speedBoost = 1.1;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_air_spear.ent;
+	alternativeMaxedEquipEntity = weapon_air_spear.ent;
+	projectileSpeed = 17.0;
+	invertProjectile = true;
+
+	element = air;
+
+	fixedPrice = 300000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item103
+{
+	name = Freyr;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_light.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 58;
+	jumpBoost  = 1.07;
+	speedBoost = 1.06;
+	armorBoost = 1.4;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_light_spear.ent;
+	alternativeMaxedEquipEntity = weapon_light_spear.ent;
+	projectileSpeed = 17.0;
+	invertProjectile = true;
+
+	element = light;
+
+	fixedPrice = 300000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 2;
+}
+
+item108
+{
+	name = Obsidian Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 40;
+	armorBoost  = 1.2;
+	jumpBoost  = 1.03;
+	speedBoost = 1.04;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_spear.ent;
+
+	projectileSpeed = 15.0;
+	invertProjectile = true;
+	flipWhileEquipped = true;
+
+	fixedPrice = 10;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 3;
+}
+
+item120
+{
+	name = Cthulhu Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_cthulhu.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 42;
+	armorBoost = 2.0;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_cthulhu_spear.ent;
+	equipEntity = weapon_cthulhu_spear.ent;
+	projectileSpeed = 13.0;
+	invertProjectile = true;
+
+	element = darkness;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 15;
+	poisonous = true;
+}
+
+item122
+{
+	name = Spider Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_spider.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 64;
+	jumpBoost = 1.09;
+	speedBoost = 1.03;
+	armorBoost = 1.2;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_earth_spear.ent;
+	equipEntity = weapon_earth_spear.ent;
+	projectileSpeed = 14.0;
+	invertProjectile = true;
+
+	element = earth;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 2000;
+
+	poisonous = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.1, 0.4, 0.5, 1.0,   0.1, 0.4, 0.5, 1.0;
+	autoPaintColorB = 0.1, 0.4, 0.5, 1.0,   0.1, 0.4, 0.5, 1.0;
+	effectColor     = 0.1, 0.4, 0.5, 1.0,   0.1, 0.4, 0.5, 1.0;
+}
+
+item124
+{
+	name = Gorgon Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_snake.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 600;
+	damage = 60;
+	speedBoost = 1.09;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_earth_spear.ent;
+	equipEntity = weapon_water_spear.ent;
+	projectileSpeed = 17.0;
+	invertProjectile = true;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 500000;
+	coinPrice = 3000;
+
+	poisonous = true;
+
+	explosionRange = 200;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.365, 0.631, 0.31, 1.0,   0.365, 0.631, 0.31, 1.0; // projectile
+	autoPaintColorB = 0.365, 0.631, 0.31, 1.0,   0, 0, 0, 1.0; // projectile
+
+	effectColor     = 0.365, 0.631, 0.31, 1.0,   0.365, 0.631, 0.31, 1.0; // explosion/equip
+	effectColorB    = 0.365, 0.631, 0.31, 1.0,   0, 0, 0, 1.0; // explosion/equip
+}
+
+item184
+{
+	name = Bit Spear;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item185
+{
+	name = Bone Spear;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item186
+{
+	name = Poisoned Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_poison.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 500;
+	damage = 58;
+	speedBoost = 1.1;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_earth_spear.ent;
+	equipEntity = weapon_earth_spear.ent;
+	projectileSpeed = 12.0;
+	invertProjectile = true;
+
+	element = earth;
+	poisonous = true;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 15;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.4, 0.7, 0.2, 1.0,   0.4, 0.7, 0.2, 1.0;
+	autoPaintColorB = 0.4, 0.7, 0.2, 1.0,   0.4, 0.7, 0.2, 1.0;
+	effectColor     = 0.4, 0.7, 0.2, 1.0,   0.4, 0.7, 0.2, 1.0;
+}
+
+item268
+{
+	name = Vindictive Piercer;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_air_pearl.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 650;
+	damage = 80;
+	jumpBoost  = 1.04;
+	speedBoost = 1.1;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 5;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_air_spear.ent;
+	alternativeMaxedEquipEntity = weapon_air_spear.ent;
+	projectileSpeed = 17.0;
+	invertProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintColorA =    0.3,    1,  0.8, 1,       0,       0,     0, 1; // projectile
+	autoPaintColorB =  0.075, 0.25,  0.2, 1,       0,       0,     0, 1; // projectile
+
+	effectColor     =  0.01, 0.0333, 0.0266,   1,     0.01, 0.0333, 0.0266, 1;  // explosion/equip
+	effectColorB    =   0.1, 0.3333, 0.2666,   1,     0.1, 0.3333,  0.2666,  1;   // explosion/equip
+
+	element = air;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 15;
+}
+
+item276
+{
+	name = Golden Piercer Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_treasure.png;
+	equipEntity = weapon_spear_treasure.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 55;
+	armorBoost  = 1.2;
+	jumpBoost  = 1.03;
+	speedBoost = 1.04;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 4;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_spear.ent;
+
+	autoPaintEntities = true;
+
+	projectileSpeed = 15.0;
+	invertProjectile = true;
+	flipWhileEquipped = true;
+
+	fixedPrice = 10;
+
+	text = treasure-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 1600000;
+}
+
+item294
+{
+	name = Last Survivors Spear;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_survivor.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = 2;
+
+	attackCooldown = 750;
+	damage = 61;
+	armorBoost  = 1.2;
+	jumpBoost  = 1.02;
+	speedBoost = 1.02;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 3;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_spear.ent;
+
+	autoPaintEntities = true;
+
+	projectileSpeed = 15.0;
+	invertProjectile = true;
+	flipWhileEquipped = true;
+
+	maxLevelAllowed = 15;
+}
+
+item350
+{
+	name = Wicked Skewer;
+
+	type = weapon;
+	secondaryType = spear;
+	sprite = spear_trident.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -38;
+	equipOffsetY = -16;
+
+	attackCooldown = 450;
+	damage = 72;
+	jumpBoost  = 1.03;
+	speedBoost = 1.05;
+
+	soundPack = power;
+
+	pierceCount = 3;
+	enablePierceAreaDamage = false;
+
+	persistAgainstProjectile = true;
+	projectileEntity = projectile_hammer_volcano.ent;
+	alternativeMaxedEquipEntity = weapon_volcano.ent;
+	projectileSpeed = 12.0;
+	explosionRange = 128;
+	projectileLifetime = 20000;
+
+	invertProjectile = true;
+	flipWhileEquipped = true;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+	autoPaintColorA = 0, 0, 0,      1,   1, 0.5, 0.2, 1; // projectile
+	autoPaintColorB = 3, 1.5, 0.6,  1,   1, 0.5, 0.2, 1; // projectile
+
+	//effectColor     = 1, 0.639, 0.208, 1,   1.0, 0.639, 0.208, 1; // explosion/equip
+	//effectColorB    = 1, 0.639, 0.208, 1,   0, 0, 0, 1; // explosion/equip
+
+	element = fire;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+
+	text = spearDescription;
+
+	maxLevelAllowed = 15;
+}
+

@@ -1,0 +1,1022 @@
+item62
+{
+	name = Dagger of Sand;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_5.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -36;
+	equipOffsetY = -14;
+
+	attackCooldown = 384;
+	damage = 32;
+	speedBoost = 1.2;
+	jumpBoost = 1.02;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_sand_dagger.ent;
+	element = air;
+	projectileSpeed = 19;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 13;
+}
+
+item64
+{
+	name = Undine's Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_snake_black_mamba.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 500;
+	damage = 50;
+	speedBoost = 1.25;
+	jumpBoost = 1.04;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_water_dagger.ent;
+	projectileSpin = 12;
+	projectileSpeed = 14;
+	element = water;
+
+	maxLevelAllowed = 13;
+	poisonous = true;
+}
+
+item68
+{
+	name = Ifrit's Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_6.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -20.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 400;
+	damage = 22;
+	speedBoost = 1.2;
+	jumpBoost = 1.02;
+	projectileSpeed = 19;
+
+	soundPack = magic;
+
+	equipEntity = weapon_fire_dagger.ent;
+	dropEntityName = item_fire_dagger.ent;
+	projectileEntity = projectile_ifrits_dagger.ent;
+	explosionRange = 120;
+
+	element = fire;
+
+	maxLevelAllowed = 15;
+}
+
+item74
+{
+	name = Dark Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_8.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 360;
+	damage = 36;
+	speedBoost = 1.25;
+	jumpBoost = 1.02;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_8.ent;
+	projectileSpin = 21.0;
+	projectileSpeed = 15;
+	element = darkness;
+
+	maxLevelAllowed = 13;
+}
+
+item86
+{
+	name = Gayan;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_9.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -36;
+	equipOffsetY = -14;
+
+	attackCooldown = 360;
+	damage = 42;
+	speedBoost = 1.27;
+	jumpBoost = 1.04;
+	armorBoost = 1.3;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_gayan.ent;
+	element = earth;
+	projectileSpeed = 19;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 14;
+}
+
+item107
+{
+	name = Gorgon Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_snake.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -48;
+	equipOffsetY = -16;
+
+	attackCooldown = 600;
+	speedBoost = 1.15;
+	jumpBoost = 1.02;
+	armorBoost = 1.3;
+	damage = 24;
+
+	soundPack = light-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	projectileEntity = projectile_snake_dagger.ent;
+
+	projectileSpeed = 18;
+
+	element = earth;	
+
+	fixedPrice = 150000;
+
+	maxLevelAllowed = 3;
+	poisonous = true;
+}
+
+item121
+{
+	name = Dark Dagger+;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_8.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 330;
+	damage = 40;
+	speedBoost = 1.25;
+	jumpBoost = 1.03;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_8.ent;
+	projectileSpin = 21.0;
+	projectileSpeed = 17.0;
+	element = darkness;
+
+	fixedPrice = 10;
+
+	maxLevelAllowed = 13;
+}
+
+item131
+{
+	name = Death Dagger;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	fixedPrice = 0;
+}
+
+item155
+{
+	name = Steel Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_steel.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 450;
+	damage = 16;
+	speedBoost = 1.06;
+	jumpBoost = 1.03;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_9.ent;
+}
+
+item156
+{
+	name = Bit Dagger;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item157
+{
+	name = Dragon Tooth Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_bone.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 330;
+	damage = 45;
+	speedBoost = 1.25;
+	jumpBoost = 1.12;
+	armorBoost = 0.7;
+
+	soundPack = light-blade;
+
+	text = pierce-weapon-std-desc;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	projectileEntity = projectile_dagger_9.ent;
+	explosionEntity = explosion_bone_axe.ent;
+	explosionRange = 200;
+
+	projectileSpin = 0.0;
+	projectileSpeed = 18;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 2, 2, 2, 0.4,   2, 2, 2, 0; // projectile
+
+	effectColor     = 1.2, 0.95, 0.85, 0.9,     1.2,  0.95, 0.85, 0; // explosion/equip
+	effectColorB    = 1.15, 1,   0.9,  2,       1.15, 1,    0.9,  0; // explosion/equip
+
+	maxLevelAllowed = 15;
+}
+
+item158
+{
+	name = Dual Dragon Fang;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_dual_bone.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 400;
+	damage = 48;
+	speedBoost = 1.15;
+	jumpBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+	autoPaintColorA = 1.5, 1.5, 1.5, 0.4,   1.5, 1.5, 1.5, 0; // projectile
+
+	effectColor  = 1.2,  0.95, 0.85, 0.9,     1.2,  0.95, 0.85, 0; // explosion/equip
+	effectColorB = 1.15, 1,    0.9,  2,       1.15, 1,    0.9,  0; // explosion/equip
+
+	projectileEntity = projectile_dagger_9.ent;
+	projectileSpin = 13;
+	projectileSpeed = 15;
+
+	explosionEntity = explosion_bone_axe.ent;
+	explosionRange = 250;
+
+	maxLevelAllowed = 15;
+}
+
+item159
+{
+	name = Toxic Dual Dagger;
+
+	type = weapon;
+	secondaryType = sword;
+	sprite = sword_dummy.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -28.0;
+	smoothFollow = true;
+
+	equipOffsetX = -26;
+	equipOffsetY = 2;
+
+	attackCooldown = 1000;
+	damage = 5;
+
+	soundPack = heavy-blade;
+
+	projectileEntity = projectile_sword_0.ent;
+	projectileSpeed = 10.0;
+
+	text = unknown-item-desc;
+
+	maxLevelAllowed = 15;
+
+	fixedPrice = 0;
+}
+
+item160
+{
+	name = Venomous Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_poison.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -48;
+	equipOffsetY = -16;
+
+	attackCooldown = 400;
+	speedBoost = 1.18;
+	jumpBoost = 1.02;
+	armorBoost = 1.1;
+	damage = 44;
+
+	soundPack = light-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.25, 0.4, 0.1, 1,   0, 0, 0, 0;
+	effectColor     = 0.4,  0.8, 0.2, 1,   0, 0, 0, 0;
+
+	projectileEntity = projectile_snake_dagger.ent;
+
+	projectileSpeed = 18;
+
+	maxLevelAllowed = 15;
+	poisonous = true;
+}
+
+item242
+{
+	name = Cthulhu Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_cthulhu.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 400;
+	damage = 44;
+	speedBoost = 1.2;
+	jumpBoost = 1.03;
+	armorBoost = 1.2;
+
+	soundPack = light-blade;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0.1, 0.1, 0.1, 1,   0, 0, 0, 0;
+	autoPaintColorB = 0.0, 0.0, 0.0, 1,   3.044, 3.152, 0.752, 0;
+	effectColor     = 1.522, 1.576, 0.376, 1,   0, 0, 0, 1;
+
+	projectileEntity = projectile_dagger_8.ent;
+	projectileSpin = 21.0;
+	projectileSpeed = 16;
+	explosionRange = 210;
+
+	element = darkness;
+
+	coinPrice = 2700;
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 15;
+	poisonous = true;
+}
+
+item255
+{
+	name = Blood Swiftblade;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_rogue.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 250;
+	damage = 61;
+	speedBoost = 1.25;
+
+	projectileLifetime = 600;
+	explosionRange = 128;
+
+	element = fire;
+
+	soundPack = light-blade;
+
+	persistAgainstProjectile = true;
+
+	pierceCount = 2;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	autoPaintEntities = true;
+
+	autoPaintColorA = 1.2, 0.2, 0.05, 1,    0,   0,   0,    1;
+	//autoPaintColorB = 
+
+	effectColor     = 1.2, 0.2, 0.05, 1,    1.2, 0.2, 0.05, 0;
+	effectColorB    = 1.2, 0.2, 0.05, 1,    0,   0,   0,    1;
+
+	projectileEntity = projectile_rogue_dagger.ent;
+
+	projectileSpeed = 24;
+
+	maxLevelAllowed = 15;
+}
+
+item273
+{
+	name = Precious Dual-blade Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_treasure_dual.png;
+	equipEntity = weapon_dagger_treasure_dual.ent;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 400;
+	damage = 37;
+	speedBoost = 1.12;
+	jumpBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = false;
+
+	autoPaintEntities = true;
+
+	persistAgainstProjectile = true;
+
+	projectileEntity = projectile_dagger_9.ent;
+	projectileSpin = 13;
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+
+	text = treasure-item-desc;
+
+	fixedPrice = 1400000;
+}
+
+item274
+{
+	name = Precious Skewer Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_treasure.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 360;
+	damage = 35;
+	speedBoost = 1.3;
+	jumpBoost = 1.03;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_9.ent;
+	projectileSpeed = 19;
+
+	maxLevelAllowed = 15;
+
+	text = treasure-item-desc;
+
+	fixedPrice = 1000000;
+}
+
+item290
+{
+	name = Ice Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_frost.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -48;
+	equipOffsetY = -16;
+
+	attackCooldown = 360;
+	speedBoost = 1.15;
+	jumpBoost = 1.03;
+	damage = 40;
+
+	soundPack = light-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	projectileEntity = projectile_dagger_ice.ent;
+
+	projectileSpeed = 17;
+
+	element = water;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 15;
+	frost = true;
+}
+
+item293
+{
+	name = Last Survivors Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_survivor.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 300;
+	damage = 36;
+	speedBoost = 1.2;
+	jumpBoost = 1.03;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_9.ent;
+
+	maxLevelAllowed = 15;
+}
+
+item299
+{
+	name = Double Decay Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_survival_dual.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 400;
+	damage = 44;
+	speedBoost = 1.15;
+	jumpBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+	autoPaintColorA = 1.5, 1.5, 1.5, 0.4,   1.5, 1.5, 1.5, 0; // projectile
+
+	effectColor  = 0.5, 0.5, 0.5, 1,     0, 0, 0, 1; // explosion/equip
+	effectColorB = 0.5, 0.5, 0.5, 1,     0, 0, 0, 1; // explosion/equip
+
+	projectileEntity = projectile_dagger_9.ent;
+	projectileSpin = 13;
+	projectileSpeed = 14.0;
+
+	explosionEntity = death_beam_explosion.ent;
+	explosionRange = 220;
+
+	maxLevelAllowed = 15;
+
+	coinPrice = 3500;
+	fixedPrice = 500000;
+}
+
+item304
+{
+	name = Abyssal Dual-Blade Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_water_dual.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 500;
+	damage = 50;
+	speedBoost = 1.15;
+	jumpBoost = 1.05;
+
+	soundPack = heavy-blade;
+
+	autoPaintEntities = true;
+	autoPaintSwitchesProjectileSprite = true;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+
+	persistAgainstProjectile = true;
+
+	projectileEntity = projectile_water_dagger.ent;
+	projectileSpin = 12;
+	projectileSpeed = 14;
+	element = water;
+
+	coinPrice = 2000;
+
+	maxLevelAllowed = 15;
+	poisonous = true;
+}
+
+item308
+{
+	name = Iron Dagger Plus;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_0_plus.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -25.0;
+	smoothFollow = true;
+
+	equipOffsetX = -32;
+	equipOffsetY = -12;
+
+	attackCooldown = 420;
+	damage = 52;
+	speedBoost = 1.25;
+	jumpBoost = 1.03;
+	armorBoost = 0.9;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_0_plus.ent;
+
+	projectileSpeed = 20;
+
+	maxLevelAllowed = 15;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	fixedPrice = 10;
+}
+
+item313
+{
+	name = Malicious Quickblade;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_spider.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 390;
+	damage = 52;
+	speedBoost = 1.2;
+	jumpBoost = 1.05;
+
+	soundPack = light-blade;
+
+	poisonous = true;
+
+	persistAgainstProjectile = false;
+
+	autoPaintEntities = true;
+
+	autoPaintColorA = 0.1317, 0.064, 0.0957, 1,   0, 0, 0, 1; // projectile
+	autoPaintColorB =     0,     0,     0, 1,   2, 0.972, 1.454, 1; // projectile
+
+	effectColor  = 2, 0.972, 1.454, 1,     0.527, 0.256, 0.383, 1; // explosion/equip
+	effectColorB = 2, 0.972, 1.454, 1,     0, 0, 0, 1; // explosion/equip
+
+	projectileEntity = projectile_dagger_8.ent;
+	projectileSpin = 14.0;
+	projectileSpeed = 18.0;
+	explosionRange = 220;
+
+	coinPrice = 2500;
+	fixedPrice = 500000;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = poisonous-item-desc;
+
+	maxLevelAllowed = 15;
+}
+
+item338
+{
+	name = Poisoned Dart;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_dart.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -36;
+	equipOffsetY = -14;
+
+	attackCooldown = 300;
+	damage = 15;
+	speedBoost = 1.2;
+	jumpBoost = 1.04;
+
+	soundPack = light-blade;
+
+	projectileEntity = projectile_dagger_dart.ent;
+
+	poisonous = true;
+
+	projectileSpeed = 27.0;
+
+	maxLevelAllowed = 16;
+
+	explosionRange = 100;
+
+	fixedPrice = 10;
+}
+
+item346
+{
+	name = Bunnyhop Dagger;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = easter-dagger-mini.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle =-30.0;
+	smoothFollow = true;
+
+	equipOffsetX = -48;
+	equipOffsetY = -16;
+
+	attackCooldown = 550;
+	speedBoost = 1.2;
+	jumpBoost = 1.18;
+	damage = 39;
+
+	soundPack = light-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	persistAgainstProjectile = false;
+
+	autoPaintEntities = true;
+	autoPaintColorA = 0, 0, 0, 1,                3.0, 1.965, 2.235, 1;
+	autoPaintColorB = 1.648, 1.96, 1.796, 1.0,   0,       0,     0, 1;
+
+	effectColor     = 0.0, 0.0, 0.0, 1.0,   1.0, 0.655, 0.745, 1; // explosion/equip
+
+	projectileEntity = projectile_gayan.ent;
+
+	projectileSpeed = 14.0;
+
+	maxLevelAllowed = 15;
+}
+
+item349
+{
+	name = All Seeing Cleaver;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = dagger_all_seeing_cleaver.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	attackCooldown = 360;
+	damage = 54;
+	speedBoost = 1.25;
+	jumpBoost = 1.03;
+	armorBoost = 0.85;
+
+	soundPack = light-blade;
+
+	pierceCount = 1;
+	enablePierceAreaDamage = true;
+	text = pierce-weapon-std-desc;
+
+	projectileEntity = projectile_all_seeing_cleaver.ent;
+	projectileSpin = 15.0;
+	projectileSpeed = 11.0;
+
+	explosionEntity = death_beam_explosion.ent;
+	explosionRange = 230;
+
+	coinPrice = 3000;
+	fixedPrice = 500000;
+
+	maxLevelAllowed = 15;
+}
+

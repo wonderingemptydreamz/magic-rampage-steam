@@ -1,0 +1,134 @@
+item312
+{
+	name = Gayan Shuriken;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = shuriken_earth.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	explosionEntity = fire_ball_explosion.ent;
+
+	attackCooldown = 340;
+	damage = 80;
+	speedBoost = 1.15;
+	jumpBoost = 1.03;
+	armorBoost = 0.9;
+
+	projectileLifetime = 950;
+
+	soundPack = light-blade;
+
+	persistAgainstProjectile = false;
+
+	autoPaintEntities = true;
+
+	projectileEntity = projectile_shuriken.ent;
+	projectileSpin = 21.0;
+	element = earth;
+
+	maxLevelAllowed = 15;
+
+	autoPaintColorA = 0.2652, 0.4, 0.2872, 1,   0, 0, 0, 1; // projectile
+
+	effectColor  = 0.663, 1.0, 0.718, 1,     0.3315, 0.5, 0.359, 1; // explosion/equip
+	effectColorB = 0.9945, 1.5, 1.077, 1,     0, 0, 0, 1; // explosion/equip
+}
+
+item329
+{
+	name = Undines Shuriken;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = shuriken_water.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	explosionEntity = fire_ball_explosion.ent;
+
+	attackCooldown = 340;
+	damage = 76;
+	speedBoost = 1.15;
+	jumpBoost = 1.03;
+	armorBoost = 0.8;
+
+	projectileLifetime = 1950;
+
+	soundPack = light-blade;
+
+	persistAgainstProjectile = false;
+
+	autoPaintEntities = true;
+
+	projectileEntity = projectile_shuriken.ent;
+	projectileSpin = 21.0;
+	element = water;
+	frost = true;
+
+	maxLevelAllowed = 15;
+
+	autoPaintColorA = 0.245, 0.3023, 0.3333, 1,   0, 0, 0, 1; // projectile
+
+	effectColor  = 0.735, 0.907, 1.0, 1,     0.735, 0.907, 1.0, 1; // explosion/equip
+	effectColorB = 0.735, 0.907, 1.0, 1,     0, 0, 0, 1; // explosion/equip
+}
+
+item342
+{
+	name = Ifrits Shuriken;
+
+	type = weapon;
+	secondaryType = dagger;
+	sprite = shuriken_fire.png;
+
+	depthOffset = -0.04;
+
+	equippedAngle = -34.0;
+	smoothFollow = true;
+
+	equipOffsetX = -34;
+	equipOffsetY = -12;
+
+	explosionEntity = fire_ball_explosion.ent;
+
+	attackCooldown = 340;
+	damage = 74;
+	speedBoost = 1.15;
+	jumpBoost = 1.03;
+	armorBoost = 0.8;
+
+	poisonous = true;
+
+	explosionRange = 120;
+
+	projectileLifetime = 1400;
+
+	soundPack = light-blade;
+
+	persistAgainstProjectile = false;
+
+	autoPaintEntities = true;
+
+	projectileEntity = projectile_shuriken.ent;
+	projectileSpin = 21.0;
+	element = fire;
+
+	maxLevelAllowed = 15;
+
+	autoPaintColorA = 1, 0.639, 0.208, 1,   0, 0, 0, 1; // projectile
+}
+

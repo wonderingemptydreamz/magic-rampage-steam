@@ -3,7 +3,7 @@ character
 	account = no_account_set;
 	accountDisplayName = no_account_set;
 	attackMinimumDistance = 64;
-	bagSlots = 25;
+	bagSlots = 36;
 	bodyColor = 4289789884;
 	bodySprite = character_body.png;
 	coins = 0;
@@ -50,7 +50,7 @@ equippedItem0
 
 id
 {
-	hash = 78dab1e680211d550af52e7d116869b3;
+	hash = 709ed2ffdd9a3aadd0e4f60258d38741;
 	time = 2013:12:26:0:0:0;
 }
 

@@ -16,7 +16,7 @@
 "tip15" = "Si tu obtiens le même butin pour la seconde fois dans le Mode Compétition, il y a des chances pour qu'il soit plus puissant que le précédent.";
 "tip16" = "Toutes les armes associées à un élément magique (<fire>feu<white>, <air>air<white>, <earth>terre<white>, <darkness>ténèbres<white>, <light>lumière<white> ou <water>eau<white>) peuvent voir leur puissance d'attaque magique boostée par des armures ou des anneaux magiques.";
 "tip17" = "Certaines araignées sont trop petites et difficiles à frapper. Essaie d'utiliser de grosses massues, des haches ou des bâtons magiques pour les affronter.";
-"tip18" = "Tu meurs trop souvent ? Essaie de porter une armure avec plus de défense.";
+"tip18" = "Tu meurs trop souvent ? Essaie de porter une armure avec plus de défense.";
 "tip19" = "Trouve le bon timing pour sauter. Tu pourras atteindre des endroits plus élevés si tu trouves le bon moment pour effectuer ton deuxième saut.";
 "tip20" = "Plus ton grade est élevé, plus tu as de chances d'obtenir de bons objets dans le Mode Compétition.";
 "tip21" = "Lors des matches aléatoires du Mode Compétition, plus ta position dans le classement est élevée, plus tes récompenses en pièces sont importantes.";
@@ -48,8 +48,8 @@
 "potionUsedCount-desc" = "Chaque potion de soin utilisée retirera <potion-penalty> points au score final.";
 "totalMultikillPoints-desc" = "Tuer deux ennemis ou plus en même temps octroie des points bonus supplémentaires.\n<doubleKill> : <doubleKillPoints> points\n<tripleKill> : <tripleKillPoints> points\n<multiKill> : <multiKillPoints> points\n<monsterKill> : <monsterKillPoints> points";
 "classSpecials-desc" = "Tuer des ennemis utilisant des capacités spéciales de classes octroie aux joueurs des points de kills spéciaux. Utilise-les judicieusement : chaque classe perd des points lorsque des capacités spéciales sont utilisées.";
-"tipSeasonPointsAndSkins0" = "Échange tes <green>points de saison<white> contre des skins uniques !";
+"tipSeasonPointsAndSkins0" = "Échange tes <green>points de saison<white> contre des skins uniques !";
 "tipSeasonPointsAndSkins1" = "À la fin de chaque saison, ton classement final est converti en <green>points de saison<white>, qui peuvent être échangés contre de nouveaux skins de classe.";
 "tipSeasonPointsAndSkins2" = "Améliore ton classement en battant d'autres joueurs dans le Mode compétition ou en faisant chaque jour les Donjons hebdomadaires.";
-"tipSeasonPointsAndSkins3" = "Les skins disponibles sont régulièrement renouvelés, pour que tu puisses obtenir tes préférés dès que possible !";
+"tipSeasonPointsAndSkins3" = "Les skins disponibles sont régulièrement renouvelés, pour que tu puisses obtenir tes préférés dès que possible !";
 "tipSeasonPointsAndSkins4" = "Les nouveaux skins peuvent être équipés depuis l'écran <characterEditor>.";
